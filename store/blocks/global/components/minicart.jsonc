@@ -1,0 +1,18 @@
+{
+    "minicart.v2":{
+        "title": "Mincart",
+        "props": {
+            "MinicartIcon": "icon-cart#minicart-icon",
+            "blockClass": [
+                "minicart"
+            ]
+        }
+    },
+
+    "icon-cart#minicart-icon":{
+        "props":{
+            "id": "hpa-cart",
+            "size": 45
+        }
+    }
+}
