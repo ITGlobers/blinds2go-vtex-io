@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'Raleway';
+  src: url("https://www.blinds-2go.co.uk//assets/fonts/raleway/raleway-regular.woff2") format("woff2"),url("/assets/fonts/raleway/raleway-regular.woff") format("woff"),url("/assets/fonts/raleway/raleway-regular.ttf") format("truetype"),url("/assets/fonts/raleway/raleway-regular.svg#ralewayregular") format("svg");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'Bebas';
+  src: url("https://www.blinds-2go.co.uk//assets/fonts/bebas/bebasneue.eot");
+  src: url("https://www.blinds-2go.co.uk//assets/fonts/bebas/bebasneue.eot?#iefix") format("embedded-opentype"),url("/assets/fonts/bebas/bebasneue.woff2") format("woff2"),url("/assets/fonts/bebas/bebasneue.woff") format("woff"),url("/assets/fonts/bebas/bebasneue.ttf") format("truetype"),url("/assets/fonts/bebas/bebasneue.svg#BebasNeue") format("svg");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'Nunito Sans';
+  src: url("https://www.blinds-2go.co.uk//assets/fonts/nunitosans/nunitosans.eot");
+  src: url("https://www.blinds-2go.co.uk//assets/fonts/nunitosans/nunitosans.eot?#iefix") format("embedded-opentype"),url("/assets/fonts/nunitosans/nunitosans.woff2") format("woff2"),url("/assets/fonts/nunitosans/nunitosans.woff") format("woff"),url("/assets/fonts/nunitosans/nunitosans.ttf") format("truetype"),url("/assets/fonts/nunitosans/nunitosans.svg#NunitoSans") format("svg");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal
+}
