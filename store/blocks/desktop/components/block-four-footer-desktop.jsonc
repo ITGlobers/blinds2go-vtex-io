@@ -19,10 +19,13 @@
     "title": "block 1",
     "children": [
       "rich-text#customer-service",
-      "flex-layout.row#block-one-2-two",
+      /* "flex-layout.row#block-one-2-two", */
       "rich-text#customer-text"
     ],
-    "props": {"blockClass": "box-4-1-one-footer"}
+    "props": {
+      "blockClass": "box-4-1-one-footer",
+      "width": "20%"
+    }
   },
   "rich-text#customer-service": {
     "title": "text 1",
@@ -51,7 +54,7 @@
       "flex-layout.row#col-3-menu-footer",
       "flex-layout.row#col-4-menu-footer"
     ],
-    "props": {"blockClass": "box-4-1-two-footer"}
+    "props": {"blockClass": "box-4-1-two-footer", "width": "80%"}
   },
   "flex-layout.row#col-1-menu-footer": {
     "title": "menu 1",
@@ -59,7 +62,7 @@
       "rich-text#menu-title",
       "menu#footer-1"
     ],
-    "props": {"blockClass": "col-1-menu-footer"}
+    "props": {"blockClass": "col-1-menu-footer", "preventHorizontalStretch": true}
   },
 
   "rich-text#menu-title": {
@@ -164,7 +167,7 @@
       "rich-text#menu-title-two",
       "menu#footer-2"
     ],
-    "props": {"blockClass": "col-1-menu-footer"}
+    "props": {"blockClass": "col-1-menu-footer", "preventHorizontalStretch": true}
   },
 
   "rich-text#menu-title-two": {
@@ -308,7 +311,7 @@
       "rich-text#menu-title-three",
       "menu#footer-3"
     ],
-    "props": {"blockClass": "col-1-menu-footer"}
+    "props": {"blockClass": "col-1-menu-footer", "preventHorizontalStretch": true}
   },
 
   "rich-text#menu-title-three": {
@@ -478,7 +481,7 @@
       "rich-text#menu-title-four",
       "menu#footer-4"
     ],
-    "props": {"blockClass": "col-1-menu-footer"}
+    "props": {"blockClass": "col-1-menu-footer", "preventHorizontalStretch": true}
   },
 
   "rich-text#menu-title-four": {
@@ -750,22 +753,34 @@
     "title": "container 2",
     "children": [
       "flex-layout.col#box-4-one-footer",
-      "flex-layout.col#box-4-two-footer",
-      "flex-layout.col#box-4-three-footer",
+      /* "flex-layout.col#box-4-two-footer", */
+      /* "flex-layout.col#box-4-three-footer", */
       "flex-layout.col#box-4-four-footer"
     ],
-    "props": {"blockClass": "block-4-two-footer"}
+    "props": {"blockClass": "block-4-two-footer",  "preventHorizontalStretch": true}
   },
   /* redes social */
   "flex-layout.col#box-4-one-footer": {
     "title": "block 1",
+    "children": [
+      "flex-layout.row#box--social-footer",
+      "image#payments-footer-1"
+    ],
+    "props": {
+      "blockClass": "box-4-one-footer-2"/* ,
+      "horizontalAlign": "center",
+      "preventVerticalStretch": true */
+    }
+  },
+  "flex-layout.row#box--social-footer": {
+    "title": "container",
     "children": [
       "image#socialNetwork-footer-1",
       "image#socialNetwork-footer-2",
       "image#socialNetwork-footer-3",
       "image#socialNetwork-footer-4"
     ],
-    "props": {"blockClass": "box-4-one-footer"}
+    "props": {"blockClass": "box--social-footer"/* ,  "preventHorizontalStretch": true */}
   },
   "image#socialNetwork-footer-1": {
     "title": "logo 1",
@@ -812,11 +827,11 @@
     }
   },
   /* payments */
-  "flex-layout.col#box-4-two-footer": {
+  /* "flex-layout.col#box-4-two-footer": {
     "title": "block 1",
     "children": ["image#payments-footer-1"],
     "props": {"blockClass": "box-4-two-footer"}
-  },
+  }, */
   "image#payments-footer-1": {
     "title": "logo 1",
     "props": {
@@ -826,12 +841,19 @@
     }
   },
   /* text */
-  "flex-layout.col#box-4-three-footer": {
+  /* "flex-layout.col#box-4-three-footer": {
     "title": "block 3",
     "children": [
       "rich-text#footer-text-company"
     ],
     "props": {"blockClass": "box-4-three-footer"}
+  }, */
+
+  /* logo */
+  "flex-layout.col#box-4-four-footer": {
+    "title": "block 4",
+    "children": ["rich-text#footer-text-company", "image#logo-footer"],
+    "props": {"blockClass": "box-4-four-footer"}
   },
   "rich-text#footer-text-company": {
     "title": "text",
@@ -841,12 +863,6 @@
       "text": "© Blinds 2 Go Limited | Company no. 03954180 | VAT Registration GB745 4433 29",
       "blockClass": "footer__text-company"
     }
-  },
-  /* logo */
-  "flex-layout.col#box-4-four-footer": {
-    "title": "block 4",
-    "children": ["image#logo-footer"],
-    "props": {"blockClass": "box-4-four-footer"}
   },
   "image#logo-footer": {
     "title": "logo",

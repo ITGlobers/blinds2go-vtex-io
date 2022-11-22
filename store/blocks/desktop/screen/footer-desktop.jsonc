@@ -13,6 +13,10 @@
       "flex-layout.col#footer-desktop-three",
       "flex-layout.col#footer-desktop-four"
     ],
-    "props": {"blockClass": "global__footer-desktop"}
+    "props": {
+      "blockClass": "global__footer-desktop",
+      "fullWidth": true,
+      "preventHorizontalStretch": true
+    }
   }
 }

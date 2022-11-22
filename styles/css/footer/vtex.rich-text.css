@@ -1,0 +1,55 @@
+.paragraph--footer-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Bebas", sans-serif;
+  color: #838787;
+  font-size: 40px;
+  line-height: 1.15;
+}
+
+.paragraph--footer-title::after {
+  content: "";
+  display: block;
+  width: 200px;
+  border: 1px solid #838787;
+  margin: 20px auto;
+  opacity: 0.5;
+}
+
+.paragraph--footer__text-one {
+  font-weight: bold;
+    font-family: inherit;
+    color: black;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.paragraph--footer__text-two {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  color: #000000;
+}
+
+.paragraph--footer__custo-one {
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: rgba(255,255,255,0.7);
+  font-family: "Raleway",sans-serif;
+   /*  line-height: 1.1; */
+}
+
+.paragraph--footer__custo-two {
+  font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+    color: rgba(255,255,255,0.7);
+}
+
+.paragraph--footer__text-company {
+  font-size: 12px;
+  font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+    color: rgba(255,255,255,0.7);
+}

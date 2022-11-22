@@ -12,16 +12,40 @@
         "phone": 1
       },
       "infinite": true,
-      "navigationStep": 1,
+      "navigationStep": 4,
       "showNavigationArrows": "never",
       "blockClass": "footer-text",
-      "showPaginationDots": "always",
+      "showPaginationDots": "always"/* ,
       "autoplay": {
         "timeout": 5000,
         "stopOnHover": false
-      }
+      } */
     },
     "children": [
+      "flex-layout.row#group-text-footer-one",
+      "flex-layout.row#group-text-footer-two",
+      "flex-layout.row#group-text-footer-three",
+      "flex-layout.row#group-text-footer-four",
+      "flex-layout.row#group-text-footer-one",
+      "flex-layout.row#group-text-footer-two",
+      "flex-layout.row#group-text-footer-three",
+      "flex-layout.row#group-text-footer-four",
+      "flex-layout.row#group-text-footer-one",
+      "flex-layout.row#group-text-footer-two",
+      "flex-layout.row#group-text-footer-three",
+      "flex-layout.row#group-text-footer-four",
+      "flex-layout.row#group-text-footer-one",
+      "flex-layout.row#group-text-footer-two",
+      "flex-layout.row#group-text-footer-three",
+      "flex-layout.row#group-text-footer-four",
+      "flex-layout.row#group-text-footer-one",
+      "flex-layout.row#group-text-footer-two",
+      "flex-layout.row#group-text-footer-three",
+      "flex-layout.row#group-text-footer-four",
+      "flex-layout.row#group-text-footer-one",
+      "flex-layout.row#group-text-footer-two",
+      "flex-layout.row#group-text-footer-three",
+      "flex-layout.row#group-text-footer-four",
       "flex-layout.row#group-text-footer-one",
       "flex-layout.row#group-text-footer-two",
       "flex-layout.row#group-text-footer-three",
@@ -41,7 +65,8 @@
       "rich-text#review-two-1"
     ],
     "props": {
-      "blockClass": "group__text-footer"
+      "blockClass": "group__text-footer",
+      "preventHorizontalStretch": true
     }
   },
   "image#review-footer": {
@@ -80,7 +105,8 @@
       "rich-text#review-two-2"
     ],
     "props": {
-      "blockClass": "group__text-footer"
+      "blockClass": "group__text-footer",
+      "preventHorizontalStretch": true
     }
   },
   "rich-text#review-one-2": {
@@ -110,7 +136,8 @@
       "rich-text#review-two-3"
     ],
     "props": {
-      "blockClass": "group__text-footer"
+      "blockClass": "group__text-footer",
+      "preventHorizontalStretch": true
     }
   },
   "rich-text#review-one-3": {
@@ -140,7 +167,8 @@
       "rich-text#review-two-4"
     ],
     "props": {
-      "blockClass": "group__text-footer"
+      "blockClass": "group__text-footer",
+      "preventHorizontalStretch": true
     }
   },
   "rich-text#review-one-4": {
