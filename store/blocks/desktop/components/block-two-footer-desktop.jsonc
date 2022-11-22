@@ -1,0 +1,164 @@
+{
+  "flex-layout.col#footer-desktop-two": {
+    "title": "block 2",
+    "children": ["slider-layout#footer-text"],
+    "props": {"blockClass": "footer__desktop-two"}
+  },
+  "slider-layout#footer-text": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "navigationStep": 1,
+      "showNavigationArrows": "never",
+      "blockClass": "footer-text",
+      "showPaginationDots": "always",
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": false
+      }
+    },
+    "children": [
+      "flex-layout.row#group-text-footer-one",
+      "flex-layout.row#group-text-footer-two",
+      "flex-layout.row#group-text-footer-three",
+      "flex-layout.row#group-text-footer-four",
+      "flex-layout.row#group-text-footer-one",
+      "flex-layout.row#group-text-footer-two",
+      "flex-layout.row#group-text-footer-three",
+      "flex-layout.row#group-text-footer-four"
+    ]
+  },
+  /* text one */
+  "flex-layout.row#group-text-footer-one": {
+    "title": "container text",
+    "children": [
+      "image#review-footer",
+      "rich-text#review-one-1",
+      "rich-text#review-two-1"
+    ],
+    "props": {
+      "blockClass": "group__text-footer"
+    }
+  },
+  "image#review-footer": {
+    "title": "image payments",
+    "props": {
+      "src": "/arquivos/review-footer.svg",
+      "blockClass": "review-footer",
+      "maxHeight": 24,
+      "maxWidth": 100
+    }
+  },
+  "rich-text#review-one-1": {
+    "title": "text 1",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Braw",
+      "blockClass": "footer__text-one"
+    }
+  },
+  "rich-text#review-two-1": {
+    "title": "text 2",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Braw. Spot on.",
+      "blockClass": "footer__text-two"
+    }
+  },
+  /* text two */
+  "flex-layout.row#group-text-footer-two": {
+    "title": "container text",
+    "children": [
+      "image#review-footer",
+      "rich-text#review-one-2",
+      "rich-text#review-two-2"
+    ],
+    "props": {
+      "blockClass": "group__text-footer"
+    }
+  },
+  "rich-text#review-one-2": {
+    "title": "text 1",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Kitchen now looks perfect...",
+      "blockClass": "footer__text-one"
+    }
+  },
+  "rich-text#review-two-2": {
+    "title": "text 2",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Arrived on time without damage, easy to fit and look lovely.",
+      "blockClass": "footer__text-two"
+    }
+  },
+  /* text three */
+  "flex-layout.row#group-text-footer-three": {
+    "title": "container text",
+    "children": [
+      "image#review-footer",
+      "rich-text#review-one-3",
+      "rich-text#review-two-3"
+    ],
+    "props": {
+      "blockClass": "group__text-footer"
+    }
+  },
+  "rich-text#review-one-3": {
+    "title": "text 1",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Brilliant quality and product.",
+      "blockClass": "footer__text-one"
+    }
+  },
+  "rich-text#review-two-3": {
+    "title": "text 2",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Brilliant quality and product.",
+      "blockClass": "footer__text-two"
+    }
+  },
+  /* text four */
+  "flex-layout.row#group-text-footer-four": {
+    "title": "container text",
+    "children": [
+      "image#review-footer",
+      "rich-text#review-one-4",
+      "rich-text#review-two-4"
+    ],
+    "props": {
+      "blockClass": "group__text-footer"
+    }
+  },
+  "rich-text#review-one-4": {
+    "title": "text 1",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "I am really pleased with my roman …",
+      "blockClass": "footer__text-one"
+    }
+  },
+  "rich-text#review-two-4": {
+    "title": "text 2",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "I am really pleased with my roman blind. Arrived promptly, is well made and was easy to put up. I cannot fault it. :-)",
+      "blockClass": "footer__text-two"
+    }
+  }
+}
