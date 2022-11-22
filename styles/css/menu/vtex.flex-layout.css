@@ -1,0 +1,33 @@
+.flexRowContent--header_menu-content-block-one {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexCol--submenu-header {
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.flexRowContent--submenu-header .stretchChildrenWidth:first-child {
+  width: 25% !important;
+}
+
+.flexRowContent--submenu-header .stretchChildrenWidth:last-child {
+  width: 75% !important;
+}
+
+.flexRowContent--submenu-header {
+  display: flex;
+  align-items: center;
+}
+
+.flexRow--submenu-header {
+  padding-left: 5px;
+
+}
+
+
+.flexRow--submenu-header:hover {
+  background-color: #f7f6f7;
+}
+

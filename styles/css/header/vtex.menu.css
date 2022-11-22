@@ -2,26 +2,46 @@
   color: #fff;
   font-size: 18px;
   font-weight: bold;
+  font-family: "Nunito Sans",sans-serif;
 }
-
-/* .styledLinkContent--root:hover {
-  color: #3b214f;
-}
-
-.menuItem--root:hover  {
-  background-color: #fff;
-  color: #3b214f;
-}
- */
 
  .styledLinkContent--select,
  .styledLinkContent--select-help {
   color: #fff;
   font-size: 14px;
   justify-content: center;
+  font-family: "Nunito Sans",sans-serif;
  }
 
  .styledLinkContent--select:hover {
+  text-decoration: underline;
+ }
+
+ .styledLinkContent--submenu-select-1 {
+  font-size: 14px;
+  font-family: "Nunito Sans",sans-serif;
+ }
+
+ .menuItem--submenu-select-1--isOpen {
+  background-color: #f7f6f7;
+ }
+
+ .styledLinkContainer--submenu-select-1 {
+  padding: 15px;
+    display: block;
+ /*  border-bottom: 1px solid rgba(0,0,0,0.1); */
+ }
+
+ .submenuWrapper--select {
+  padding-top: 0;
+  padding-bottom: 0;
+ }
+
+ .menuItem--submenu-select-1 {
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+ }
+
+ .styledLinkContent--submenu-select:hover {
   text-decoration: underline;
  }
 
@@ -29,4 +49,24 @@
   color: #ED982F !important;
  }
 
+ .styledLinkContent--submenu {
+  justify-content: flex-start;
+  font-family: "Nunito Sans",sans-serif;
+  font-size: 14px;
+  align-items: center;
+ }
+
+ .styledLinkContainer--submenu:hover {
+  background-color: #f7f6f7;
+ }
+
+ .submenuWrapper--isOpen {
+  border: none;
+  box-shadow: 0px 3px 5px rgb(0 0 0 / 12%);
+ }
+
+ .styledLinkContainer--root {
+  padding-top: 0;
+  padding-bottom: 0;
+ }
 
