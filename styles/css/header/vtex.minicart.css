@@ -1,0 +1,16 @@
+.minicartIconContainer {
+display: none;
+}
+
+.minicartContainer :global(.vtex-button)::before {
+content: url(/arquivos/minicart.svg);
+width: 100%;
+height: 100%;
+min-height: 45px;
+max-width: 45px;
+}
+
+.minicartContainer :global(.vtex-button) {
+  min-height: 3rem;
+  min-width: 3rem;
+  }

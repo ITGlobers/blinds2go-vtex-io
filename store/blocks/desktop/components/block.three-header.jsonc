@@ -1,0 +1,129 @@
+{
+  "flex-layout.col#block-three-desktop": {
+    "title": "block 3",
+    "props": {"blockClass": "block-three-desktop"},
+    "children": [
+      "flex-layout.row#block-three-1",
+      "flex-layout.row#block-three-2",
+      "flex-layout.row#block-three-3"
+    ]
+  },
+  "flex-layout.row#block-three-1": {
+    "title": "block one",
+    "props": {"blockClass": "block-three-1"},
+    "children": [
+      "image#box-1",
+      "flex-layout.col#box-1-header"
+    ]
+  },
+  "image#box-1": {
+    "title": "image",
+    "props": {
+      "src": "/arquivos/windows-header.svg",
+      "maxHeight": 30,
+      "blockClass": "box-1"
+    }
+  },
+  "flex-layout.col#box-1-header": {
+    "title": "container text",
+    "props": {"blockClass": "box-1-header"},
+    "children": [
+      "rich-text#box-1",
+      "rich-text#box-2"
+    ]
+  },
+  "rich-text#box-1": {
+    "title": "text 2",
+    "props": {
+      "text": "10 million windows covered",
+      "blockClass": "box-1"
+    }
+  },
+  "rich-text#box-2": {
+    "title": "text 2",
+    "props": {
+      "text": "22 years of exceptional service",
+      "blockClass": "box-2"
+    }
+  },
+
+  "flex-layout.row#block-three-2": {
+    "title": "block two",
+    "props": {"blockClass": "block-three-1"},
+    "children": [
+      "image#box-2",
+      "flex-layout.col#box-2-header"
+    ]
+  },
+  "image#box-2": {
+    "title": "image",
+    "props": {
+      "src": "/arquivos/review-header.svg",
+      "maxHeight": 30,
+      "blockClass": "box-2"
+    }
+  },
+
+  "flex-layout.col#box-2-header": {
+    "title": "container text",
+    "props": {"blockClass": ["box-1-header", "marginLeft"]},
+    "children": [
+      "rich-text#box-1-2",
+      "rich-text#box-2-2"
+    ]
+  },
+  "rich-text#box-1-2": {
+    "title": "text 1",
+    "props": {
+      "text": "Over 190,000 reviews",
+      "blockClass": "box-1"
+    }
+  },
+  "rich-text#box-2-2": {
+    "title": "text 2",
+    "props": {
+      "text": "We're rated as 'Excellent",
+      "blockClass": "box-2"
+    }
+  },
+
+  "flex-layout.row#block-three-3": {
+    "title": "block three",
+    "props": {"blockClass": "block-three-1"},
+    "children": [
+      "image#box-3",
+      "flex-layout.col#box-3-header"
+    ]
+  },
+  "image#box-3": {
+    "title": "image",
+    "props": {
+      "src": "/arquivos/tag-header.svg",
+      "maxHeight": 30,
+      "blockClass": "box-3"
+    }
+  },
+
+  "flex-layout.col#box-3-header": {
+    "title": "container text",
+    "props": {"blockClass": "box-1-header"},
+    "children": [
+      "rich-text#box-1-3",
+      "rich-text#box-2-3"
+    ]
+  },
+  "rich-text#box-1-3": {
+    "title": "text 1",
+    "props": {
+      "text": "Everyday Low Prices",
+      "blockClass": "box-1"
+    }
+  },
+  "rich-text#box-2-3": {
+    "title": "text 2",
+    "props": {
+      "text": "Made to measure just for you",
+      "blockClass": "box-2"
+    }
+  }
+}
