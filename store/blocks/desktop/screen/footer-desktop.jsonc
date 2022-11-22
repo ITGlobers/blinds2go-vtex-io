@@ -273,10 +273,742 @@
   "flex-layout.row#block-4-one-footer": {
     "title": "container 1",
     "children": [
-
+      "flex-layout.col#box-4-1-one-footer",
+      "flex-layout.col#box-4-1-two-footer"
     ],
     "props": {"blockClass": "block__4-one"}
   },
+  "flex-layout.col#box-4-1-one-footer": {
+    "title": "block 1",
+    "children": [
+      "rich-text#customer-service",
+      "flex-layout.row#block-one-2-two",
+      "rich-text#customer-text"
+    ],
+    "props": {"blockClass": "box-4-1-one-footer"}
+  },
+  "rich-text#customer-service": {
+    "title": "text 1",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "CUSTOMER SERVICE",
+      "blockClass": "footer__custo-one"
+    }
+  },
+  "rich-text#customer-text": {
+    "title": "text 2",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Our friendly customer service team are always happy to help. Whatever you may need, feel free to get in touch.",
+      "blockClass": "footer__custo-two"
+    }
+  },
+
+  "flex-layout.col#box-4-1-two-footer": {
+    "title": "block 2",
+    "children": [
+      "flex-layout.row#col-1-menu-footer",
+      "flex-layout.row#col-2-menu-footer",
+      "flex-layout.row#col-3-menu-footer",
+      "flex-layout.row#col-4-menu-footer"
+    ],
+    "props": {"blockClass": "box-4-1-two-footer"}
+  },
+  "flex-layout.row#col-1-menu-footer": {
+    "title": "menu 1",
+    "children": [
+      "rich-text#menu-title",
+      "menu#footer-1"
+    ],
+    "props": {"blockClass": "col-1-menu-footer"}
+  },
+
+  "rich-text#menu-title": {
+    "title": "title",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "ALL ABOUT US",
+      "blockClass": "footer__custo-one"
+    }
+  },
+
+  "menu#footer-1": {
+    "title": "menu",
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu",
+      "items": [
+        {
+          "id": "menu-item-content-1-1",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Home",
+            "text": "Home"
+          }
+        },
+        {
+          "id": "menu-item-content-1-2",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "About",
+            "text": "About"
+          }
+        },
+        {
+          "id": "menu-item-content-1-3",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Customers say",
+            "text": "Customers say"
+          }
+        },
+        {
+          "id": "menu-item-content-1-4",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Blog",
+            "text": "Blog"
+          }
+        },
+        {
+          "id": "menu-item-content-1-5",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Competition",
+            "text": "Competition"
+          }
+        },
+        {
+          "id": "menu-item-content-1-6",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Press centre",
+            "text": "Press centre"
+          }
+        }
+      ]
+    }
+  },
+
+  "flex-layout.row#col-2-menu-footer": {
+    "title": "menu 2",
+    "children": [
+      "rich-text#menu-title-two",
+      "menu#footer-2"
+    ],
+    "props": {"blockClass": "col-1-menu-footer"}
+  },
+
+  "rich-text#menu-title-two": {
+    "title": "title",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "USEFUL INFO",
+      "blockClass": "footer__custo-one"
+    }
+  },
+
+  "menu#footer-2": {
+    "title": "menu",
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu",
+      "items": [
+        {
+          "id": "menu-item-content-2-1",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Order tracking",
+            "text": "Order tracking"
+          }
+        },
+        {
+          "id": "menu-item-content-2-2",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Delivery",
+            "text": "Delivery"
+          }
+        },
+        {
+          "id": "menu-item-content-2-3",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "5 year guarantee",
+            "text": "5 year guarantee"
+          }
+        },
+        {
+          "id": "menu-item-content-2-4",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Terms",
+            "text": "Terms"
+          }
+        },
+        {
+          "id": "menu-item-content-2-5",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Privacy policy",
+            "text": "Privacy policy"
+          }
+        },
+        {
+          "id": "menu-item-content-2-6",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Modern Slavery Statement",
+            "text": "Modern Slavery Statement"
+          }
+        },
+        {
+          "id": "menu-item-content-2-7",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Cookies",
+            "text": "Cookies"
+          }
+        },
+        {
+          "id": "menu-item-content-2-8",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Contact",
+            "text": "Contact"
+          }
+        },
+        {
+          "id": "menu-item-content-2-9",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Price Comparison",
+            "text": "Price Comparison"
+          }
+        }
+      ]
+    }
+  },
+
+  "flex-layout.row#col-3-menu-footer": {
+    "title": "menu 3",
+    "children": [
+      "rich-text#menu-title-three",
+      "menu#footer-3"
+    ],
+    "props": {"blockClass": "col-1-menu-footer"}
+  },
+
+  "rich-text#menu-title-three": {
+    "title": "title",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "HELPFUL GUIDES",
+      "blockClass": "footer__custo-one"
+    }
+  },
+
+  "menu#footer-3": {
+    "title": "menu",
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu",
+      "items": [
+        {
+          "id": "menu-item-content-3-1",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Measuring for blinds",
+            "text": "Measuring for blinds"
+          }
+        },
+        {
+          "id": "menu-item-content-3-2",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Measuring for curtains",
+            "text": "Measuring for curtains"
+          }
+        },
+        {
+          "id": "menu-item-content-3-3",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Measuring for shutters",
+            "text": "Measuring for shutters"
+          }
+        },
+        {
+          "id": "menu-item-content-3-4",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Fitting instructions",
+            "text": "Fitting instructions"
+          }
+        },
+        {
+          "id": "menu-item-content-3-5",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Bathroom blinds",
+            "text": "Bathroom blinds"
+          }
+        },
+        {
+          "id": "menu-item-content-3-6",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Bedroom blinds",
+            "text": "Bedroom blinds"
+          }
+        },
+        {
+          "id": "menu-item-content-3-7",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Kitchen blinds",
+            "text": "Kitchen blinds"
+          }
+        },
+        {
+          "id": "menu-item-content-3-8",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Door blinds",
+            "text": "Door blinds"
+          }
+        },
+        {
+          "id": "menu-item-content-3-9",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "No drill blinds",
+            "text": "No drill blinds"
+          }
+        },
+        {
+          "id": "menu-item-content-3-9",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Blinds glossary",
+            "text": "Blinds glossary"
+          }
+        },
+        {
+          "id": "menu-item-content-3-10",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Energy efficient home",
+            "text": "Energy efficient home"
+          }
+        }
+      ]
+    }
+  },
+
+  "flex-layout.row#col-4-menu-footer": {
+    "title": "menu 3",
+    "children": [
+      "rich-text#menu-title-four",
+      "menu#footer-4"
+    ],
+    "props": {"blockClass": "col-1-menu-footer"}
+  },
+
+  "rich-text#menu-title-four": {
+    "title": "title",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "COLLECTIONS",
+      "blockClass": "footer__custo-one"
+    }
+  },
+
+  "menu#footer-4": {
+    "title": "menu",
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu",
+      "items": [
+        {
+          "id": "menu-item-content-4-1",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Wooden Blinds",
+            "text": "Wooden Blinds"
+          }
+        },
+        {
+          "id": "menu-item-content-4-2",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Roller Blinds",
+            "text": "Roller Blinds"
+          }
+        },
+        {
+          "id": "menu-item-content-4-3",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Roman Blinds",
+            "text": "Roman Blinds"
+          }
+        },
+        {
+          "id": "menu-item-content-4-4",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Vertical Blinds",
+            "text": "Vertical Blinds"
+          }
+        },
+        {
+          "id": "menu-item-content-4-5",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Venerian Blinds",
+            "text": "Venerian Blinds"
+          }
+        },
+        {
+          "id": "menu-item-content-4-6",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "PerfectFIT Blinds",
+            "text": "PerfectFIT Blinds"
+          }
+        },
+        {
+          "id": "menu-item-content-4-7",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Shutter Blinds",
+            "text": "Shutter Blinds"
+          }
+        },
+        {
+          "id": "menu-item-content-4-8",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Day & Night Blinds",
+            "text": "Day & Night Blinds"
+          }
+        },
+        {
+          "id": "menu-item-content-4-9",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Conservatory Blinds",
+            "text": "Conservatory Blinds"
+          }
+        },
+        {
+          "id": "menu-item-content-3-9",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Blackout Blinds",
+            "text": "Blackout Blinds"
+          }
+        },
+        {
+          "id": "menu-item-content-4-10",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "BiFold Blinds",
+            "text": "BiFold Blinds"
+          }
+        },
+        {
+          "id": "menu-item-content-4-11",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Pleated Blinds",
+            "text": "Pleated Blinds"
+          }
+        },
+        {
+          "id": "menu-item-content-4-12",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "B2G Blinds for VELUX",
+            "text": "B2G Blinds for VELUX"
+          }
+        },
+        {
+          "id": "menu-item-content-4-13",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Electric Blinds",
+            "text": "Electric Blinds"
+          }
+        },
+        {
+          "id": "menu-item-content-4-14",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Children's Blinds",
+            "text": "Children's Blinds"
+          }
+        },
+        {
+          "id": "menu-item-content-4-15",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Panel Blinds",
+            "text": "Panel Blinds"
+          }
+        },
+        {
+          "id": "menu-item-content-4-16",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Commercial Blinds",
+            "text": "Commercial Blinds"
+          }
+        },
+        {
+          "id": "menu-item-content-4-16",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "As Seen on TV",
+            "text": "As Seen on TV"
+          }
+        },
+        {
+          "id": "menu-item-content-4-17",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Shop by brand",
+            "text": "Shop by brand"
+          }
+        }
+      ]
+    }
+  },
+
   "flex-layout.row#block-4-two-footer": {
     "title": "container 2",
     "children": [
@@ -285,7 +1017,7 @@
       "flex-layout.col#box-4-three-footer",
       "flex-layout.col#box-4-four-footer"
     ],
-    "props": {"blockClass": "block__4-two"}
+    "props": {"blockClass": "block-4-two-footer"}
   },
   /* redes social */
   "flex-layout.col#box-4-one-footer": {
@@ -303,7 +1035,10 @@
     "props": {
       "src": "/arquivos/facebook.svg",
       "blockClass": "socialNetwork-footer",
-      "maxHeight": 45
+      "maxHeight": 45,
+      "link":{
+        "url": "https://www.facebook.com/Blinds2go.Curtains2go"
+      }
     }
   },
   "image#socialNetwork-footer-2": {
@@ -311,7 +1046,10 @@
     "props": {
       "src": "/arquivos/twitter.svg",
       "blockClass": "socialNetwork-footer",
-      "maxHeight": 45
+      "maxHeight": 45,
+      "link":{
+        "url": "https://twitter.com/blinds2go"
+      }
     }
   },
   "image#socialNetwork-footer-3": {
@@ -319,7 +1057,10 @@
     "props": {
       "src": "/arquivos/instagram.svg",
       "blockClass": "socialNetwork-footer",
-      "maxHeight": 45
+      "maxHeight": 45,
+      "link":{
+        "url": "https://www.instagram.com/blinds2go/"
+      }
     }
   },
   "image#socialNetwork-footer-4": {
@@ -327,7 +1068,10 @@
     "props": {
       "src": "/arquivos/pinterest.svg",
       "blockClass": "socialNetwork-footer",
-      "maxHeight": 45
+      "maxHeight": 45,
+      "link":{
+        "url": "https://co.pinterest.com/blinds2go/"
+      }
     }
   },
   /* payments */
@@ -340,7 +1084,7 @@
       "image#payments-footer-4",
       "image#payments-footer-5"
     ],
-    "props": {"blockClass": "box-4-one-footer"}
+    "props": {"blockClass": "box-4-two-footer"}
   },
   "image#payments-footer-1": {
     "title": "logo 1",
@@ -388,7 +1132,7 @@
     "children": [
       "rich-text#footer-text-company"
     ],
-    "props": {"blockClass": "box-4-one-footer"}
+    "props": {"blockClass": "box-4-three-footer"}
   },
   "rich-text#footer-text-company": {
     "title": "text",
@@ -403,7 +1147,7 @@
   "flex-layout.col#box-4-four-footer": {
     "title": "block 4",
     "children": ["image#logo-footer"],
-    "props": {"blockClass": "box-4-one-footer"}
+    "props": {"blockClass": "box-4-four-footer"}
   },
   "image#logo-footer": {
     "title": "logo",
