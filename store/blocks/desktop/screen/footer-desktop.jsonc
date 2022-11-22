@@ -1,0 +1,416 @@
+{
+  "footer-layout.desktop": {
+    "title": "footer desktop",
+    "children": [
+      "flex-layout.row#global__footer-desktop"
+    ]
+  },
+  "flex-layout.row#global__footer-desktop": {
+    "title": "container",
+    "children": [
+      "flex-layout.col#footer-desktop-one",
+      "flex-layout.col#footer-desktop-two",
+      "flex-layout.col#footer-desktop-three",
+      "flex-layout.col#footer-desktop-four"
+    ],
+    "props": {"blockClass": "global__footer-desktop"}
+  },
+  /* block 1 */
+  "flex-layout.col#footer-desktop-one": {
+    "title": "block 1",
+    "children": ["rich-text#footer-title"],
+    "props": {"blockClass": "footer__desktop-one"}
+  },
+  "rich-text#footer-title": {
+    "title": "title",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Don't take our word for it, <br/> we've got over 190,000 great reviews",
+      "blockClass": "footer-title"
+    }
+  },
+  /* block 2 */
+  "flex-layout.col#footer-desktop-two": {
+    "title": "block 2",
+    "children": ["slider-layout#footer-text"],
+    "props": {"blockClass": "footer__desktop-two"}
+  },
+  "slider-layout#footer-text": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "navigationStep": 1,
+      "showNavigationArrows": "never",
+      "blockClass": "footer-text",
+      "showPaginationDots": "always",
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": false
+      }
+    },
+    "children": [
+      "flex-layout.row#group-text-footer-one",
+      "flex-layout.row#group-text-footer-two",
+      "flex-layout.row#group-text-footer-three",
+      "flex-layout.row#group-text-footer-four",
+      "flex-layout.row#group-text-footer-one",
+      "flex-layout.row#group-text-footer-two",
+      "flex-layout.row#group-text-footer-three",
+      "flex-layout.row#group-text-footer-four"
+    ]
+  },
+  /* text one */
+  "flex-layout.row#group-text-footer-one": {
+    "title": "container text",
+    "children": [
+      "image#review-footer",
+      "rich-text#review-one-1",
+      "rich-text#review-two-1"
+    ],
+    "props": {
+      "blockClass": "group__text-footer"
+    }
+  },
+  "image#review-footer": {
+    "title": "image payments",
+    "props": {
+      "src": "/arquivos/review-footer.svg",
+      "blockClass": "review-footer",
+      "maxHeight": 24,
+      "maxWidth": 100
+    }
+  },
+  "rich-text#review-one-1": {
+    "title": "text 1",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Braw",
+      "blockClass": "footer__text-one"
+    }
+  },
+  "rich-text#review-two-1": {
+    "title": "text 2",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Braw. Spot on.",
+      "blockClass": "footer__text-two"
+    }
+  },
+  /* text two */
+  "flex-layout.row#group-text-footer-two": {
+    "title": "container text",
+    "children": [
+      "image#review-footer",
+      "rich-text#review-one-2",
+      "rich-text#review-two-2"
+    ],
+    "props": {
+      "blockClass": "group__text-footer"
+    }
+  },
+  "rich-text#review-one-2": {
+    "title": "text 1",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Kitchen now looks perfect...",
+      "blockClass": "footer__text-one"
+    }
+  },
+  "rich-text#review-two-2": {
+    "title": "text 2",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Arrived on time without damage, easy to fit and look lovely.",
+      "blockClass": "footer__text-two"
+    }
+  },
+  /* text three */
+  "flex-layout.row#group-text-footer-three": {
+    "title": "container text",
+    "children": [
+      "image#review-footer",
+      "rich-text#review-one-3",
+      "rich-text#review-two-3"
+    ],
+    "props": {
+      "blockClass": "group__text-footer"
+    }
+  },
+  "rich-text#review-one-3": {
+    "title": "text 1",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Brilliant quality and product.",
+      "blockClass": "footer__text-one"
+    }
+  },
+  "rich-text#review-two-3": {
+    "title": "text 2",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Brilliant quality and product.",
+      "blockClass": "footer__text-two"
+    }
+  },
+  /* text four */
+  "flex-layout.row#group-text-footer-four": {
+    "title": "container text",
+    "children": [
+      "image#review-footer",
+      "rich-text#review-one-4",
+      "rich-text#review-two-4"
+    ],
+    "props": {
+      "blockClass": "group__text-footer"
+    }
+  },
+  "rich-text#review-one-4": {
+    "title": "text 1",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "I am really pleased with my roman …",
+      "blockClass": "footer__text-one"
+    }
+  },
+  "rich-text#review-two-4": {
+    "title": "text 2",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "I am really pleased with my roman blind. Arrived promptly, is well made and was easy to put up. I cannot fault it. :-)",
+      "blockClass": "footer__text-two"
+    }
+  },
+  /* block 3 */
+  "flex-layout.col#footer-desktop-three": {
+    "title": "block 3",
+    "children": [
+      "flex-layout.row#gruoup-col-one"
+    ],
+    "props": {"blockClass": "footer__desktop-three"}
+  },
+  "flex-layout.row#gruoup-col-one": {
+    "title": "block 3",
+    "children": [
+      "image#logo-footer-1",
+      "image#logo-footer-2",
+      "image#logo-footer-3",
+      "image#logo-footer-4",
+      "image#logo-footer-5",
+      "image#logo-footer-6"
+    ],
+    "props": {"blockClass": "gruoup__col-one"}
+  },
+  "image#logo-footer-1": {
+    "title": "logo 1",
+    "props": {
+      "src": "/arquivos/logofooter1.svg",
+      "blockClass": "logo-footer",
+      "maxHeight": 45
+    }
+  },
+  "image#logo-footer-2": {
+    "title": "logo 2",
+    "props": {
+      "src": "/arquivos/logofooter2.svg",
+      "blockClass": "logo-footer",
+      "maxHeight": 45
+    }
+  },
+  "image#logo-footer-3": {
+    "title": "logo 3",
+    "props": {
+      "src": "/arquivos/logofooter3.svg",
+      "blockClass": "logo-footer",
+      "maxHeight": 45
+    }
+  },
+  "image#logo-footer-4": {
+    "title": "logo 4",
+    "props": {
+      "src": "/arquivos/logofooter4.svg",
+      "blockClass": "logo-footer",
+      "maxHeight": 45
+    }
+  },
+  "image#logo-footer-5": {
+    "title": "logo 5",
+    "props": {
+      "src": "/arquivos/logofooter5.svg",
+      "blockClass": "logo-footer",
+      "maxHeight": 45
+    }
+  },
+  "image#logo-footer-6": {
+    "title": "logo 6",
+    "props": {
+      "src": "/arquivos/logofooter6.svg",
+      "blockClass": "logo-footer",
+      "maxHeight": 45
+    }
+  },
+/* block 4 */
+  "flex-layout.col#footer-desktop-four": {
+    "title": "block 4",
+    "children": [
+      "flex-layout.row#block-4-one-footer",
+      "flex-layout.row#block-4-two-footer"
+    ],
+    "props": {"blockClass": "footer__desktop-four"}
+  },
+  "flex-layout.row#block-4-one-footer": {
+    "title": "container 1",
+    "children": [
+
+    ],
+    "props": {"blockClass": "block__4-one"}
+  },
+  "flex-layout.row#block-4-two-footer": {
+    "title": "container 2",
+    "children": [
+      "flex-layout.col#box-4-one-footer",
+      "flex-layout.col#box-4-two-footer",
+      "flex-layout.col#box-4-three-footer",
+      "flex-layout.col#box-4-four-footer"
+    ],
+    "props": {"blockClass": "block__4-two"}
+  },
+  /* redes social */
+  "flex-layout.col#box-4-one-footer": {
+    "title": "block 1",
+    "children": [
+      "image#socialNetwork-footer-1",
+      "image#socialNetwork-footer-2",
+      "image#socialNetwork-footer-3",
+      "image#socialNetwork-footer-4"
+    ],
+    "props": {"blockClass": "box-4-one-footer"}
+  },
+  "image#socialNetwork-footer-1": {
+    "title": "logo 1",
+    "props": {
+      "src": "/arquivos/facebook.svg",
+      "blockClass": "socialNetwork-footer",
+      "maxHeight": 45
+    }
+  },
+  "image#socialNetwork-footer-2": {
+    "title": "logo 2",
+    "props": {
+      "src": "/arquivos/twitter.svg",
+      "blockClass": "socialNetwork-footer",
+      "maxHeight": 45
+    }
+  },
+  "image#socialNetwork-footer-3": {
+    "title": "logo 3",
+    "props": {
+      "src": "/arquivos/instagram.svg",
+      "blockClass": "socialNetwork-footer",
+      "maxHeight": 45
+    }
+  },
+  "image#socialNetwork-footer-4": {
+    "title": "logo 4",
+    "props": {
+      "src": "/arquivos/pinterest.svg",
+      "blockClass": "socialNetwork-footer",
+      "maxHeight": 45
+    }
+  },
+  /* payments */
+  "flex-layout.col#box-4-two-footer": {
+    "title": "block 1",
+    "children": [
+      "image#payments-footer-1",
+      "image#payments-footer-2",
+      "image#payments-footer-3",
+      "image#payments-footer-4",
+      "image#payments-footer-5"
+    ],
+    "props": {"blockClass": "box-4-one-footer"}
+  },
+  "image#payments-footer-1": {
+    "title": "logo 1",
+    "props": {
+      "src": "/arquivos/cards.svg",
+      "blockClass": "payments-footer",
+      "maxHeight": 24
+    }
+  },
+  "image#payments-footer-2": {
+    "title": "logo 2",
+    "props": {
+      "src": "/arquivos/cards2.svg",
+      "blockClass": "payments-footer",
+      "maxHeight": 24
+    }
+  },
+  "image#payments-footer-3": {
+    "title": "logo 3",
+    "props": {
+      "src": "/arquivos/cards3.svg",
+      "blockClass": "payments-footer",
+      "maxHeight": 24
+    }
+  },
+  "image#payments-footer-4": {
+    "title": "logo 4",
+    "props": {
+      "src": "/arquivos/cards5.svg",
+      "blockClass": "payments-footer",
+      "maxHeight": 24
+    }
+  },
+  "image#payments-footer-5": {
+    "title": "logo 5",
+    "props": {
+      "src": "/arquivos/cards6.svg",
+      "blockClass": "payments-footer",
+      "maxHeight": 24
+    }
+  },
+  /* text */
+  "flex-layout.col#box-4-three-footer": {
+    "title": "block 3",
+    "children": [
+      "rich-text#footer-text-company"
+    ],
+    "props": {"blockClass": "box-4-one-footer"}
+  },
+  "rich-text#footer-text-company": {
+    "title": "text",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "© Blinds 2 Go Limited | Company no. 03954180 | VAT Registration GB745 4433 29",
+      "blockClass": "footer__text-company"
+    }
+  },
+  /* logo */
+  "flex-layout.col#box-4-four-footer": {
+    "title": "block 4",
+    "children": ["image#logo-footer"],
+    "props": {"blockClass": "box-4-one-footer"}
+  },
+  "image#logo-footer": {
+    "title": "logo",
+    "props": {
+      "src": "/arquivos/logofooter7.svg",
+      "blockClass": "logo-footer",
+      "maxHeight": 24
+    }
+  }
+}

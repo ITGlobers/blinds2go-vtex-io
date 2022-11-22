@@ -1,0 +1,8 @@
+.flexRowContent--global__footer-desktop {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexRowContent--global__footer-desktop .stretchChildrenWidth {
+  width: 100% !important;
+}
