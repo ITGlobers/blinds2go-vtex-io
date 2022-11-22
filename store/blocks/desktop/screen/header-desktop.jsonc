@@ -1,0 +1,20 @@
+{
+  "header-layout.desktop": {
+    "title": "header desktop",
+    "children": ["sticky-layout#desktop"]
+  },
+  "sticky-layout#desktop": {
+    "props": {"blockClass": "sticky-header"},
+    "children": ["flex-layout.row#desktop"]
+  },
+  "flex-layout.row#desktop": {
+    "title": "container",
+    "props": {"blockClass": "container-header"},
+    "children": [
+      "flex-layout.col#block-one-desktop",
+      "flex-layout.col#block-two-desktop",
+      "flex-layout.col#block-three-desktop"
+      /*"login", */
+    ]
+  }
+}

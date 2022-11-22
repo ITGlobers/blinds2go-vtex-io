@@ -1,0 +1,118 @@
+.flexCol--block-one-desktop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #F7F6F7;
+  align-items: center;
+  padding-left: 27px;
+  padding-right: 60px;
+}
+
+.flexCol--block-two-desktop {
+  background-color: #3B214F;
+  color: #F7F6F7;
+  padding-left: 25px;
+  padding-right: 60px;
+}
+
+.flexCol--block-three-desktop {
+  padding: 5px 0;
+  background-color: #F7F6F7;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 110px;
+  padding-right: 40px;
+}
+
+.flexRowContent--block-one-2-one {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flexRowContent--container-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexRowContent--container-header .stretchChildrenWidth {
+  width: 100% !important;
+}
+
+.flexRowContent--block-one-2-two {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexRowContent--block-one-2-two-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flexRowContent--block-one-2-two-content .stretchChildrenWidth:first-child {
+  width: 50% !important;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.flexRowContent--block-one-2-two-content .stretchChildrenWidth:last-child {
+  width: 100% !important;
+}
+
+.flexCol--block-two-desktop {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flexRowContent--block-three-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flexColChild--block-three-desktop {
+  width: 371px;
+}
+
+.flexRowContent--block-three-1 .stretchChildrenWidth:first-child {
+  width: 15% !important;
+}
+
+.flexRowContent--block-three-1 .stretchChildrenWidth:last-child {
+  width: 85% !important;
+}
+
+.flexCol--marginLeft {
+  margin-left: 15px;
+}
+
+.flexRow--container-header :global(.vtex-store-components-3-x-container) {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.flexRowContent--block-two-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flexRowContent--block-two-02 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.flexRowContent--block-two-02 .stretchChildrenWidth:first-child {
+  width: 15% !important;
+}
+
+.flexRowContent--block-two-02 .stretchChildrenWidth:last-child {
+  width: 85% !important;
+}

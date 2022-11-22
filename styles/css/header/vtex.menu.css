@@ -1,0 +1,32 @@
+.styledLinkContent--root {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* .styledLinkContent--root:hover {
+  color: #3b214f;
+}
+
+.menuItem--root:hover  {
+  background-color: #fff;
+  color: #3b214f;
+}
+ */
+
+ .styledLinkContent--select,
+ .styledLinkContent--select-help {
+  color: #fff;
+  font-size: 14px;
+  justify-content: center;
+ }
+
+ .styledLinkContent--select:hover {
+  text-decoration: underline;
+ }
+
+ .styledLinkIcon--root {
+  color: #ED982F !important;
+ }
+
+
