@@ -1,0 +1,298 @@
+{
+  "menu#header-main-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true,
+      "blockClass": "header-menu"
+    },
+    "children": [
+      "menu-item#blinds",
+      "menu-item#curtains",
+      "menu-item#cushions"
+    ]
+  },
+  /* menu blinds */
+  "menu-item#blinds": {
+    "props": {
+      "id": "menu-item-blinds",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "root",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Blinds",
+        "text": "Blinds"
+      },
+      "iconPosition": "left",
+      "iconProps": {
+        "id": "mpa-bars",
+        "size": 22,
+        "viewBox": "0 0 16 16",
+        /* "activeClassName": "rebel-pink", */
+        "mutedClassName": "c-action-primary"
+      }
+    },
+    "blocks": ["submenu#header_sub-menu-blinds"]
+  },
+  "submenu#header_sub-menu-blinds": {
+    "props": {"width": "100%"},
+    "children": ["flex-layout.row#header-menu-content-blinds"]
+  },
+  "flex-layout.row#header-menu-content-blinds": {
+    "title": "container submenu",
+    "props": {
+      "fullWidth": true,
+      "horizontalAlign": "between",
+      "blockClass": "header-menu-content",
+      "colSizing": "auto"
+    },
+    "children": [
+      "menu#header_content-block-one-blinds",
+      "menu#header_content-block-one-blinds",
+      "menu#header_content-block-one-blinds",
+      "menu#header_content-block-one-blinds",
+      "menu#header_content-block-one-blinds",
+      "menu#header_content-block-one-blinds"
+    ]
+  },
+  "menu#header_content-block-one-blinds": {
+    "title": "submenu",
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "submenu",
+      "items": [
+        {
+          "id": "menu-item-content-1-1",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/content",
+            "noFollow": false,
+            "tagTitle": "Woooden Blinds",
+            "text": "Woooden Blinds"
+          }
+        },
+        {
+          "id": "menu-item-content-1-2",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/content",
+            "noFollow": false,
+            "tagTitle": "Vertical Blinds",
+            "text": "Vertical Blinds"
+          }
+        },
+        {
+          "id": "menu-item-content-1-3",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/content",
+            "noFollow": false,
+            "tagTitle": "Shutter Blinds",
+            "text": "Shutter Blinds"
+          }
+        },
+        {
+          "id": "menu-item-content-1-4",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/content",
+            "noFollow": false,
+            "tagTitle": "Blackout Blinds",
+            "text": "Blackout Blinds"
+          }
+        },
+        {
+          "id": "menu-item-content-1-5",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/content",
+            "noFollow": false,
+            "tagTitle": "B2G Blinds for VELUX",
+            "text": "B2G Blinds for VELUX"
+          }
+        },
+        {
+          "id": "menu-item-content-1-6",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/content",
+            "noFollow": false,
+            "tagTitle": "Children's Blinds",
+            "text": "Children's Blinds"
+          }
+        }
+      ]
+    }
+  },
+  /* menu curtains */
+  "menu-item#curtains": {
+    "props": {
+      "id": "menu-item-Curtains",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "root",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Curtains",
+        "text": "Curtains"
+      },
+      "iconPosition": "left",
+      "iconProps": {
+        "id": "mpa-bars",
+        "size": 22,
+        "viewBox": "0 0 16 16",/*
+        "activeClassName": "rebel-pink", */
+        "mutedClassName": "c-action-primary"
+      }
+    },
+    "blocks": ["submenu#header_sub-menu-curtains"]
+  },
+  "submenu#header_sub-menu-curtains": {
+    "props": {"width": "100%"},
+    "children": ["flex-layout.row#header-menu-content-curtains"]
+  },
+  "flex-layout.row#header-menu-content-curtains": {
+    "title": "container submenu",
+    "props": {
+      "fullWidth": true,
+      "horizontalAlign": "between",
+      "blockClass": "header-menu-content",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#header_menu-content-menu-1",
+      "flex-layout.col#header_menu-content-menu-1",
+      "flex-layout.col#header_menu-content-menu-1",
+      "flex-layout.col#header_menu-content-menu-1"
+    ]
+  },
+  "flex-layout.col#header_menu-content-menu-1": {
+    "title": "block-one",
+    "props": {"rowGap": 5,"blockClass": "submenu-header"},
+    "children": [
+      "flex-layout.row#block-1-submenu",
+      "flex-layout.row#block-2-submenu"
+    ]
+  },
+
+  "flex-layout.row#block-1-submenu": {
+    "title": "block-one",
+    "props": {"rowGap": 5,"blockClass": "submenu-header"},
+    "children": ["image#submenu-one", "flex-layout.row#submenu-one"]
+  },
+  "image#submenu-one": {
+    "title": "imagen",
+    "props": {
+      "src": "assets/home/eye.svg",
+      "link": {"url": "/menu-image"},
+      "alt": "Imagen de una marca",
+      "title": "Imagen de una marca",
+      "maxHeight": 50
+    }
+  },
+  "flex-layout.row#submenu-one": {
+    "children":[
+      "link#link-1-0-submenu",
+      "link#link-1-1-submenu"
+    ],
+    "props":{
+      "blockClass": "header_menu-content-block-one"
+    }
+  },
+  "link#link-1-0-submenu": {
+    "props": {
+      "href": "/",
+      "label": "View All"
+    }
+  },
+  "link#link-1-1-submenu": {
+    "props": {
+      "href": "/",
+      "label": ""
+    }
+  },
+
+  "flex-layout.row#block-2-submenu": {
+    "title": "block-two",
+    "props": {"rowGap": 5,"blockClass": "submenu-header"},
+    "children": ["image#submenu-two", "flex-layout.row#submenu-two"]
+  },
+  "image#submenu-two": {
+    "title": "imagen",
+    "props": {
+      "src": "assets/home/menu1.png",
+      "link": {"url": "/menu-image"},
+      "alt": "Imagen de una marca",
+      "title": "Imagen de una marca"
+    }
+  },
+  "flex-layout.row#submenu-two": {
+    "children":[
+      "link#link-2-0-submenu",
+      "link#link-2-1-submenu"
+    ],
+    "props":{
+      "blockClass": "header_menu-content-block-one"
+    }
+  },
+  "link#link-2-0-submenu": {
+    "props": {
+      "href": "/",
+      "label": "Pink, Purple & Violet"
+    }
+  },
+  "link#link-2-1-submenu": {
+    "props": {
+      "href": "/",
+      "label": "Blush, mauve, rose, heather, fuchisia"
+    }
+  },
+
+  /* cushions */
+  "menu-item#cushions": {
+    "props": {
+      "id": "menu-item-Cushions",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "root",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Cushions",
+        "text": "Cushions"
+      },
+      "iconPosition": "left",
+      "iconProps": {
+        "id": "mpa-bars",
+        "size": 22,
+        "viewBox": "0 0 16 16",/*
+        "activeClassName": "rebel-pink", */
+        "mutedClassName": "c-action-primary"
+      }
+    },
+    "blocks": ["submenu#header_sub-menu-curtains"]
+  }
+}
