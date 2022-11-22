@@ -74,7 +74,7 @@
     "props": {
       "src": "/arquivos/review-footer.svg",
       "blockClass": "review-footer",
-      "maxHeight": 24,
+      "maxHeight": 15,
       "maxWidth": 100
     }
   },
@@ -83,7 +83,7 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "Braw",
+      "text": "Good quality product, straight forward ordering",
       "blockClass": "footer__text-one"
     }
   },
@@ -92,7 +92,7 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "Braw. Spot on.",
+      "text": "Measuring and ordering were really straight forward. I ordered 2x roller blinds. They were delivered without delay and very easy to install as per ...",
       "blockClass": "footer__text-two"
     }
   },
@@ -114,7 +114,7 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "Kitchen now looks perfect...",
+      "text": "Brilliant and value for money really pleased",
       "blockClass": "footer__text-one"
     }
   },
@@ -123,7 +123,7 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "Arrived on time without damage, easy to fit and look lovely.",
+      "text": "Easy to measure up with instructions. Sent sample of the material the next day. Very good quality easy to install. Would definitely order from them ...",
       "blockClass": "footer__text-two"
     }
   },
@@ -145,7 +145,7 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "Brilliant quality and product.",
+      "text": "Quality products and efficient service with very quick delivery.",
       "blockClass": "footer__text-one"
     }
   },
@@ -154,7 +154,7 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "Brilliant quality and product.",
+      "text": "I have ordered twice from Blinds 2go and on both occasions received the same efficient service with very quick delivery. I found the free sample ...",
       "blockClass": "footer__text-two"
     }
   },
@@ -176,7 +176,7 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "I am really pleased with my roman …",
+      "text": "Right price,right product, right size, rapid delivery, a doddle to fit.",
       "blockClass": "footer__text-one"
     }
   },
@@ -185,7 +185,7 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "I am really pleased with my roman blind. Arrived promptly, is well made and was easy to put up. I cannot fault it. :-)",
+      "text": "This is my second order for shutters, I have recommended friends who were also delighted. Roman blinds next! John, Sevenoaks",
       "blockClass": "footer__text-two"
     }
   }

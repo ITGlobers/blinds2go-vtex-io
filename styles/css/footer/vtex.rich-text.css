@@ -1,10 +1,12 @@
 .paragraph--footer-title {
   margin-top: 0;
   margin-bottom: 0;
-  font-family: "Bebas", sans-serif;
+  font-family: "Bebas Regular";
   color: #838787;
-  font-size: 40px;
+  font-size: 35px;
   line-height: 1.15;
+  text-transform: uppercase;
+  font-weight: 800;
 }
 
 .paragraph--footer-title::after {
@@ -18,10 +20,11 @@
 
 .paragraph--footer__text-one {
   font-weight: bold;
-    font-family: inherit;
-    color: black;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+  font-family: inherit;
+  color: black;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 13px;
 }
 
 .paragraph--footer__text-two {
@@ -30,26 +33,44 @@
   font-family: "Nunito Sans", sans-serif;
   font-weight: 400;
   color: #000000;
+  font-size: 13px;
 }
 
 .paragraph--footer__custo-one {
   font-size: 14px;
   margin-top: 0;
   margin-bottom: 0;
-  color: rgba(255,255,255,0.7);
-  font-family: "Raleway",sans-serif;
-   /*  line-height: 1.1; */
+  color: rgba(255, 255, 255, 0.7);
+  font-family: "Raleway", sans-serif;
 }
 
 .paragraph--footer__custo-two {
   font-family: "Nunito Sans", sans-serif;
-    font-weight: 400;
-    color: rgba(255,255,255,0.7);
+  font-weight: 400;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .paragraph--footer__text-company {
   font-size: 12px;
   font-family: "Nunito Sans", sans-serif;
-    font-weight: 400;
-    color: rgba(255,255,255,0.7);
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.paragraph--footer-number {
+  font-size: 24px !important;
+  line-height: 24px;
+  color: #fff;
+  margin-top: 0.8rem;
+  margin-bottom: 0;
+}
+
+.paragraph--footer-week {
+  color: #fff;
+  font-size: 13px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  margin-top: 0.5rem;
+  margin-bottom: 0;
 }

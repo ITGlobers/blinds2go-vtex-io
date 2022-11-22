@@ -19,12 +19,43 @@
     "title": "block 1",
     "children": [
       "rich-text#customer-service",
-      /* "flex-layout.row#block-one-2-two", */
+      "flex-layout.row#container-number-footer",
+      "rich-text#footer-week",
       "rich-text#customer-text"
     ],
     "props": {
       "blockClass": "box-4-1-one-footer",
-      "width": "20%"
+      "width": "30%"
+    }
+  },
+  "flex-layout.row#container-number-footer": {
+    "title": "texts",
+    "props": {"blockClass": "block-one-2-two-content-footer", "preventHorizontalStretch": true},
+    "children": [
+      "image#contact-footer",
+      "rich-text#footer-number"
+    ]
+  },
+  "image#contact-footer": {
+    "title": "image payments",
+    "props": {
+      "src": "/arquivos/cel-footer.svg",
+      "blockClass": "contact-footer",
+      "maxHeight": 24
+    }
+  },
+  "rich-text#footer-number": {
+    "title": "text 1",
+    "props": {
+      "text": "0800 862 0464",
+      "blockClass": "footer-number"
+    }
+  },
+  "rich-text#footer-week": {
+    "title": "text 2",
+    "props": {
+      "text": "9am - 5:30pm 7 days a week",
+      "blockClass": "footer-week"
     }
   },
   "rich-text#customer-service": {
@@ -54,7 +85,7 @@
       "flex-layout.row#col-3-menu-footer",
       "flex-layout.row#col-4-menu-footer"
     ],
-    "props": {"blockClass": "box-4-1-two-footer", "width": "80%"}
+    "props": {"blockClass": "box-4-1-two-footer", "width": "70%"}
   },
   "flex-layout.row#col-1-menu-footer": {
     "title": "menu 1",
@@ -79,7 +110,7 @@
     "title": "menu",
     "props": {
       "orientation": "vertical",
-      "blockClass": "menu",
+      "blockClass": "menu-footer",
       "items": [
         {
           "id": "menu-item-content-1-1",
@@ -184,7 +215,7 @@
     "title": "menu",
     "props": {
       "orientation": "vertical",
-      "blockClass": "menu",
+      "blockClass": "menu-footer",
       "items": [
         {
           "id": "menu-item-content-2-1",
@@ -328,7 +359,7 @@
     "title": "menu",
     "props": {
       "orientation": "vertical",
-      "blockClass": "menu",
+      "blockClass": "menu-footer",
       "items": [
         {
           "id": "menu-item-content-3-1",
@@ -498,7 +529,7 @@
     "title": "menu",
     "props": {
       "orientation": "vertical",
-      "blockClass": "menu",
+      "blockClass": "menu-footer",
       "items": [
         {
           "id": "menu-item-content-4-1",
@@ -753,8 +784,6 @@
     "title": "container 2",
     "children": [
       "flex-layout.col#box-4-one-footer",
-      /* "flex-layout.col#box-4-two-footer", */
-      /* "flex-layout.col#box-4-three-footer", */
       "flex-layout.col#box-4-four-footer"
     ],
     "props": {"blockClass": "block-4-two-footer",  "preventHorizontalStretch": true}
@@ -767,9 +796,7 @@
       "image#payments-footer-1"
     ],
     "props": {
-      "blockClass": "box-4-one-footer-2"/* ,
-      "horizontalAlign": "center",
-      "preventVerticalStretch": true */
+      "blockClass": "box-4-one-footer-2"
     }
   },
   "flex-layout.row#box--social-footer": {
@@ -780,14 +807,14 @@
       "image#socialNetwork-footer-3",
       "image#socialNetwork-footer-4"
     ],
-    "props": {"blockClass": "box--social-footer"/* ,  "preventHorizontalStretch": true */}
+    "props": {"blockClass": "box--social-footer"}
   },
   "image#socialNetwork-footer-1": {
     "title": "logo 1",
     "props": {
       "src": "/arquivos/facebook.svg",
       "blockClass": "socialNetwork-footer",
-      "maxHeight": 45,
+      "maxHeight": 40,
       "link":{
         "url": "https://www.facebook.com/Blinds2go.Curtains2go"
       }
@@ -798,7 +825,7 @@
     "props": {
       "src": "/arquivos/twitter.svg",
       "blockClass": "socialNetwork-footer",
-      "maxHeight": 45,
+      "maxHeight": 40,
       "link":{
         "url": "https://twitter.com/blinds2go"
       }
@@ -809,7 +836,7 @@
     "props": {
       "src": "/arquivos/instagram.svg",
       "blockClass": "socialNetwork-footer",
-      "maxHeight": 45,
+      "maxHeight": 40,
       "link":{
         "url": "https://www.instagram.com/blinds2go/"
       }
@@ -820,18 +847,13 @@
     "props": {
       "src": "/arquivos/pinterest.svg",
       "blockClass": "socialNetwork-footer",
-      "maxHeight": 45,
+      "maxHeight": 40,
       "link":{
         "url": "https://co.pinterest.com/blinds2go/"
       }
     }
   },
   /* payments */
-  /* "flex-layout.col#box-4-two-footer": {
-    "title": "block 1",
-    "children": ["image#payments-footer-1"],
-    "props": {"blockClass": "box-4-two-footer"}
-  }, */
   "image#payments-footer-1": {
     "title": "logo 1",
     "props": {
@@ -840,15 +862,6 @@
       "maxHeight": 24
     }
   },
-  /* text */
-  /* "flex-layout.col#box-4-three-footer": {
-    "title": "block 3",
-    "children": [
-      "rich-text#footer-text-company"
-    ],
-    "props": {"blockClass": "box-4-three-footer"}
-  }, */
-
   /* logo */
   "flex-layout.col#box-4-four-footer": {
     "title": "block 4",
