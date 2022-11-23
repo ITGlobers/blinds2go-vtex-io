@@ -1,7 +1,125 @@
 {
   "store.search": {
     "blocks": [
-      
+      "search-result-layout#search__results"
+    ],
+    "props": {
+      "context": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "default",
+        "maxItemsPerPage": 12
+      }
+    }
+  },
+  "search-not-found-layout": {
+    "title": "Product not found",
+    "children": [
+      "flex-layout.row#global__no-result--image"
+    ]
+  },
+  "store.search#department": {
+    "blocks": [
+      "search-result-layout"
+    ],
+    "props": {
+      "context": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "default",
+        "maxItemsPerPage": 12
+      }
+    }
+  },
+  "store.search#category": {
+    "blocks": [
+      "search-result-layout"
+    ],
+    "props": {
+      "context": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "default",
+        "maxItemsPerPage": 12
+      }
+    }
+  },
+  "store.search#subcategory": {
+    "blocks": [
+      "search-result-layout"
+    ],
+    "props": {
+      "context": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "default",
+        "maxItemsPerPage": 12
+      }
+    }
+  },
+  "store.search#brand": {
+    "blocks": [
+      "search-result-layout"
+    ],
+    "props": {
+      "context": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "default",
+        "maxItemsPerPage": 12
+      }
+    }
+  },
+  "flex-layout.row#global__no-result--image": {
+    "children": [
+      "flex-layout.col#global__no-result--image"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "global__no-result--image"
+    }
+  },
+  "flex-layout.col#global__no-result--image": {
+    "children": [
+      "responsive-layout.desktop#desktop__no-result--image",
+      "responsive-layout.tablet#tablet__no-result--image",
+      "responsive-layout.phone#mobile__no-result--image"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "global__no-result--image"
+    }
+  },
+  "responsive-layout.desktop#desktop__no-result--image": {
+    "children": [
+      "image#desktop__no-result--image"
+    ]
+  },
+  "image#desktop__no-result--image": {
+    "title": "image desktop",
+    "props": {
+      "src": "arquivos/desktop__empty__search__es.png",
+      "maxHeight": "843px",
+      "maxWidth": "1400px",
+      "link": {
+        "url": "/"
+      }
+    }
+  },
+  "responsive-layout.phone#mobile__no-result--image": {
+    "children": [
+      "image#mobile__no-result--image"
+    ]
+  },
+  "image#mobile__no-result--image": {
+    "title": "image mobile",
+    "props": {
+      "src": "arquivos/mobile__empty__search__es.png",
+      "maxHeight": "438px",
+      "maxWidth": "375px",
+      "link": {
+        "url": "/"
+      }
+    }
+  },
+  "responsive-layout.tablet#tablet__no-result--image": {
+    "children": [
+      "image#mobile__no-result--image"
     ]
   }
 }

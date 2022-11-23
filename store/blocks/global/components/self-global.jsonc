@@ -1,0 +1,96 @@
+{
+    "product-summary.shelf#global__showcase": {
+      "children": [
+        "product-summary-image#global__showcase--image",
+        "product-summary-name#global__showcase--name",
+        "product-summary-space",
+        "flex-layout.row#global__showcase--prices"
+      ],
+      "props": {
+        "blockClass": "global__showcase"
+      }
+    },
+  
+    "product-summary-image#global__showcase--image": {
+      "props": {
+        "blockClass": "global__showcase--image",
+        "showBadge": false,
+        "width": {
+          "desktop": "213px",
+          "tablet": "213px",
+          "mobile": "160px"
+        },
+        "height": {
+          "desktop": "284px",
+          "tablet": "284px",
+          "mobile": "213px"
+        },
+        "aspectRatio": "4:3"
+      }
+    },
+    
+    "product-summary-name#global__showcase--name": {
+      "props": {
+        "blockClass": "global__showcase--name"
+      }
+    },
+  
+    "flex-layout.row#global__showcase--prices": {
+      "props": {
+        "blockClass": "global__showcase--prices",
+        "preserveLayoutOnMobile": true
+      },
+      "children": [
+        "flex-layout.col#showcase__prices",
+        "flex-layout.col#showcase__savings"
+      ]
+    },
+  
+    "flex-layout.col#showcase__prices": {
+      "props": {
+        "blockClass": [
+          "showcase__prices"
+        ],
+        "horizontalAlign": "left",
+        "verticalAlign": "top"
+      },
+      "children": [
+        //"product-list-price#showcase__list--price",
+        "product-selling-price#showcase__selling--price"
+      ]
+    },
+  
+    "product-list-price#showcase__list--price": {
+      "props": {
+        "blockClass": "showcase__list--price"
+      }
+    },
+  
+    "product-selling-price#showcase__selling--price": {
+      "props": {
+        "blockClass": "showcase__selling--price"
+      }
+    },
+  
+    "flex-layout.col#showcase__savings": {
+      "props": {
+        "blockClass": [
+          "showcase__savings"
+        ],
+        "horizontalAlign": "right",
+        "verticalAlign": "top"
+      },
+      "children": [
+        "product-price-savings#showcase__savings"
+      ]
+    },
+  
+    "product-price-savings#showcase__savings": {
+      "props": {
+        "blockClass": "showcase__savings",
+        "message": "{savingsPercentage} OFF",
+        "percentageStyle": "compact"
+      }
+    }
+  }
+  

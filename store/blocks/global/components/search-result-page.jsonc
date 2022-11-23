@@ -1,0 +1,87 @@
+{
+    "search-result-layout#search__results": {
+      "blocks": [
+        "search-result-layout.desktop#search__results",
+        "search-result-layout.mobile#search__results",
+        "search-not-found-layout"
+      ]
+    },
+  
+    "search-result-layout.desktop#search__results": {
+      "props": {
+        "defaultGalleryLayout": "grid",
+        "preventRouteChange": true,
+        "pagination": "show-more"
+      },
+      "children": [
+        "flex-layout.row#general__results--breadcrumb",
+        "flex-layout.row#general__results",
+        "flex-layout.row#general__results--bottom",
+        "back-to-top-button"
+      ]
+    },
+  
+    "flex-layout.row#general__results--title": {
+      "props": {
+        "blockClass": "general__results--title",
+        "fullWidth": true,
+        "preserveLayoutOnMobile": true,
+        "colSizing":"auto"
+      },
+      "children": [
+        "search-title.v2",
+        "flex-layout.col#general__title--from-price-static"
+      ]
+    },
+    "flex-layout.col#general__title--from-price-static":{
+        "props":{
+            "colSizing":"auto"
+        },
+        "children":[
+            "rich-text#from-price-static"
+        ]
+    },
+    "rich-text#from-price-static": {
+        "title": "Fron price",
+        "props": {
+          "blockClass": "from-price-static__text",
+          "text": "from \n **£19.76**",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.row#general__description--category":{
+        "props":{
+            "blockClass":"general__description--category"
+        },
+        "children":[
+            "rich-text#description-category"
+        ]
+    },
+    "rich-text#description-category":{
+        "props": {
+            "blockClass": "description-category",
+            "text": "Maximum style, minimum cost, our made to measure Essentials Roman Blinds collection features a selection of beautifully tactile fabrics across a  range of enchanting colours all at incredibly affordable prices, making these blinds a classic choice for your home. Browse our Essentials collection and give your home luxury for less with our beautiful Roman Blinds. ",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+          }
+    },
+    "search-result-layout.mobile#search__results": {
+      "props": {
+        "defaultGalleryLayout": "grid",
+        "preventRouteChange": true,
+        "pagination": "show-more"
+      },
+      "children": [
+        "flex-layout.row#general__results--breadcrumb",
+        "flex-layout.row#general__results--banner",
+        "flex-layout.row#general__results--title",
+        "flex-layout.row#general__results--filters",
+        "flex-layout.row#general__results--total-products",
+        "flex-layout.row#general__results--mobile",
+        "flex-layout.row#general__results--show-more",
+        "back-to-top-button"
+      ]
+    }
+  }
+  
