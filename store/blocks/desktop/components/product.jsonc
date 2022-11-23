@@ -98,6 +98,48 @@
     "props": {
       "text": "Highly versatile the Pristine White Faux Wood Blind is the perfect choice for both modern and traditional homes.\n\n\n\n The crisp white colour of this faux wood blind gives you a blank canvas to express your design style in the rest of the room, not forgetting it’s really practical too! The strong faux wood slats can go in any room of the house, so they’re a great choice if you’re looking to update your kitchen or bathroom."
     }
+  },
+  "disclosure-layout#accordion3": {
+    "title": "About Pristine",
+    "children": ["disclosure-trigger#simple1", "disclosure-content#simple1"],
+    "props": {
+      "blockClass": "container__accordion--main"
+    }
+  },
+  "disclosure-trigger#simple2": {
+    "children": ["rich-text#question","disclosure-state-indicator"],
+    "props":{
+      "blockClass": "container__trigger--title"
+    }
+  },
+  "disclosure-content#simple2": {
+    "children": ["flex-layout.row#container__accordion--Pharsal2"],
+    "props":{
+      "blockClass": "container__information--main"
+    }
+  },
+
+  "flex-layout.row#container__accordion--Pharsal2": {
+    "children": ["rich-text#answer", "image#waterproof"]
+  },
+
+  "rich-text#question2": {
+    "props": {
+      "text": "About Pristine White Faux Wood Blind - 50mm Slat"
+    }
+  },
+
+  "image#waterproof2": {
+    "props": {
+      "src": "https://blindstogouk.vtexassets.com/arquivos/100_waterproof.png",
+
+      "blockClass": "image__waterproof"
+    }
+  },
+  "rich-text#answer2": {
+    "props": {
+      "text": "Highly versatile the Pristine White Faux Wood Blind is the perfect choice for both modern and traditional homes.\n\n\n\n The crisp white colour of this faux wood blind gives you a blank canvas to express your design style in the rest of the room, not forgetting it’s really practical too! The strong faux wood slats can go in any room of the house, so they’re a great choice if you’re looking to update your kitchen or bathroom."
+    }
   }
 
 

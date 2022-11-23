@@ -22,7 +22,8 @@
     "title":"Container accordion",
     "children":[
       "disclosure-layout#accordion1",
-      "disclosure-layout#accordion2"
+      "disclosure-layout#accordion2",
+      "disclosure-layout#accordion3"
     ],
     "props":{
       "blockClass":"container__desktop--accordion"

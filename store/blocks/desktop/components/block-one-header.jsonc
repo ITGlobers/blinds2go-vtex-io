@@ -58,7 +58,7 @@
 
   "flex-layout.row#block-one-2-two": {
     "title": "texts",
-    "props": {"verticalAlign": "middle", "blockClass": "block-one-2-two"},
+    "props": {"verticalAlign": "middle", "blockClass": ["block-one-2-two", "footer"]},
     "children": [
       "flex-layout.row#container-number",
       "rich-text#header-week"
@@ -85,14 +85,14 @@
     "title": "text 1",
     "props": {
       "text": "0800 862 0464",
-      "blockClass": "heaader-number"
+      "blockClass": ["heaader-number", "footer"]
     }
   },
   "rich-text#header-week": {
     "title": "text 2",
     "props": {
       "text": "9am - 5:30pm 7 days a week",
-      "blockClass": "heaader-week"
+      "blockClass": ["heaader-week", "footer"]
     }
   }
 }
