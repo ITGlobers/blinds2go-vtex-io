@@ -1,0 +1,361 @@
+{
+  "flex-layout.col#curtains-menu-mobile": {
+    "title": "container menu 2",
+    "children": [
+      "rich-text#title-menu-curtains",
+      "flex-layout.col#col-menu-curtains-mobile"
+    ],
+    "props": {
+      "blockClass": "col-menu-one-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "width": "100%"
+    }
+  },
+  "rich-text#title-menu-curtains": {
+    "title": "title",
+    "props": {
+      "text": "Collections",
+      "blockClass": "help-message"
+    }
+  },
+  "flex-layout.col#col-menu-curtains-mobile": {
+    "title": "container menu",
+    "children": [
+      "flex-layout.row#block-1-menu-mobile-curtains",
+      "flex-layout.row#block-2-menu-mobile-curtains",
+      "flex-layout.row#block-3-menu-mobile-curtains",
+      "flex-layout.row#block-4-menu-mobile-curtains",
+      "flex-layout.row#block-5-menu-mobile-curtains",
+      "flex-layout.row#block-6-menu-mobile-curtains",
+      "flex-layout.row#block-7-menu-mobile-curtains",
+      "flex-layout.row#block-8-menu-mobile-curtains"
+    ],
+    "props": {
+      "blockClass": "col-menu-curtains-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "width": "100%"
+    }
+  },
+  /* -------- */
+  "flex-layout.row#block-1-menu-mobile-curtains": {
+    "title": "block 1",
+    "props": {"rowGap": 5,"blockClass": "submenu-header"},
+    "children": ["image#submenu-one-mobile", "flex-layout.row#submenu-one-mobile"]
+  },
+  "image#submenu-one-mobile": {
+    "title": "imagen",
+    "props": {
+      "src": "assets/home/eye.svg",
+      "link": {"url": "/"},
+      "alt": "Imagen de una marca",
+      "title": "Imagen de una marca",
+      "maxHeight": 38
+    }
+  },
+  "flex-layout.row#submenu-one-mobile": {
+    "children":[
+      "link#link-1-0-submenu-mobile",
+      "link#link-1-1-submenu-mobile"
+    ],
+    "props":{
+      "blockClass": "header_menu-content-block-one",
+      "preventHorizontalStretch": true
+    }
+  },
+  "link#link-1-0-submenu-mobile": {
+    "props": {
+      "href": "/",
+      "label": "View All",
+      "blockClass": "submenu-curtains"
+    }
+  },
+  "link#link-1-1-submenu-mobile": {
+    "props": {
+      "href": "/",
+      "label": ""
+    }
+  },
+  /* -------- */
+  "flex-layout.row#block-2-menu-mobile-curtains": {
+    "title": "block 2",
+    "props": {"rowGap": 5,"blockClass": "submenu-header"},
+    "children": ["image#submenu-one-2-mobile", "flex-layout.row#submenu-one-2-mobile"]
+  },
+  "image#submenu-one-2-mobile": {
+    "title": "imagen",
+    "props": {
+      "src": "assets/home/menu021.png",
+      "link": {"url": "/"},
+      "alt": "Imagen de una marca",
+      "title": "Imagen de una marca",
+      "maxHeight": 38
+    }
+  },
+  "flex-layout.row#submenu-one-2-mobile": {
+    "children":[
+      "link#link-1-0-submenu-2-mobile",
+      "link#link-1-1-submenu-2-mobile"
+    ],
+    "props":{
+      "blockClass": "header_menu-content-block-one",
+      "preventHorizontalStretch": true
+    }
+  },
+  "link#link-1-0-submenu-2-mobile": {
+    "props": {
+      "href": "/",
+      "label": "White, Silver & Grey",
+      "blockClass": "submenu-curtains"
+    }
+  },
+  "link#link-1-1-submenu-2-mobile": {
+    "props": {
+      "href": "/",
+      "label": "Pewter, dove grey, snow, platinum slate",
+      "blockClass": "submenu-curtains-1"
+    }
+  },
+
+  /* ------- */
+  "flex-layout.row#block-3-menu-mobile-curtains": {
+    "title": "block 3",
+    "props": {"rowGap": 5,"blockClass": "submenu-header"},
+    "children": ["image#submenu-one-3-mobile", "flex-layout.row#submenu-one-3-mobile"]
+  },
+  "image#submenu-one-3-mobile": {
+    "title": "imagen",
+    "props": {
+      "src": "assets/home/menu031.png",
+      "link": {"url": "/"},
+      "alt": "Imagen de una marca",
+      "title": "Imagen de una marca",
+      "maxHeight": 38
+    }
+  },
+  "flex-layout.row#submenu-one-3-mobile": {
+    "children":[
+      "link#link-1-0-submenu-3-mobile",
+      "link#link-1-1-submenu-3-mobile"
+    ],
+    "props":{
+      "blockClass": "header_menu-content-block-one",
+      "preventHorizontalStretch": true
+    }
+  },
+  "link#link-1-0-submenu-3-mobile": {
+    "props": {
+      "href": "/",
+      "label": "Neutral & Neutral",
+      "blockClass": "submenu-curtains"
+    }
+  },
+  "link#link-1-1-submenu-3-mobile": {
+    "props": {
+      "href": "/",
+      "label": "Cream, beige, taupe, ivory, champagne",
+      "blockClass": "submenu-curtains-1"
+    }
+  },
+  /* ------- */
+  "flex-layout.row#block-4-menu-mobile-curtains": {
+    "title": "block 4",
+    "props": {"rowGap": 5,"blockClass": "submenu-header"},
+    "children": ["image#submenu-one-4-mobile", "flex-layout.row#submenu-one-4-mobile"]
+  },
+  "image#submenu-one-4-mobile": {
+    "title": "imagen",
+    "props": {
+      "src": "assets/home/menu041.png",
+      "link": {"url": "/"},
+      "alt": "Imagen de una marca",
+      "title": "Imagen de una marca",
+      "maxHeight": 38
+    }
+  },
+  "flex-layout.row#submenu-one-4-mobile": {
+    "children":[
+      "link#link-1-0-submenu-4-mobile",
+      "link#link-1-1-submenu-4-mobile"
+    ],
+    "props":{
+      "blockClass": "header_menu-content-block-one",
+      "preventHorizontalStretch": true
+    }
+  },
+  "link#link-1-0-submenu-4-mobile": {
+    "props": {
+      "href": "/",
+      "label": "Blue, Green & Teal",
+      "blockClass": "submenu-curtains"
+    }
+  },
+  "link#link-1-1-submenu-4-mobile": {
+    "props": {
+      "href": "/",
+      "label": "Duck egg, navy, lime green, olive",
+      "blockClass": "submenu-curtains-1"
+    }
+  },
+  /* -------- */
+  "flex-layout.row#block-5-menu-mobile-curtains": {
+    "title": "block 5",
+    "props": {"rowGap": 5,"blockClass": "submenu-header" },
+    "children": ["image#submenu-two-mobile", "flex-layout.row#submenu-two-mobile"]
+  },
+  "image#submenu-two-mobile": {
+    "title": "imagen",
+    "props": {
+      "src": "assets/home/menu1.png",
+      "link": {"url": "/"},
+      "alt": "Imagen de una marca",
+      "title": "Imagen de una marca",
+      "maxHeight": 38
+    }
+  },
+  "flex-layout.row#submenu-two-mobile": {
+    "children":[
+      "link#link-2-0-submenu-mobile",
+      "link#link-2-1-submenu-mobile"
+    ],
+    "props":{
+      "blockClass": "header_menu-content-block-one",
+      "preventHorizontalStretch": true
+    }
+  },
+  "link#link-2-0-submenu-mobile": {
+    "props": {
+      "href": "/",
+      "label": "Pink, Purple & Violet",
+      "blockClass": "submenu-curtains"
+    }
+  },
+  "link#link-2-1-submenu-mobile": {
+    "props": {
+      "href": "/",
+      "label": "Blush, mauve, rose, heather, fuchisia",
+      "blockClass": "submenu-curtains-1"
+    }
+  },
+  /* -------- */
+  "flex-layout.row#block-6-menu-mobile-curtains": {
+    "title": "block 6",
+    "props": {"rowGap": 5,"blockClass": "submenu-header" },
+    "children": ["image#submenu-two-2-mobile", "flex-layout.row#submenu-two-2-mobile"]
+  },
+  "image#submenu-two-2-mobile": {
+    "title": "imagen",
+    "props": {
+      "src": "assets/home/menu022.png",
+      "link": {"url": "/"},
+      "alt": "Imagen de una marca",
+      "title": "Imagen de una marca",
+      "maxHeight": 38
+    }
+  },
+  "flex-layout.row#submenu-two-2-mobile": {
+    "children":[
+      "link#link-2-0-submenu-2-mobile",
+      "link#link-2-1-submenu-2-mobile"
+    ],
+    "props":{
+      "blockClass": "header_menu-content-block-one",
+      "preventHorizontalStretch": true
+    }
+  },
+  "link#link-2-0-submenu-2-mobile": {
+    "props": {
+      "href": "/",
+      "label": "Red & Orange",
+      "blockClass": "submenu-curtains"
+    }
+  },
+  "link#link-2-1-submenu-2-mobile": {
+    "props": {
+      "href": "/",
+      "label": "Terracota, burnt orange, burgundy, coral",
+      "blockClass": "submenu-curtains-1"
+    }
+  },
+  /* -------- */
+  "flex-layout.row#block-7-menu-mobile-curtains": {
+    "title": "block 7",
+    "props": {"rowGap": 5,"blockClass": "submenu-header" },
+    "children": ["image#submenu-two-3-mobile", "flex-layout.row#submenu-two-3-mobile"]
+  },
+  "image#submenu-two-3-mobile": {
+    "title": "imagen",
+    "props": {
+      "src": "assets/home/menu032.png",
+      "link": {"url": "/"},
+      "alt": "Imagen de una marca",
+      "title": "Imagen de una marca",
+      "maxHeight": 38
+    }
+  },
+  "flex-layout.row#submenu-two-3-mobile": {
+    "children":[
+      "link#link-2-0-submenu-3-mobile",
+      "link#link-2-1-submenu-3-mobile"
+    ],
+    "props":{
+      "blockClass": "header_menu-content-block-one",
+      "preventHorizontalStretch": true
+    }
+  },
+  "link#link-2-0-submenu-3-mobile": {
+    "props": {
+      "href": "/",
+      "label": "Yellow & Gold",
+      "blockClass": "submenu-curtains"
+    }
+  },
+  "link#link-2-1-submenu-3-mobile": {
+    "props": {
+      "href": "/",
+      "label": "Lemon, mustard, ochre, antique gold",
+      "blockClass": "submenu-curtains-1"
+    }
+  },
+  /* -------- */
+  "flex-layout.row#block-8-menu-mobile-curtains": {
+    "title": "block 8",
+    "props": {"rowGap": 5,"blockClass": "submenu-header" },
+    "children": ["image#submenu-two-4-mobile", "flex-layout.row#submenu-two-4-mobile"]
+  },
+  "image#submenu-two-4-mobile": {
+    "title": "imagen",
+    "props": {
+      "src": "assets/home/menu042.png",
+      "link": {"url": "/"},
+      "alt": "Imagen de una marca",
+      "title": "Imagen de una marca",
+      "maxHeight": 38
+    }
+  },
+  "flex-layout.row#submenu-two-4-mobile": {
+    "children":[
+      "link#link-2-0-submenu-4-mobile",
+      "link#link-2-1-submenu-4-mobile"
+    ],
+    "props":{
+      "blockClass": "header_menu-content-block-one",
+      "preventHorizontalStretch": true
+    }
+  },
+  "link#link-2-0-submenu-4-mobile": {
+    "props": {
+      "href": "/",
+      "label": "Black & Dark Grey",
+      "blockClass": "submenu-curtains"
+    }
+  },
+  "link#link-2-1-submenu-4-mobile": {
+    "props": {
+      "href": "/",
+      "label": "Charcoal, slate, midnight, jet, obsidian",
+      "blockClass": "submenu-curtains-1"
+    }
+  }
+}

@@ -14,7 +14,7 @@
   },
 
   "drawer#one": {
-    "children": [],
+    "children": ["flex-layout.row#menu-mobile"],
     "blocks": ["drawer-trigger#one"],
     "props":{"blockClass": "drawer-mobile"}
   },
@@ -48,7 +48,7 @@
 
 /* ---------------- */
   "drawer#two": {
-    "children": [],
+    "children": ["flex-layout.col#curtains-menu-mobile"],
     "blocks": ["drawer-trigger#two"],
     "props":{"blockClass": "drawer-mobile"}
   },
@@ -80,7 +80,7 @@
   },
 /* ---------------- */
   "drawer#three": {
-    "children": [],
+    "children": ["flex-layout.col#curtains-menu-mobile"],
     "blocks": ["drawer-trigger#three"],
     "props":{"blockClass": "drawer-mobile"}
   },

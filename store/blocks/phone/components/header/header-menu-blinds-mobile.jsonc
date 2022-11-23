@@ -1,0 +1,670 @@
+{
+  "flex-layout.row#menu-mobile": {
+    "title": "container menu",
+    "children": [
+      "flex-layout.col#col-menu-one-mobile",
+      "flex-layout.col#col-menu-two-mobile"
+    ],
+    "props": {
+      "blockClass": "menu-mobile",
+      "preventHorizontalStretch": false,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#col-menu-one-mobile": {
+    "title": "container menu 1",
+    "children": [
+      "rich-text#title-menu",
+      "menu#menu-mobile-col-one"
+    ],
+    "props": {
+      "blockClass": "col-menu-one-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "width": "100%"
+    }
+  },
+  "rich-text#title-menu": {
+    "title": "title",
+    "props": {
+      "text": "Collections",
+      "blockClass": "help-message"
+    }
+  },
+  "menu#menu-mobile-col-one": {
+    "title": "menu",
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "submenu",
+      "items": [
+        {
+          "id": "menu-item-content-1-1",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Woooden Blinds",
+            "text": "Woooden Blinds"
+          },
+          "iconPosition": "left",
+          "iconProps": {
+            "id": "wooden-blinds",
+            "size": 22,
+            "viewBox": "0 0 16 16"
+          }
+        },
+        {
+          "id": "menu-item-content-1-2",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Roller Blinds",
+            "text": "Roller Blinds"
+          },
+          "iconPosition": "left",
+          "iconProps": {
+            "id": "vertical-blinds",
+            "size": 22,
+            "viewBox": "0 0 16 16"
+          }
+        },
+        {
+          "id": "menu-item-content-1-3",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Roman Blinds",
+            "text": "Roman Blinds"
+          },
+          "iconPosition": "left",
+          "iconProps": {
+            "id": "vertical-blinds",
+            "size": 22,
+            "viewBox": "0 0 16 16"
+          }
+        },
+        {
+          "id": "menu-item-content-1-4",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Vertical Blinds",
+            "text": "Vertical Blinds"
+          },
+          "iconProps": {
+            "id": "wooden-blinds",
+            "size": 22,
+            "viewBox": "0 0 16 16"
+          }
+        },
+        {
+          "id": "menu-item-content-1-5",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Venetian Blinds",
+            "text": "Venetian Blinds"
+          },
+          "iconPosition": "left",
+          "iconProps": {
+            "id": "vertical-blinds",
+            "size": 22,
+            "viewBox": "0 0 16 16"
+          }
+        },
+        {
+          "id": "menu-item-content-1-6",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "PerfectFIT Blinds",
+            "text": "PerfectFIT Blinds"
+          },
+          "iconProps": {
+            "id": "wooden-blinds",
+            "size": 22,
+            "viewBox": "0 0 16 16"
+          }
+        },
+        {
+          "id": "menu-item-content-1-7",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Shutter Blinds",
+            "text": "Shutter Blinds"
+          },
+          "iconProps": {
+            "id": "vertical-blinds",
+            "size": 22,
+            "viewBox": "0 0 16 16"
+          }
+        },
+        {
+          "id": "menu-item-content-1-8",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Day & Night Blinds",
+            "text": "Day & Night Blinds"
+          },
+          "iconProps": {
+            "id": "vertical-blinds",
+            "size": 22,
+            "viewBox": "0 0 16 16"
+          }
+        },
+        {
+          "id": "menu-item-content-1-9",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Conservatory Blinds",
+            "text": "Conservatory Blinds"
+          },
+          "iconProps": {
+            "id": "vertical-blinds",
+            "size": 22,
+            "viewBox": "0 0 16 16"
+          }
+        },
+        {
+          "id": "menu-item-content-1-10",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Blackout Blinds",
+            "text": "Blackout Blinds"
+          },
+          "iconProps": {
+            "id": "vertical-blinds",
+            "size": 22,
+            "viewBox": "0 0 16 16"
+          }
+        },
+        {
+          "id": "menu-item-content-1-11",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "BiFold Blinds",
+            "text": "BiFold Blinds"
+          },
+          "iconProps": {
+            "id": "vertical-blinds",
+            "size": 22,
+            "viewBox": "0 0 16 16"
+          }
+        },
+        {
+          "id": "menu-item-content-1-12",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Pleated Blinds",
+            "text": "Pleated Blinds"
+          },
+          "iconProps": {
+            "id": "vertical-blinds",
+            "size": 22,
+            "viewBox": "0 0 16 16"
+          }
+        },
+        {
+          "id": "menu-item-content-1-13",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "B2G Blinds for VELUX",
+            "text": "B2G Blinds for VELUX"
+          },
+          "iconProps": {
+            "id": "vertical-blinds",
+            "size": 22,
+            "viewBox": "0 0 16 16"
+          }
+        },
+        {
+          "id": "menu-item-content-1-14",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Energy Saving Blinds",
+            "text": "Energy Saving Blinds"
+          },
+          "iconProps": {
+            "id": "vertical-blinds",
+            "size": 22,
+            "viewBox": "0 0 16 16"
+          }
+        },
+        {
+          "id": "menu-item-content-1-15",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Electric Blinds",
+            "text": "Electric Blinds"
+          },
+          "iconProps": {
+            "id": "vertical-blinds",
+            "size": 22,
+            "viewBox": "0 0 16 16"
+          }
+        },
+        {
+          "id": "menu-item-content-1-16",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Children's Blinds",
+            "text": "Children's Blinds"
+          },
+          "iconProps": {
+            "id": "vertical-blinds",
+            "size": 22,
+            "viewBox": "0 0 16 16"
+          }
+        },
+        {
+          "id": "menu-item-content-1-17",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Privacy Sheers",
+            "text": "Privacy Sheers"
+          },
+          "iconProps": {
+            "id": "vertical-blinds",
+            "size": 22,
+            "viewBox": "0 0 16 16"
+          }
+        },
+        {
+          "id": "menu-item-content-1-18",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Commercial Blinds",
+            "text": "Commercial Blinds"
+          },
+          "iconProps": {
+            "id": "vertical-blinds",
+            "size": 22,
+            "viewBox": "0 0 16 16"
+          }
+        }
+      ]
+    }
+  },
+  /* ------------------------ */
+  "flex-layout.col#col-menu-two-mobile": {
+    "title": "container menu 2",
+    "children": [
+      "rich-text#title-menu-two",
+      "menu#menu-mobile-col-two"
+    ],
+    "props": {
+      "blockClass": "col-menu-two-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "width": "100%"
+    }
+  },
+  "rich-text#title-menu-two": {
+    "title": "title",
+    "props": {
+      "text": "Colours",
+      "blockClass": "help-message"
+    }
+  },
+  "menu#menu-mobile-col-two": {
+    "title": "menu",
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "submenu",
+      "items": [
+        {
+          "id": "menu-item-content-1-1",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "White",
+            "text": "White"
+          },
+          "iconPosition": "left",
+          "iconProps": {
+            "id": "wooden-blinds",
+            "size": 22,
+            "viewBox": "0 0 16 16"
+          }
+        },
+        {
+          "id": "menu-item-content-1-2",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Beige / Naturals",
+            "text": "Beige / Naturals"
+          },
+          "iconPosition": "left",
+          "iconProps": {
+            "id": "vertical-blinds",
+            "size": 22,
+            "viewBox": "0 0 16 16"
+          }
+        },
+        {
+          "id": "menu-item-content-1-3",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Brown",
+            "text": "Brown"
+          },
+          "iconPosition": "left",
+          "iconProps": {
+            "id": "vertical-blinds",
+            "size": 22,
+            "viewBox": "0 0 16 16"
+          }
+        },
+        {
+          "id": "menu-item-content-1-4",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Grey / Silver",
+            "text": "Grey / Silver"
+          },
+          "iconProps": {
+            "id": "wooden-blinds",
+            "size": 22,
+            "viewBox": "0 0 16 16"
+          }
+        },
+        {
+          "id": "menu-item-content-1-5",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Blue",
+            "text": "Blue"
+          },
+          "iconPosition": "left",
+          "iconProps": {
+            "id": "vertical-blinds",
+            "size": 22,
+            "viewBox": "0 0 16 16"
+          }
+        },
+        {
+          "id": "menu-item-content-1-6",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Red",
+            "text": "Red"
+          },
+          "iconProps": {
+            "id": "wooden-blinds",
+            "size": 22,
+            "viewBox": "0 0 16 16"
+          }
+        },
+        {
+          "id": "menu-item-content-1-7",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Purple",
+            "text": "Purple"
+          },
+          "iconProps": {
+            "id": "vertical-blinds",
+            "size": 22,
+            "viewBox": "0 0 16 16"
+          }
+        },
+        {
+          "id": "menu-item-content-1-8",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Black",
+            "text": "Black"
+          },
+          "iconProps": {
+            "id": "vertical-blinds",
+            "size": 22,
+            "viewBox": "0 0 16 16"
+          }
+        },
+        {
+          "id": "menu-item-content-1-9",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Green",
+            "text": "Green"
+          },
+          "iconProps": {
+            "id": "vertical-blinds",
+            "size": 22,
+            "viewBox": "0 0 16 16"
+          }
+        },
+        {
+          "id": "menu-item-content-1-10",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Pink",
+            "text": "Pink"
+          },
+          "iconProps": {
+            "id": "vertical-blinds",
+            "size": 22,
+            "viewBox": "0 0 16 16"
+          }
+        },
+        {
+          "id": "menu-item-content-1-11",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Yellow / Gold",
+            "text": "Yellow / Gold"
+          },
+          "iconProps": {
+            "id": "vertical-blinds",
+            "size": 22,
+            "viewBox": "0 0 16 16"
+          }
+        },
+        {
+          "id": "menu-item-content-1-12",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Orange",
+            "text": "Orange"
+          },
+          "iconProps": {
+            "id": "vertical-blinds",
+            "size": 22,
+            "viewBox": "0 0 16 16"
+          }
+        },
+        {
+          "id": "menu-item-content-1-13",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Light wood",
+            "text": "Light wood"
+          },
+          "iconProps": {
+            "id": "vertical-blinds",
+            "size": 22,
+            "viewBox": "0 0 16 16"
+          }
+        },
+        {
+          "id": "menu-item-content-1-14",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Medium wood",
+            "text": "Medium wood"
+          },
+          "iconProps": {
+            "id": "vertical-blinds",
+            "size": 22,
+            "viewBox": "0 0 16 16"
+          }
+        },
+        {
+          "id": "menu-item-content-1-15",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Dark wood",
+            "text": "Dark wood"
+          },
+          "iconProps": {
+            "id": "vertical-blinds",
+            "size": 22,
+            "viewBox": "0 0 16 16"
+          }
+        }
+      ]
+    }
+  }
+}
