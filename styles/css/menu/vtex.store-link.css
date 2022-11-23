@@ -1,0 +1,17 @@
+.label--submenu-curtains {
+  font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+    color: #000;
+    font-size:15px;
+}
+
+.link--submenu-curtains,
+.link--submenu-curtains-1 {
+  text-decoration: none;
+}
+
+.label--submenu-curtains-1 {
+  font-size: 11px;
+  font-family: "Nunito Sans", sans-serif;
+  color:#909DA3;
+}

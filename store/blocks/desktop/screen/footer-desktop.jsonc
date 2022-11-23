@@ -1,0 +1,22 @@
+{
+  "footer-layout.desktop": {
+    "title": "footer desktop",
+    "children": [
+      "flex-layout.row#global__footer-desktop"
+    ]
+  },
+  "flex-layout.row#global__footer-desktop": {
+    "title": "container",
+    "children": [
+      "flex-layout.col#footer-desktop-one",
+      "flex-layout.col#footer-desktop-two",
+      "flex-layout.col#footer-desktop-three",
+      "flex-layout.col#footer-desktop-four"
+    ],
+    "props": {
+      "blockClass": "global__footer-desktop",
+      "fullWidth": true,
+      "preventHorizontalStretch": true
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "flex-layout.col#footer-desktop-one": {
+    "title": "block 1",
+    "children": ["rich-text#footer-title"],
+    "props": {"blockClass": "footer__desktop-one"}
+  },
+  "rich-text#footer-title": {
+    "title": "title",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Don't take our word for it, <br/> we've got over 190,000 great reviews",
+      "blockClass": "footer-title"
+    }
+  }
+}

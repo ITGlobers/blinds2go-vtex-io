@@ -81,7 +81,7 @@
   "vtex.menu@2.x:menu#Measuring": {
     "props": {
       "orientation": "vertical",
-      "blockClass": "submenu-select",
+      "blockClass": "submenu-select-1",
       "items": [
         {
           "id": "menu-item-Blind",
@@ -156,7 +156,7 @@
   "vtex.menu@2.x:menu#help": {
     "props": {
       "orientation": "vertical",
-      "blockClass": "submenu-select",
+      "blockClass": "submenu-select-1",
       "items": [
         {
           "id": "menu-item-FAQ",
