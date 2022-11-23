@@ -94,15 +94,58 @@
   bottom: 3px;
 }
 
-/* .styledLinkIcon--select-help::after {
-  content: "";
-  font-size: 12px;
- } */
+@media screen and (min-width: 426px) and (max-width: 1024px) {
+
+  .styledLinkContainer--submenu-select-1 {
+    padding-top:20px;
+    padding-bottom: 20px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .styledLinkContent--submenu-select-1 {
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 425px) {
+
+  .styledLinkContainer--submenu-select-1 {
+    padding-top:15px;
+    padding-bottom: 15px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .styledLinkContent--submenu-select-1 {
+    font-size: 10px;
+  }
+}
 
 @media (max-width: 1024px) {
+
   .styledLinkContainer--mobile-menu {
     margin-left: 0.7rem;
     margin-right: 0.7rem;
+  }
+
+  .styledLinkIcon--select-help {
+    color: black;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .styledLinkIcon--select-help::after {
+    content: "HELP";
+    font-size: 9px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+    color: #000000;
+    margin-left: 10px;
+  }
+
+  .styledLinkContainer--select-help {
+    margin-right: 0.5rem;
   }
 }
 
@@ -110,4 +153,10 @@
   .styledLinkContent--mobile-menu {
     font-size: 14px;
   }
+}
+@media (max-width: 425px) {
+.styledLinkIcon--select-help {
+  width: 43px;
+  height: 43px;
+}
 }

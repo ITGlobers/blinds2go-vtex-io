@@ -118,6 +118,10 @@
 }
 
 @media (max-width: 1024px) {
+  .flexRowContent--col-one-block-two-header {
+    display: flex;
+    align-items: center;
+  }
   .flexCol--col__one-mobile {
     display: flex;
     flex-direction: row;

@@ -36,6 +36,7 @@
 
   "flex-layout.row#col-one-block-two-header": {
     "children": [
+      "menu-item#Help-mobile",
       "minicart.v2"
     ],
     "props": {
@@ -45,6 +46,29 @@
       "fullWidth": true
     }
   },
+
+  "menu-item#Help-mobile": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "select-help",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "",
+        "text": ""
+      },
+      "iconPosition": "left",
+      "iconProps": {
+        "id": "inf-help--outline",
+        "size": 42,
+        "viewBox": "0 0 16 16"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#help"]
+  },
+
 /* block 2 */
   "flex-layout.col#col-two-mobile": {
     "children": [
