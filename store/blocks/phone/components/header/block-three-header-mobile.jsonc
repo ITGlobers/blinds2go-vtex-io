@@ -1,0 +1,113 @@
+{
+  "flex-layout.col#col-three-mobile": {
+    "children": [
+      "drawer#one",
+      "drawer#two",
+      "drawer#three"
+    ],
+    "props": {
+      "blockClass": "col__three-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "width": "100%"
+    }
+  },
+
+  "drawer#one": {
+    "children": [],
+    "blocks": ["drawer-trigger#one"],
+    "props":{"blockClass": "drawer-mobile"}
+  },
+  "drawer-trigger#one": {
+    "children": ["menu-item#blinds-mobile"]
+  },
+  "menu-item#blinds-mobile": {
+    "props": {
+      "id": "menu-item-blinds",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass":["root", "mobile-menu"],
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Blinds",
+        "text": "Blinds"
+      },
+      "iconPosition": "left",
+      "iconProps": {
+        "id": "mpa-bars",
+        "size": 22,
+        "viewBox": "0 0 16 16",
+        "mutedClassName": "c-action-primary"
+      }
+    }
+  },
+
+
+/* ---------------- */
+  "drawer#two": {
+    "children": [],
+    "blocks": ["drawer-trigger#two"],
+    "props":{"blockClass": "drawer-mobile"}
+  },
+  "drawer-trigger#two": {
+    "children": ["menu-item#Curtains-mobile"]
+  },
+  "menu-item#Curtains-mobile": {
+    "props": {
+      "id": "menu-item-blinds",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass":["root", "mobile-menu"],
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Curtains",
+        "text": "Curtains"
+      },
+      "iconPosition": "left",
+      "iconProps": {
+        "id": "mpa-bars",
+        "size": 22,
+        "viewBox": "0 0 16 16",
+        "mutedClassName": "c-action-primary"
+      }
+    }
+  },
+/* ---------------- */
+  "drawer#three": {
+    "children": [],
+    "blocks": ["drawer-trigger#three"],
+    "props":{"blockClass": "drawer-mobile"}
+  },
+  "drawer-trigger#three": {
+    "children": ["menu-item#Cushions-mobile"]
+  },
+  "menu-item#Cushions-mobile": {
+    "props": {
+      "id": "menu-item-blinds",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass":["root", "mobile-menu"],
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Cushions",
+        "text": "Cushions"
+      },
+      "iconPosition": "left",
+      "iconProps": {
+        "id": "mpa-bars",
+        "size": 22,
+        "viewBox": "0 0 16 16",
+        "mutedClassName": "c-action-primary"
+      }
+    }
+  }
+}
