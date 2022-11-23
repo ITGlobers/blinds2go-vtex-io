@@ -9,3 +9,14 @@
   margin-left: 0;
 }
 
+@media (max-width: 425px) {
+  .styledLinkContent--menu-footer {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .styledLinkContent--menu-footer {
+    font-size: 0.7rem;
+  }
+}

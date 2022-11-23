@@ -1,19 +1,20 @@
 {
   "footer-layout.mobile": {
-    "children": [
-      "flex-layout.row#global__footer"
-    ]
+    "title": "footer mobile",
+    "children": ["flex-layout.row#global__footer-mobile"]
   },
-  "flex-layout.row#global__footer": {
+  "flex-layout.row#global__footer-mobile": {
+    "title": "container",
     "children": [
-      "rich-text#global__footer--text"
-    ]
-  },
-  "rich-text#global__footer--text": {
+      "flex-layout.col#footer-desktop-one",
+      "flex-layout.col#footer-mobile-two",
+      "flex-layout.col#footer-desktop-three",
+      "flex-layout.col#footer-desktop-four"
+    ],
     "props": {
-      "text": "© All rights reserved - IT Globers - 2021",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER"
+      "blockClass": "global__footer-desktop",
+      "fullWidth": true,
+      "preventHorizontalStretch": true
     }
   }
 }

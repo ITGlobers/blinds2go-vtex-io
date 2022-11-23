@@ -15,11 +15,7 @@
       "navigationStep": 4,
       "showNavigationArrows": "never",
       "blockClass": "footer-text",
-      "showPaginationDots": "always"/* ,
-      "autoplay": {
-        "timeout": 5000,
-        "stopOnHover": false
-      } */
+      "showPaginationDots": "always"
     },
     "children": [
       "flex-layout.row#group-text-footer-one",

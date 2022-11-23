@@ -75,3 +75,15 @@
   margin-top: 0.5rem;
   margin-bottom: 0;
 }
+
+@media (max-width: 1024px) {
+  .paragraph--footer-title {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 425px) {
+  .paragraph--footer__custo-two, .paragraph--footer__text-company {
+    text-align: center;
+  }
+}

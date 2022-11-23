@@ -1,0 +1,34 @@
+{
+  "flex-layout.col#footer-mobile-two": {
+    "title": "block 2",
+    "children": ["slider-layout#footer-text-mobile"],
+    "props": {"blockClass": "footer__desktop-two"}
+  },
+  "slider-layout#footer-text-mobile": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "navigationStep": 1,
+      "showNavigationArrows": "never",
+      "blockClass": "footer-text",
+      "showPaginationDots": "always"
+    },
+    "children": [
+      "flex-layout.row#group-text-footer-one",
+      "flex-layout.row#group-text-footer-two" ,
+      "flex-layout.row#group-text-footer-three",
+      "flex-layout.row#group-text-footer-four",
+      "flex-layout.row#group-text-footer-one",
+      "flex-layout.row#group-text-footer-two",
+      "flex-layout.row#group-text-footer-three",
+      "flex-layout.row#group-text-footer-four",
+      "flex-layout.row#group-text-footer-one",
+      "flex-layout.row#group-text-footer-two",
+      "flex-layout.row#group-text-footer-three"
+    ]
+  }
+}
