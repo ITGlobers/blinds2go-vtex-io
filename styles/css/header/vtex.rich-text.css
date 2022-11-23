@@ -36,3 +36,12 @@
   margin-top: 0;
   margin-bottom: 0;
 }
+
+.paragraph--menu-curtains{
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+    color: #000;
+    padding-left: 0.7rem;
+}

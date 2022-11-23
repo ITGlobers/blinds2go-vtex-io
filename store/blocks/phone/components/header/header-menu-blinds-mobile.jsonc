@@ -19,7 +19,7 @@
       "menu#menu-mobile-col-one"
     ],
     "props": {
-      "blockClass": "col-menu-one-mobile",
+      "blockClass": "col-menu-one-mobile-2",
       "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true,
       "width": "100%"
@@ -374,7 +374,7 @@
       "menu#menu-mobile-col-two"
     ],
     "props": {
-      "blockClass": "col-menu-two-mobile",
+      "blockClass": "col-menu-two-mobile-2",
       "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true,
       "width": "100%"

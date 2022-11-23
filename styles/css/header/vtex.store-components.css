@@ -11,6 +11,10 @@
   .logoContainer--logo {
     padding: 0;
   }
+
+  .imageElementLink--icon-menu-mobile {
+    width: 12px !important;
+  }
 }
 
 @media screen and (min-width: 426px) and (max-width: 1024px) {

@@ -16,7 +16,7 @@
   "drawer#one": {
     "children": ["flex-layout.row#menu-mobile"],
     "blocks": ["drawer-trigger#one"],
-    "props":{"blockClass": "drawer-mobile"}
+    "props":{"blockClass": "drawer-mobile-one"}
   },
   "drawer-trigger#one": {
     "children": ["menu-item#blinds-mobile"]

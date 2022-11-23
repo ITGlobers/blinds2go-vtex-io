@@ -16,7 +16,7 @@
     "title": "title",
     "props": {
       "text": "Collections",
-      "blockClass": "help-message"
+      "blockClass": "menu-curtains"
     }
   },
   "flex-layout.col#col-menu-curtains-mobile": {
@@ -56,25 +56,28 @@
   },
   "flex-layout.row#submenu-one-mobile": {
     "children":[
-      "link#link-1-0-submenu-mobile",
-      "link#link-1-1-submenu-mobile"
+      "flex-layout.col#group-link-icon-mobile-1",
+      "image#icon-menu-mobile"
     ],
     "props":{
-      "blockClass": "header_menu-content-block-one",
+      "blockClass": "header_menu-content-block-one"
+    }
+  },
+
+  "flex-layout.col#group-link-icon-mobile-1": {
+    "children":["link#link-1-0-submenu-mobile"
+],
+    "props":{
+      "blockClass": "group-link-icon-mobile",
       "preventHorizontalStretch": true
     }
   },
+
   "link#link-1-0-submenu-mobile": {
     "props": {
       "href": "/",
       "label": "View All",
       "blockClass": "submenu-curtains"
-    }
-  },
-  "link#link-1-1-submenu-mobile": {
-    "props": {
-      "href": "/",
-      "label": ""
     }
   },
   /* -------- */
@@ -95,11 +98,20 @@
   },
   "flex-layout.row#submenu-one-2-mobile": {
     "children":[
+      "flex-layout.col#group-link-icon-mobile-2",
+      "image#icon-menu-mobile"
+    ],
+    "props":{
+      "blockClass": "header_menu-content-block-one"
+    }
+  },
+  "flex-layout.col#group-link-icon-mobile-2": {
+    "children":[
       "link#link-1-0-submenu-2-mobile",
       "link#link-1-1-submenu-2-mobile"
     ],
     "props":{
-      "blockClass": "header_menu-content-block-one",
+      "blockClass": "group-link-icon-mobile",
       "preventHorizontalStretch": true
     }
   },
@@ -136,11 +148,20 @@
   },
   "flex-layout.row#submenu-one-3-mobile": {
     "children":[
+      "flex-layout.col#group-link-icon-mobile-3",
+      "image#icon-menu-mobile"
+    ],
+    "props":{
+      "blockClass": "header_menu-content-block-one"
+    }
+  },
+  "flex-layout.col#group-link-icon-mobile-3": {
+    "children":[
       "link#link-1-0-submenu-3-mobile",
       "link#link-1-1-submenu-3-mobile"
     ],
     "props":{
-      "blockClass": "header_menu-content-block-one",
+      "blockClass": "group-link-icon-mobile",
       "preventHorizontalStretch": true
     }
   },
@@ -176,11 +197,20 @@
   },
   "flex-layout.row#submenu-one-4-mobile": {
     "children":[
+      "flex-layout.col#group-link-icon-mobile-4",
+      "image#icon-menu-mobile"
+    ],
+    "props":{
+      "blockClass": "header_menu-content-block-one"
+    }
+  },
+  "flex-layout.col#group-link-icon-mobile-4": {
+    "children":[
       "link#link-1-0-submenu-4-mobile",
       "link#link-1-1-submenu-4-mobile"
     ],
     "props":{
-      "blockClass": "header_menu-content-block-one",
+      "blockClass": "group-link-icon-mobile",
       "preventHorizontalStretch": true
     }
   },
@@ -216,11 +246,32 @@
   },
   "flex-layout.row#submenu-two-mobile": {
     "children":[
+      "flex-layout.col#group-link-icon-mobile-5",
+      "image#icon-menu-mobile"
+    ],
+    "props":{
+      "blockClass": "header_menu-content-block-one"
+    }
+  },
+  "image#icon-menu-mobile": {
+    "title": "imagen",
+    "props": {
+      "src": "assets/home/menu-mobile.svg",
+      "link": {"url": "/"},
+      "alt": "Imagen de una marca",
+      "title": "Imagen de una marca",
+      "blockClass": "icon-menu-mobile",
+      "maxHeight": 38,
+      "maxWidht": 100
+    }
+  },
+  "flex-layout.col#group-link-icon-mobile-5": {
+    "children":[
       "link#link-2-0-submenu-mobile",
       "link#link-2-1-submenu-mobile"
     ],
     "props":{
-      "blockClass": "header_menu-content-block-one",
+      "blockClass": "group-link-icon-mobile",
       "preventHorizontalStretch": true
     }
   },
@@ -256,11 +307,20 @@
   },
   "flex-layout.row#submenu-two-2-mobile": {
     "children":[
+      "flex-layout.col#group-link-icon-mobile-6",
+      "image#icon-menu-mobile"
+    ],
+    "props":{
+      "blockClass": "header_menu-content-block-one"
+    }
+  },
+  "flex-layout.col#group-link-icon-mobile-6": {
+    "children":[
       "link#link-2-0-submenu-2-mobile",
       "link#link-2-1-submenu-2-mobile"
     ],
     "props":{
-      "blockClass": "header_menu-content-block-one",
+      "blockClass": "group-link-icon-mobile",
       "preventHorizontalStretch": true
     }
   },
@@ -296,11 +356,20 @@
   },
   "flex-layout.row#submenu-two-3-mobile": {
     "children":[
+      "flex-layout.col#group-link-icon-mobile-7",
+      "image#icon-menu-mobile"
+    ],
+    "props":{
+      "blockClass": "header_menu-content-block-one"
+    }
+  },
+  "flex-layout.col#group-link-icon-mobile-7": {
+    "children":[
       "link#link-2-0-submenu-3-mobile",
       "link#link-2-1-submenu-3-mobile"
     ],
     "props":{
-      "blockClass": "header_menu-content-block-one",
+      "blockClass": "group-link-icon-mobile",
       "preventHorizontalStretch": true
     }
   },
@@ -336,11 +405,20 @@
   },
   "flex-layout.row#submenu-two-4-mobile": {
     "children":[
+      "flex-layout.col#group-link-icon-mobile-8",
+      "image#icon-menu-mobile"
+    ],
+    "props":{
+      "blockClass": "header_menu-content-block-one"
+    }
+  },
+  "flex-layout.col#group-link-icon-mobile-8": {
+    "children":[
       "link#link-2-0-submenu-4-mobile",
       "link#link-2-1-submenu-4-mobile"
     ],
     "props":{
-      "blockClass": "header_menu-content-block-one",
+      "blockClass": "group-link-icon-mobile",
       "preventHorizontalStretch": true
     }
   },

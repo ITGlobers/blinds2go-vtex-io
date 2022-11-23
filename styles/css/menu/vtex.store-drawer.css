@@ -4,3 +4,27 @@
   padding-left: 0;
   padding-right: 0;
 }
+
+.closeIconButton--drawer-mobile::before {
+  content: "CLOSE X";
+  border: 1px solid black;
+  border-radius: 14px;
+  font-size: 12px;
+  padding: 4px 10px 4px 10px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+}
+
+.closeIcon--drawer-mobile {
+  display: none;
+}
+
+.closeIconContainer--drawer-mobile {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.drawerContent--drawer-mobile {
+  position: relative;
+}
