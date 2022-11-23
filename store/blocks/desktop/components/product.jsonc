@@ -1,0 +1,104 @@
+{
+  "disclosure-layout#accordion1": {
+    "title": "About Pristine",
+    "children": ["disclosure-trigger#simple", "disclosure-content#simple"],
+    "props": {
+      "blockClass": "container__accordion--main"
+    }
+  },
+  "disclosure-trigger#simple": {
+    "children": ["rich-text#question","disclosure-state-indicator"],
+    "props":{
+      "blockClass": "container__trigger--title"
+    }
+  },
+  "disclosure-content#simple": {
+    "children": ["flex-layout.row#container__accordion--Pharsal"],
+    "props":{
+      "blockClass": "container__information--main"
+    }
+  },
+
+  "flex-layout.row#container__accordion--Pharsal": {
+    "children": ["rich-text#answer", "image#waterproof"]
+  },
+
+  "rich-text#question": {
+    "props": {
+      "text": "About Pristine White Faux Wood Blind - 50mm Slat"
+    }
+  },
+
+  "image#waterproof": {
+    "props": {
+      "src": "https://blindstogouk.vtexassets.com/arquivos/100_waterproof.png",
+
+      "blockClass": "image__waterproof"
+    }
+  },
+  "rich-text#answer": {
+    "props": {
+      "text": "Highly versatile the Pristine White Faux Wood Blind is the perfect choice for both modern and traditional homes.\n\n\n\n The crisp white colour of this faux wood blind gives you a blank canvas to express your design style in the rest of the room, not forgetting it’s really practical too! The strong faux wood slats can go in any room of the house, so they’re a great choice if you’re looking to update your kitchen or bathroom."
+    }
+  },
+  "disclosure-state-indicator": {
+    "props": {
+      "Show": "icon#angle-down",
+      "Hide": "icon#angle-up"
+    }
+  },
+  "icon#angle-down": {
+    "props": {
+      "id": "icon-angle--down"
+    }
+  },
+  "icon#angle-up": {
+    "props": {
+      "id": "icon-angle--up"
+    }
+  },
+  "disclosure-layout#accordion2": {
+    "title": "About Pristine",
+    "children": ["disclosure-trigger#simple1", "disclosure-content#simple1"],
+    "props": {
+      "blockClass": "container__accordion--main"
+    }
+  },
+  "disclosure-trigger#simple1": {
+    "children": ["rich-text#question","disclosure-state-indicator"],
+    "props":{
+      "blockClass": "container__trigger--title"
+    }
+  },
+  "disclosure-content#simple1": {
+    "children": ["flex-layout.row#container__accordion--Pharsal1"],
+    "props":{
+      "blockClass": "container__information--main"
+    }
+  },
+
+  "flex-layout.row#container__accordion--Pharsal1": {
+    "children": ["rich-text#answer", "image#waterproof"]
+  },
+
+  "rich-text#question1": {
+    "props": {
+      "text": "About Pristine White Faux Wood Blind - 50mm Slat"
+    }
+  },
+
+  "image#waterproof1": {
+    "props": {
+      "src": "https://blindstogouk.vtexassets.com/arquivos/100_waterproof.png",
+
+      "blockClass": "image__waterproof"
+    }
+  },
+  "rich-text#answer1": {
+    "props": {
+      "text": "Highly versatile the Pristine White Faux Wood Blind is the perfect choice for both modern and traditional homes.\n\n\n\n The crisp white colour of this faux wood blind gives you a blank canvas to express your design style in the rest of the room, not forgetting it’s really practical too! The strong faux wood slats can go in any room of the house, so they’re a great choice if you’re looking to update your kitchen or bathroom."
+    }
+  }
+
+
+}

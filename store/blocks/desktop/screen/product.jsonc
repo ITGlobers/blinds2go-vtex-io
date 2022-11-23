@@ -1,0 +1,37 @@
+{
+  "store.product": {
+    "title": "Store Product",
+    "children": ["flex-layout.row#global__product--container"],
+    "props": {
+      "blockClass": "global__container--product"
+    }
+  },
+  "flex-layout.row#global__product--container": {
+    "title": "Product Container",
+    "children": ["flex-layout.col#global__product--container"],
+    "props": {
+      "blockClass": "global__container--productCol"
+    }
+  },
+  "flex-layout.col#global__product--container": {
+    "title": "Sections Products",
+    "children": ["breadcrumb","Threekit", "flex-layout.row#desktop__accordion--container"]
+  },
+
+  "flex-layout.row#desktop__accordion--container":{
+    "title":"Container accordion",
+    "children":[
+      "disclosure-layout#accordion1",
+      "disclosure-layout#accordion2"
+    ],
+    "props":{
+      "blockClass":"container__desktop--accordion"
+    }
+  },
+
+    "breadcrumb": {
+      "props": {
+        "showOnMobile": true
+      }
+    }
+}
