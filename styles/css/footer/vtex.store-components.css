@@ -6,3 +6,41 @@
 .imageElement--review-footer {
   margin-left: 90px;
 }
+
+.imageElement--contact-footer {
+  width: 24px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+@media (max-width: 320px) {
+  .imageElement--review-footer {
+    margin-left: 75px;
+  }
+
+}
+
+@media (max-width: 320px) {
+  .imageElement--review-footer {
+    margin-left: 75px;
+  }
+
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .imageElement--review-footer {
+    margin-left: 70px;
+  }
+}
+
+@media (max-width: 425px) {
+  .imageElement--payments-footer {
+    width: 220px;
+    margin-top: 7px;
+  }
+
+  .imageElement--logo-footer {
+    max-height: 80px !important;
+    margin-top: 0;
+  }
+}
