@@ -1,0 +1,67 @@
+{
+  "flex-layout.col#footer-desktop-three": {
+    "title": "block 3",
+    "children": ["flex-layout.row#gruoup-col-one"],
+    "props": {"blockClass": "footer__desktop-three"}
+  },
+  "flex-layout.row#gruoup-col-one": {
+    "title": "container",
+    "children": [
+      "image#logo-footer-1",
+      "image#logo-footer-2",
+      "image#logo-footer-3",
+      "image#logo-footer-4",
+      "image#logo-footer-5",
+      "image#logo-footer-6"
+    ],
+    "props": {"blockClass": "gruoup__col-one"}
+  },
+  "image#logo-footer-1": {
+    "title": "logo 1",
+    "props": {
+      "src": "/arquivos/logofooter1.svg",
+      "blockClass": "logo-footer",
+      "maxHeight": 45
+    }
+  },
+  "image#logo-footer-2": {
+    "title": "logo 2",
+    "props": {
+      "src": "/arquivos/logofooter2.svg",
+      "blockClass": "logo-footer",
+      "maxHeight": 45
+    }
+  },
+  "image#logo-footer-3": {
+    "title": "logo 3",
+    "props": {
+      "src": "/arquivos/logofooter3.svg",
+      "blockClass": "logo-footer",
+      "maxHeight": 45
+    }
+  },
+  "image#logo-footer-4": {
+    "title": "logo 4",
+    "props": {
+      "src": "/arquivos/logofooter4.svg",
+      "blockClass": "logo-footer",
+      "maxHeight": 45
+    }
+  },
+  "image#logo-footer-5": {
+    "title": "logo 5",
+    "props": {
+      "src": "/arquivos/logofooter5.svg",
+      "blockClass": "logo-footer",
+      "maxHeight": 45
+    }
+  },
+  "image#logo-footer-6": {
+    "title": "logo 6",
+    "props": {
+      "src": "/arquivos/logofooter6.svg",
+      "blockClass": "logo-footer",
+      "maxHeight": 45
+    }
+  }
+}

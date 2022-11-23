@@ -1,0 +1,8 @@
+.autoCompleteOuterContainer :global(.vtex-input-prefix__group) {
+  height: 30px;
+}
+
+.searchBarContainer {
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+}

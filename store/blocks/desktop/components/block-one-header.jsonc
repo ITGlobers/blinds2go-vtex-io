@@ -1,0 +1,98 @@
+{
+  "flex-layout.col#block-one-desktop": {
+    "title": "block 1",
+    "props": {"blockClass": "block-one-desktop"},
+    "children": [
+      "flex-layout.row#block-one-1",
+      "flex-layout.row#block-one-2"
+    ]
+  },
+  "flex-layout.row#block-one-1": {
+    "title": "container 1",
+    "props": {"blockClass": "block-one-1"},
+    "children": ["logo#blinds"]
+  },
+  "logo#blinds": {
+    "title": "logo",
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "/arquivos/logoblinds.svg",
+      "width": 400,
+      "blockClass": "logo"
+    }
+  },
+
+  "flex-layout.row#block-one-2": {
+    "title": "container 2",
+    "props": {"blockClass": "block-one-2"},
+    "children": ["flex-layout.col#block-2-container"]
+  },
+
+  "flex-layout.col#block-2-container": {
+    "title": "content",
+    "props": {"verticalAlign": "middle", "blockClass": "block-2-container"},
+    "children": [
+      "flex-layout.row#block-one-2-one",
+      "flex-layout.row#block-one-2-two"
+    ]
+  },
+
+  "flex-layout.row#block-one-2-one": {
+    "title": "image - minicart",
+    "props": {"verticalAlign": "middle", "blockClass": "block-one-2-one"},
+    "children": [
+      "image#payments-header",
+      "minicart.v2"
+    ]
+  },
+  "image#payments-header": {
+    "title": "image payments",
+    "props": {
+      "src": "/arquivos/payments.svg",
+      "blockClass": "payments-header",
+      "maxHeight": 24,
+      "maxWidth": 200
+    }
+  },
+
+  "flex-layout.row#block-one-2-two": {
+    "title": "texts",
+    "props": {"verticalAlign": "middle", "blockClass": ["block-one-2-two", "footer"]},
+    "children": [
+      "flex-layout.row#container-number",
+      "rich-text#header-week"
+    ]
+  },
+
+  "flex-layout.row#container-number": {
+    "title": "texts",
+    "props": {"blockClass": "block-one-2-two-content"},
+    "children": [
+      "image#contact-header",
+      "rich-text#header-number"
+    ]
+  },
+  "image#contact-header": {
+    "title": "image payments",
+    "props": {
+      "src": "/arquivos/icon-mobil.svg",
+      "blockClass": "contact-header",
+      "maxHeight": 24
+    }
+  },
+  "rich-text#header-number": {
+    "title": "text 1",
+    "props": {
+      "text": "0800 862 0464",
+      "blockClass": ["heaader-number", "footer"]
+    }
+  },
+  "rich-text#header-week": {
+    "title": "text 2",
+    "props": {
+      "text": "9am - 5:30pm 7 days a week",
+      "blockClass": ["heaader-week", "footer"]
+    }
+  }
+}

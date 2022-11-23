@@ -1,0 +1,196 @@
+{
+  "flex-layout.col#block-two-desktop": {
+    "title": "block 2",
+    "props": {"blockClass": "block-two-desktop"},
+    "children": [
+      "flex-layout.row#block-two-1",
+      "flex-layout.row#block-two-2"
+    ]
+  },
+
+  "flex-layout.row#block-two-1": {
+    "title": "container menu",
+    "props": {"blockClass": "block-two-1"},
+    "children": ["menu#header-main-menu"]
+  },
+
+  "flex-layout.row#block-two-2": {
+    "title": "block 2",
+    "props": {"blockClass": "block-two-2"},
+    "children": [
+      "flex-layout.row#block-two-02",
+      "menu-item#measuring",
+      "menu-item#Help",
+      "search-bar"
+    ]
+  },
+  "flex-layout.row#block-two-02": {
+    "title": "container 1",
+    "props": {"blockClass": "block-two-02"},
+    "children": [
+      "image#order-header",
+      "link#order"
+    ]
+  },
+  "image#order-header": {
+    "title": "image",
+    "props": {
+      "src": "/assets/home/delivery-icon1.svg",
+      "blockClass": "order-header",
+      "maxHeight": 24
+    }
+  },
+  "link#order": {
+    "props": {
+      "href": "/",
+      "label": "Order Tracking",
+      "blockClass": "link-order"
+    }
+  },
+
+  /* menu measuring */
+  "menu-item#measuring": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "select",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Measuring",
+        "text": "Measuring"
+      },
+      "iconPosition": "left",
+      "iconProps": {
+        "id": "measuring",
+        "size": 18,
+        "viewBox": "0 0 16 16"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#measuring"]
+  },
+
+  "vtex.menu@2.x:submenu#measuring": {
+    "children": ["vtex.menu@2.x:menu#Measuring"],
+    "props": {"blockClass": "select"}
+  },
+
+  "vtex.menu@2.x:menu#Measuring": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "submenu-select-1",
+      "items": [
+        {
+          "id": "menu-item-Blind",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Measuring Blind",
+            "text": "Measuring Blind"
+          }
+        },
+        {
+          "id": "menu-item-Shutters",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Measuring Shutters",
+            "text": "Measuring Shutters"
+          }
+        },
+        {
+          "id": "menu-item-Curtains",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Measuring Curtains",
+            "text": "Measuring Curtains"
+          }
+        }
+      ]
+    }
+  },
+
+
+  /* menu help*/
+  "menu-item#Help": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "select-help",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Help",
+        "text": "Help"
+      },
+      "iconPosition": "left",
+      "iconProps": {
+        "id": "inf-help--outline",
+        "size": 16,
+        "viewBox": "0 0 16 16"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#help"]
+  },
+
+  "vtex.menu@2.x:submenu#help": {
+    "children": ["vtex.menu@2.x:menu#help"],
+    "props": {"blockClass": "select"}
+  },
+  "vtex.menu@2.x:menu#help": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "submenu-select-1",
+      "items": [
+        {
+          "id": "menu-item-FAQ",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "FAQ",
+            "text": "FAQ"
+          }
+        },
+        {
+          "id": "menu-item-COVID-19-Update",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "COVID-19-Update",
+            "text": "COVID-19 Update"
+          }
+        },
+        {
+          "id": "menu-item-Order",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Order Tracking",
+            "text": "Order Tracking"
+          }
+        }
+      ]
+    }
+  }
+}
