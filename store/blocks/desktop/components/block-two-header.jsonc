@@ -35,7 +35,7 @@
   "image#order-header": {
     "title": "image",
     "props": {
-      "src": "/assets/home/delivery-icon.svg",
+      "src": "/assets/home/delivery-icon1.svg",
       "blockClass": "order-header",
       "maxHeight": 24
     }
@@ -61,13 +61,11 @@
         "tagTitle": "Measuring",
         "text": "Measuring"
       },
-      "iconPosition": "right",
+      "iconPosition": "left",
       "iconProps": {
-        "id": "nav-caret--down",
-        "size": 16,
-        "viewBox": "0 0 16 16",
-        "activeClassName": "rebel-pink",
-        "mutedClassName": "c-action-primary"
+        "id": "measuring",
+        "size": 18,
+        "viewBox": "0 0 16 16"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu#measuring"]
@@ -81,7 +79,7 @@
   "vtex.menu@2.x:menu#Measuring": {
     "props": {
       "orientation": "vertical",
-      "blockClass": "submenu-select",
+      "blockClass": "submenu-select-1",
       "items": [
         {
           "id": "menu-item-Blind",
@@ -137,13 +135,11 @@
         "tagTitle": "Help",
         "text": "Help"
       },
-      "iconPosition": "right",
+      "iconPosition": "left",
       "iconProps": {
-        "id": "nav-caret--down",
+        "id": "inf-help--outline",
         "size": 16,
-        "viewBox": "0 0 16 16",
-        "activeClassName": "rebel-pink",
-        "mutedClassName": "c-action-primary"
+        "viewBox": "0 0 16 16"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu#help"]
@@ -156,7 +152,7 @@
   "vtex.menu@2.x:menu#help": {
     "props": {
       "orientation": "vertical",
-      "blockClass": "submenu-select",
+      "blockClass": "submenu-select-1",
       "items": [
         {
           "id": "menu-item-FAQ",
