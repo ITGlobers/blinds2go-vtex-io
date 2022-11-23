@@ -30,7 +30,6 @@
         "id": "mpa-bars",
         "size": 22,
         "viewBox": "0 0 16 16",
-        /* "activeClassName": "rebel-pink", */
         "mutedClassName": "c-action-primary"
       }
     },
@@ -69,10 +68,16 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/content",
+            "href": "/",
             "noFollow": false,
             "tagTitle": "Woooden Blinds",
             "text": "Woooden Blinds"
+          },
+          "iconPosition": "left",
+          "iconProps": {
+            "id": "wooden-blinds",
+            "size": 22,
+            "viewBox": "0 0 16 16"
           }
         },
         {
@@ -81,10 +86,16 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/content",
+            "href": "/",
             "noFollow": false,
             "tagTitle": "Vertical Blinds",
             "text": "Vertical Blinds"
+          },
+          "iconPosition": "left",
+          "iconProps": {
+            "id": "vertical-blinds",
+            "size": 22,
+            "viewBox": "0 0 16 16"
           }
         },
         {
@@ -94,10 +105,15 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/content",
+            "href": "/",
             "noFollow": false,
             "tagTitle": "Shutter Blinds",
             "text": "Shutter Blinds"
+          },
+          "iconProps": {
+            "id": "wooden-blinds",
+            "size": 22,
+            "viewBox": "0 0 16 16"
           }
         },
         {
@@ -107,10 +123,16 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/content",
+            "href": "/",
             "noFollow": false,
             "tagTitle": "Blackout Blinds",
             "text": "Blackout Blinds"
+          },
+          "iconPosition": "left",
+          "iconProps": {
+            "id": "vertical-blinds",
+            "size": 22,
+            "viewBox": "0 0 16 16"
           }
         },
         {
@@ -120,10 +142,15 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/content",
+            "href": "/",
             "noFollow": false,
             "tagTitle": "B2G Blinds for VELUX",
             "text": "B2G Blinds for VELUX"
+          },
+          "iconProps": {
+            "id": "wooden-blinds",
+            "size": 22,
+            "viewBox": "0 0 16 16"
           }
         },
         {
@@ -133,10 +160,15 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/content",
+            "href": "/",
             "noFollow": false,
             "tagTitle": "Children's Blinds",
             "text": "Children's Blinds"
+          },
+          "iconProps": {
+            "id": "vertical-blinds",
+            "size": 22,
+            "viewBox": "0 0 16 16"
           }
         }
       ]
@@ -161,8 +193,7 @@
       "iconProps": {
         "id": "mpa-bars",
         "size": 22,
-        "viewBox": "0 0 16 16",/*
-        "activeClassName": "rebel-pink", */
+        "viewBox": "0 0 16 16",
         "mutedClassName": "c-action-primary"
       }
     },
@@ -205,10 +236,10 @@
     "title": "imagen",
     "props": {
       "src": "assets/home/eye.svg",
-      "link": {"url": "/menu-image"},
+      "link": {"url": "/"},
       "alt": "Imagen de una marca",
       "title": "Imagen de una marca",
-      "maxHeight": 50
+      "maxHeight": 38
     }
   },
   "flex-layout.row#submenu-one": {
@@ -217,13 +248,15 @@
       "link#link-1-1-submenu"
     ],
     "props":{
-      "blockClass": "header_menu-content-block-one"
+      "blockClass": "header_menu-content-block-one",
+      "preventHorizontalStretch": true
     }
   },
   "link#link-1-0-submenu": {
     "props": {
       "href": "/",
-      "label": "View All"
+      "label": "View All",
+      "blockClass": "submenu-curtains"
     }
   },
   "link#link-1-1-submenu": {
@@ -235,16 +268,17 @@
 
   "flex-layout.row#block-2-submenu": {
     "title": "block-two",
-    "props": {"rowGap": 5,"blockClass": "submenu-header"},
+    "props": {"rowGap": 5,"blockClass": "submenu-header" },
     "children": ["image#submenu-two", "flex-layout.row#submenu-two"]
   },
   "image#submenu-two": {
     "title": "imagen",
     "props": {
       "src": "assets/home/menu1.png",
-      "link": {"url": "/menu-image"},
+      "link": {"url": "/"},
       "alt": "Imagen de una marca",
-      "title": "Imagen de una marca"
+      "title": "Imagen de una marca",
+      "maxHeight": 38
     }
   },
   "flex-layout.row#submenu-two": {
@@ -253,19 +287,22 @@
       "link#link-2-1-submenu"
     ],
     "props":{
-      "blockClass": "header_menu-content-block-one"
+      "blockClass": "header_menu-content-block-one",
+      "preventHorizontalStretch": true
     }
   },
   "link#link-2-0-submenu": {
     "props": {
       "href": "/",
-      "label": "Pink, Purple & Violet"
+      "label": "Pink, Purple & Violet",
+      "blockClass": "submenu-curtains"
     }
   },
   "link#link-2-1-submenu": {
     "props": {
       "href": "/",
-      "label": "Blush, mauve, rose, heather, fuchisia"
+      "label": "Blush, mauve, rose, heather, fuchisia",
+      "blockClass": "submenu-curtains-1"
     }
   },
 
