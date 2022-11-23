@@ -116,3 +116,53 @@
 .flexRowContent--block-two-02 .stretchChildrenWidth:last-child {
   width: 85% !important;
 }
+
+@media (max-width: 1024px) {
+  .flexCol--col__one-mobile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #f7f6f7;
+    justify-content: space-between;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+  }
+
+  .flexCol--col__two-mobile {
+    padding: 0 0.7rem 0.3rem 0.7rem;
+    background-color: #3B214F;
+  }
+
+  .flexColChild--col__two-mobile :global(.vtex-store-components-3-x-searchBarContainer)  {
+    display: flex;
+    justify-content: center;
+    max-width: 100% !important;
+  }
+
+  .flexRowContent--main__header-mobile {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flexRowContent--main__header-mobile .stretchChildrenWidth {
+    width: 100% !important;
+  }
+
+  .flexCol--col__three-mobile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #3B214F;
+  }
+
+  .flexCol--col__four-mobile {
+    background-color: #F7F6F7;
+  }
+
+  .flexRow--block-three-1 {
+    width: 270px;
+    padding: 5px 0;
+  }
+}

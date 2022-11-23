@@ -8,19 +8,205 @@
   },
   "flex-layout.row#mobile": {
     "children": [
-      "drawer",
+      "flex-layout.col#col-one-mobile",
+      "flex-layout.col#col-three-mobile",
+      "flex-layout.col#col-two-mobile",
+      "flex-layout.col#col-four-mobile"
+    ],
+    "props": {
+      "blockClass": "main__header-mobile",
+      "preventHorizontalStretch": false,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+/* block 1 */
+  "flex-layout.col#col-one-mobile": {
+    "children": [
       "logo#blinds",
-      "login",
+      "flex-layout.row#col-one-block-two-header"
+    ],
+    "props": {
+      "blockClass": "col__one-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "width": "100%"
+    }
+  },
+
+  "flex-layout.row#col-one-block-two-header": {
+    "children": [
       "minicart.v2"
     ],
     "props": {
-      "blockClass": "main-header-mobile",
+      "blockClass": "col-one-block-two-header",
       "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true,
       "fullWidth": true
     }
   },
-  "drawer": {
-    "children": []
+/* block 2 */
+  "flex-layout.col#col-two-mobile": {
+    "children": [
+     "search-bar"
+    ],
+    "props": {
+      "blockClass": "col__two-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "width": "100%"
+    }
+  },
+/* block 3 */
+  "flex-layout.col#col-three-mobile": {
+    "children": [
+      "drawer#one",
+      "drawer#two",
+      "drawer#three"
+    ],
+    "props": {
+      "blockClass": "col__three-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "width": "100%"
+    }
+  },
+
+  "drawer#one": {
+    "children": [],
+    "blocks": ["drawer-trigger#one"],
+    "props":{
+      "blockClass": "drawer-mobile"
+    }
+  },
+  "drawer-trigger#one": {
+    "children": ["menu-item#blinds-mobile"]
+  },
+  "menu-item#blinds-mobile": {
+    "props": {
+      "id": "menu-item-blinds",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass":["root", "mobile-menu"],
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Blinds",
+        "text": "Blinds"
+      },
+      "iconPosition": "left",
+      "iconProps": {
+        "id": "mpa-bars",
+        "size": 22,
+        "viewBox": "0 0 16 16",
+        "mutedClassName": "c-action-primary"
+      }
+    }
+  },
+
+
+/* ---------------- */
+  "drawer#two": {
+    "children": [],
+    "blocks": ["drawer-trigger#two"],
+    "props":{
+      "blockClass": "drawer-mobile"
+    }
+  },
+  "drawer-trigger#two": {
+    "children": ["menu-item#Curtains-mobile"]
+  },
+  "menu-item#Curtains-mobile": {
+    "props": {
+      "id": "menu-item-blinds",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass":["root", "mobile-menu"],
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Curtains",
+        "text": "Curtains"
+      },
+      "iconPosition": "left",
+      "iconProps": {
+        "id": "mpa-bars",
+        "size": 22,
+        "viewBox": "0 0 16 16",
+        "mutedClassName": "c-action-primary"
+      }
+    }
+  },
+/* ---------------- */
+  "drawer#three": {
+    "children": [],
+    "blocks": ["drawer-trigger#three"],
+    "props":{
+      "blockClass": "drawer-mobile"
+    }
+  },
+  "drawer-trigger#three": {
+    "children": ["menu-item#Cushions-mobile"]
+  },
+  "menu-item#Cushions-mobile": {
+    "props": {
+      "id": "menu-item-blinds",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass":["root", "mobile-menu"],
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Cushions",
+        "text": "Cushions"
+      },
+      "iconPosition": "left",
+      "iconProps": {
+        "id": "mpa-bars",
+        "size": 22,
+        "viewBox": "0 0 16 16",
+        "mutedClassName": "c-action-primary"
+      }
+    }
+  },
+
+
+/* block 4 */
+  "flex-layout.col#col-four-mobile": {
+    "children": ["slider-layout#group-images-mobile"],
+    "props": {
+      "blockClass": "col__four-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "width": "100%"
+    }
+  },
+  "slider-layout#group-images-mobile": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "blockClass": "carousel-mobile",
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": false
+      }
+    },
+    "children": [
+      "flex-layout.row#block-three-1",
+      "flex-layout.row#block-three-2",
+      "flex-layout.row#block-three-3"
+    ]
   }
 }
