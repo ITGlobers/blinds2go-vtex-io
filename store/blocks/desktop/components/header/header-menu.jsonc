@@ -111,7 +111,7 @@
             "text": "Shutter Blinds"
           },
           "iconProps": {
-            "id": "wooden-blinds",
+            "id": "shutter",
             "size": 22,
             "viewBox": "0 0 16 16"
           }
@@ -130,7 +130,7 @@
           },
           "iconPosition": "left",
           "iconProps": {
-            "id": "vertical-blinds",
+            "id": "blackout",
             "size": 22,
             "viewBox": "0 0 16 16"
           }
@@ -148,7 +148,7 @@
             "text": "B2G Blinds for VELUX"
           },
           "iconProps": {
-            "id": "wooden-blinds",
+            "id": "b2g",
             "size": 22,
             "viewBox": "0 0 16 16"
           }
@@ -166,7 +166,7 @@
             "text": "Children's Blinds"
           },
           "iconProps": {
-            "id": "vertical-blinds",
+            "id": "children",
             "size": 22,
             "viewBox": "0 0 16 16"
           }
@@ -193,7 +193,7 @@
           },
           "iconPosition": "left",
           "iconProps": {
-            "id": "wooden-blinds",
+            "id": "roller",
             "size": 22,
             "viewBox": "0 0 16 16"
           }
@@ -211,7 +211,7 @@
           },
           "iconPosition": "left",
           "iconProps": {
-            "id": "vertical-blinds",
+            "id": "venetian",
             "size": 22,
             "viewBox": "0 0 16 16"
           }
@@ -229,7 +229,7 @@
             "text": "Day & Night Blinds"
           },
           "iconProps": {
-            "id": "wooden-blinds",
+            "id": "day",
             "size": 22,
             "viewBox": "0 0 16 16"
           }
@@ -248,7 +248,7 @@
           },
           "iconPosition": "left",
           "iconProps": {
-            "id": "vertical-blinds",
+            "id": "bifold",
             "size": 22,
             "viewBox": "0 0 16 16"
           }
@@ -266,7 +266,7 @@
             "text": "Energy savings Blinds"
           },
           "iconProps": {
-            "id": "wooden-blinds",
+            "id": "energy",
             "size": 22,
             "viewBox": "0 0 16 16"
           }
@@ -284,7 +284,7 @@
             "text": "Privacy Sheers"
           },
           "iconProps": {
-            "id": "vertical-blinds",
+            "id": "privacy",
             "size": 22,
             "viewBox": "0 0 16 16"
           }
@@ -311,7 +311,7 @@
           },
           "iconPosition": "left",
           "iconProps": {
-            "id": "wooden-blinds",
+            "id": "roman",
             "size": 22,
             "viewBox": "0 0 16 16"
           }
@@ -329,7 +329,7 @@
           },
           "iconPosition": "left",
           "iconProps": {
-            "id": "vertical-blinds",
+            "id": "perfect",
             "size": 22,
             "viewBox": "0 0 16 16"
           }
@@ -347,7 +347,7 @@
             "text": "Conservatory Blinds"
           },
           "iconProps": {
-            "id": "wooden-blinds",
+            "id": "conservatory",
             "size": 22,
             "viewBox": "0 0 16 16"
           }
@@ -366,7 +366,7 @@
           },
           "iconPosition": "left",
           "iconProps": {
-            "id": "vertical-blinds",
+            "id": "pleated",
             "size": 22,
             "viewBox": "0 0 16 16"
           }
@@ -384,7 +384,7 @@
             "text": "Electry Blinds"
           },
           "iconProps": {
-            "id": "wooden-blinds",
+            "id": "electry",
             "size": 22,
             "viewBox": "0 0 16 16"
           }
@@ -402,7 +402,7 @@
             "text": "Commercial Blinds"
           },
           "iconProps": {
-            "id": "vertical-blinds",
+            "id": "commercial",
             "size": 22,
             "viewBox": "0 0 16 16"
           }
@@ -429,7 +429,7 @@
           },
           "iconPosition": "left",
           "iconProps": {
-            "id": "wooden-blinds",
+            "id": "white",
             "size": 22,
             "viewBox": "0 0 16 16"
           }
@@ -447,7 +447,7 @@
           },
           "iconPosition": "left",
           "iconProps": {
-            "id": "vertical-blinds",
+            "id": "greyn",
             "size": 22,
             "viewBox": "0 0 16 16"
           }
@@ -465,7 +465,7 @@
             "text": "Purple"
           },
           "iconProps": {
-            "id": "wooden-blinds",
+            "id": "purple",
             "size": 22,
             "viewBox": "0 0 16 16"
           }
@@ -484,7 +484,7 @@
           },
           "iconPosition": "left",
           "iconProps": {
-            "id": "vertical-blinds",
+            "id": "pink",
             "size": 22,
             "viewBox": "0 0 16 16"
           }
@@ -502,7 +502,7 @@
             "text": "Light wood"
           },
           "iconProps": {
-            "id": "wooden-blinds",
+            "id": "greyn",
             "size": 22,
             "viewBox": "0 0 16 16"
           }
@@ -529,7 +529,7 @@
           },
           "iconPosition": "left",
           "iconProps": {
-            "id": "wooden-blinds",
+            "id": "beige",
             "size": 22,
             "viewBox": "0 0 16 16"
           }
@@ -547,7 +547,7 @@
           },
           "iconPosition": "left",
           "iconProps": {
-            "id": "vertical-blinds",
+            "id": "blue",
             "size": 22,
             "viewBox": "0 0 16 16"
           }
@@ -565,7 +565,7 @@
             "text": "Black"
           },
           "iconProps": {
-            "id": "wooden-blinds",
+            "id": "black",
             "size": 22,
             "viewBox": "0 0 16 16"
           }
@@ -584,7 +584,7 @@
           },
           "iconPosition": "left",
           "iconProps": {
-            "id": "vertical-blinds",
+            "id": "yellow",
             "size": 22,
             "viewBox": "0 0 16 16"
           }
@@ -602,7 +602,7 @@
             "text": "Medium wood"
           },
           "iconProps": {
-            "id": "wooden-blinds",
+            "id": "blue",
             "size": 22,
             "viewBox": "0 0 16 16"
           }
@@ -629,7 +629,7 @@
           },
           "iconPosition": "left",
           "iconProps": {
-            "id": "wooden-blinds",
+            "id": "brown",
             "size": 22,
             "viewBox": "0 0 16 16"
           }
@@ -647,7 +647,7 @@
           },
           "iconPosition": "left",
           "iconProps": {
-            "id": "vertical-blinds",
+            "id": "red",
             "size": 22,
             "viewBox": "0 0 16 16"
           }
@@ -665,7 +665,7 @@
             "text": "Green"
           },
           "iconProps": {
-            "id": "wooden-blinds",
+            "id": "green",
             "size": 22,
             "viewBox": "0 0 16 16"
           }
@@ -684,7 +684,7 @@
           },
           "iconPosition": "left",
           "iconProps": {
-            "id": "vertical-blinds",
+            "id": "orange",
             "size": 22,
             "viewBox": "0 0 16 16"
           }
@@ -702,7 +702,7 @@
             "text": "Dark wood"
           },
           "iconProps": {
-            "id": "wooden-blinds",
+            "id": "blue",
             "size": 22,
             "viewBox": "0 0 16 16"
           }

@@ -27,7 +27,7 @@
   },
   "flex-layout.row#desktop-2": {
     "title": "container",
-    "props": {"blockClass": "container-header"},
+    "props": {"blockClass": ["container-header", "violet"]},
     "children": ["flex-layout.col#block-two-desktop"]
   },
   "flex-layout.row#desktop3": {

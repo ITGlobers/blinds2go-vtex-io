@@ -126,12 +126,12 @@
 }
 
 .styledLinkContent--select-help::after {
-content: url("assets/home/arrowHeader.svg");
-position: absolute;
-right: 7px;
-top: 0;
-width: 14px;
-height: 14px;
+  content: url("assets/home/arrowHeader.svg");
+  position: absolute;
+  right: 7px;
+  top: 0;
+  width: 14px;
+  height: 14px;
 }
 
 @media screen and (min-width: 426px) and (max-width: 1024px) {
@@ -169,6 +169,10 @@ height: 14px;
 }
 
 @media (max-width: 1024px) {
+
+  .styledLinkContent--select-help::after {
+    display: none;
+  }
 
   .menuItem--submenu {
     padding: 10px 30px 5px 10px;
