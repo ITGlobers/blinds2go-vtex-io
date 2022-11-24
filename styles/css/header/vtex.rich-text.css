@@ -61,3 +61,10 @@
   font-size: 18px;
   color: #000;
 }
+
+@media (max-width: 425px) {
+  .paragraph--menu-blinds-1 {
+    padding-left: 0.7rem;
+    margin-top: 10px;
+  }
+}

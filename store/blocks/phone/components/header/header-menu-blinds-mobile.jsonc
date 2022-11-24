@@ -391,7 +391,7 @@
     "title": "menu",
     "props": {
       "orientation": "vertical",
-      "blockClass": "submenu",
+      "blockClass": ["submenu", "menu-two-mobile"],
       "items": [
         {
           "id": "menu-item-content-1-1",

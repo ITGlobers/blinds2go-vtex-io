@@ -95,6 +95,13 @@
 }
 
 @media screen and (min-width: 426px) and (max-width: 1024px) {
+  .styledLinkContainer--menu-two-mobile {
+    margin-left: 0 !important;
+  }
+
+  .menuItem--menu-two-mobile {
+    padding-left: 0 !important;
+  }
 
   .styledLinkContainer--submenu-select-1 {
     padding-top:20px;
@@ -122,6 +129,27 @@
 }
 
 @media (max-width: 1024px) {
+
+  .menuItem--submenu {
+    padding: 10px 30px 5px 10px;
+    border-bottom: 1px solid #dee0e4;
+    position: relative;
+  }
+
+  .menuItem--submenu::after {
+    content: url("assets/home/menu-mobile.svg");
+    position: absolute;
+    top: 17px;
+    right: 0;
+    width: 12px;
+    height: 12px;
+    margin: 0 15px 0 0;
+  }
+
+  .styledLinkContainer--submenu {
+    margin-left: 0;
+    margin-right: 0;
+  }
 
   .styledLinkContainer--mobile-menu {
     margin-left: 0.7rem;

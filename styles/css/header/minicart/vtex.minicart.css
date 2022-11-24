@@ -1,3 +1,7 @@
+.drawer {
+  z-index: 1001;
+}
+
 .minicartIconContainer .cartIcon {
   display: none;
 }
