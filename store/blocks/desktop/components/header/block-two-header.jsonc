@@ -18,42 +18,42 @@
     "title": "block 2",
     "props": {"blockClass": "block-two-2"},
     "children": [
-      "flex-layout.row#block-two-02",
+      "menu-item#order",
       "menu-item#measuring",
       "menu-item#Help",
       "search-bar"
     ]
   },
-  "flex-layout.row#block-two-02": {
-    "title": "container 1",
-    "props": {"blockClass": "block-two-02"},
-    "children": [
-      "image#order-header",
-      "link#order"
-    ]
-  },
-  "image#order-header": {
-    "title": "image",
-    "props": {
-      "src": "/assets/home/delivery-icon1.svg",
-      "blockClass": "order-header",
-      "maxHeight": 24
-    }
-  },
-  "link#order": {
-    "props": {
-      "href": "/",
-      "label": "Order Tracking",
-      "blockClass": "link-order"
-    }
-  },
 
-  /* menu measuring */
-  "menu-item#measuring": {
+  /* menu order */
+  "menu-item#order": {
+    "title": "menu order",
     "props": {
       "type": "custom",
       "highlight": false,
-      "blockClass": "select",
+      "blockClass": ["select", "order"],
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Order Tracking",
+        "text": "Order Tracking"
+      },
+      "iconPosition": "left",
+      "iconProps": {
+        "id": "order",
+        "size": 17,
+        "viewBox": "0 0 16 16"
+      }
+    }
+  },
+
+  "menu-item#measuring": {
+    "title": "menu measuring",
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": ["select", "measuring"],
       "itemProps": {
         "type": "internal",
         "href": "#",
@@ -124,6 +124,7 @@
 
   /* menu help*/
   "menu-item#Help": {
+    "title": "menu Help",
     "props": {
       "type": "custom",
       "highlight": false,
