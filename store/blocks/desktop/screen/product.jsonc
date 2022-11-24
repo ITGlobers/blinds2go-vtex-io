@@ -15,7 +15,7 @@
   },
   "flex-layout.col#global__product--container": {
     "title": "Sections Products",
-    "children": ["breadcrumb","Threekit", "flex-layout.row#desktop__accordion--container","flex-layout.row#desktop__characteristics"]
+    "children": ["breadcrumb",/* "Threekit", */ "flex-layout.row#desktop__accordion--container","flex-layout.row#desktop__characteristics"]
   },
 
   "flex-layout.row#desktop__accordion--container":{

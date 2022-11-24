@@ -1,0 +1,49 @@
+{
+  "flex-layout.row#home-one-desktop": {
+    "title": "block 1",
+    "children": [
+      "image#banner-one",
+      "list-context.image-list#banner-home"
+    ],
+    "props": {
+      "blockClass": "home__one-desktop",
+      "preventHorizontalStretch": true,
+      "fullWidth": true
+    }
+  },
+  "image#banner-one": {
+    "title": "image",
+    "props": {
+      "src": "arquivos/home1.png",
+      "maxHeight": 425,
+      "maxWidth": 575,
+      "blockClass": "banner__one-desktop"
+    }
+  },
+  "list-context.image-list#banner-home": {
+    "title": "container images",
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "height": 425,
+      "width": 704,
+      "images": [
+        {
+          "image": "arquivos/home2.jpg",
+          "description": "banner"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-images": {
+    "title": "slider",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "blockClass": "home__slider-one-desktop"
+    }
+  }
+}
