@@ -1,0 +1,29 @@
+@media (max-width: 1024px) {
+    .openIconContainer {
+      padding: 0 !important;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 1024px) {
+  .minicartContainer :global(.vtex-button) {
+    min-height: 3rem;
+    min-width: 3rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .minicartContainer :global(.vtex-button) {
+    min-height: 2.5rem;
+    min-width: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+.minicartContainer :global(.vtex-button)::after {
+  content: "CART";
+  font-size: 9px;
+  font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+    color: #000000;
+  }
+}

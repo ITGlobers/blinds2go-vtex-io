@@ -1,8 +1,8 @@
 .label--submenu-curtains {
   font-family: "Nunito Sans", sans-serif;
-    font-weight: 400;
-    color: #000;
-    font-size:15px;
+  font-weight: 400;
+  color: #000;
+  font-size: 15px;
 }
 
 .link--submenu-curtains,
@@ -13,5 +13,11 @@
 .label--submenu-curtains-1 {
   font-size: 11px;
   font-family: "Nunito Sans", sans-serif;
-  color:#909DA3;
+  color: #909DA3;
+}
+
+@media (max-width: 1024px) {
+  .link--submenu-curtains-1 {
+    font-size: 0.5rem;
+  }
 }

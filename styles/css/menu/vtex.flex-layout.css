@@ -31,3 +31,83 @@
   background-color: #f7f6f7;
 }
 
+@media (max-width: 1024px) {
+  .flexColChild--group-link-icon-mobile {
+    padding-bottom: 0;
+  }
+
+  .flexRow--submenu-header {
+    padding: 10px 30px 10px 10px;
+    border-bottom: 1px solid #dee0e4;
+  }
+
+  .flexRowContent--header_menu-content-block-one {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .flexRow--header_menu-content-block-one .flexRowContent--header_menu-content-block-one .stretchChildrenWidth:first-child {
+    width: 90% !important;
+  }
+
+  .flexRow--header_menu-content-block-one .flexRowContent--header_menu-content-block-one .stretchChildrenWidth:last-child {
+    width: 10% !important;
+  }
+}
+
+@media (max-width: 320px) {
+  .flexRow--submenu-header {
+    padding: 10px 10px 0 10px;
+  }
+}
+
+@media (max-width: 375px) {
+  .flexRow--submenu-header {
+    padding: 10px 10px 5px 10px;
+  }
+
+}
+
+@media screen and (min-width: 426px) and (max-width: 1024px) {
+  .flexCol--col-menu-one-mobile-2 .flexColChild--col-menu-one-mobile-2:first-child,
+  .flexCol--col-menu-two-mobile-2 .flexColChild--col-menu-two-mobile-2:first-child {
+    position: absolute;
+    top: 5px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .flexCol--col-menu-one-mobile .flexColChild--col-menu-one-mobile:first-child {
+    position: absolute;
+    top: 5px;
+  }
+
+
+  .flexRowContent--submenu-header .stretchChildrenWidth {
+    padding-bottom: 0;
+  }
+
+  .flexRowContent--header_menu-content-block-one {
+    padding-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 1024px) {
+  .flexRow--submenu-header .flexRowContent--submenu-header .stretchChildrenWidth:last-child {
+    margin-left: -40px;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 425px) {
+  .flexRow--submenu-header .flexRowContent--submenu-header .stretchChildrenWidth:last-child {
+    margin-left: -15px;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 375px) {
+  .flexRow--submenu-header .flexRowContent--submenu-header .stretchChildrenWidth:last-child {
+    margin-left: -10px;
+  }
+}

@@ -1,20 +1,35 @@
 {
   "header-layout.desktop": {
     "title": "header desktop",
-    "children": ["sticky-layout#desktop"]
+    "children": ["sticky-layout.stack-container#header-desktop"]
   },
-  "sticky-layout#desktop": {
-    "props": {"blockClass": "sticky-header"},
-    "children": ["flex-layout.row#desktop"]
+  "sticky-layout.stack-container#header-desktop": {
+    "props": {"position": "top"},
+    "children": [
+      "sticky-layout#header-1",
+      "sticky-layout#header-2",
+      "flex-layout.row#desktop3"
+    ]
   },
-  "flex-layout.row#desktop": {
+  "sticky-layout#header-1": {
+    "children": ["flex-layout.row#desktop-1"]
+  },
+  "sticky-layout#header-2": {
+    "children": ["flex-layout.row#desktop-2"]
+  },
+  "flex-layout.row#desktop-1": {
     "title": "container",
     "props": {"blockClass": "container-header"},
-    "children": [
-      "flex-layout.col#block-one-desktop",
-      "flex-layout.col#block-two-desktop",
-      "flex-layout.col#block-three-desktop"
-      /*"login", */
-    ]
+    "children": ["flex-layout.col#block-one-desktop"]
+  },
+  "flex-layout.row#desktop-2": {
+    "title": "container",
+    "props": {"blockClass": "container-header"},
+    "children": ["flex-layout.col#block-two-desktop"]
+  },
+  "flex-layout.row#desktop3": {
+    "title": "container",
+    "props": {"blockClass": "container-header"},
+    "children": ["flex-layout.col#block-three-desktop"]
   }
 }

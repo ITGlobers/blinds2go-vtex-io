@@ -49,7 +49,7 @@
 
   "flex-layout.row#block-three-2": {
     "title": "block two",
-    "props": {"blockClass": "block-three-1"},
+    "props": {"blockClass": ["block-three-1", "mobile"]},
     "children": [
       "image#box-2",
       "flex-layout.col#box-2-header"
@@ -60,7 +60,7 @@
     "props": {
       "src": "/arquivos/review-header.svg",
       "maxHeight": 30,
-      "blockClass": "box-2"
+      "blockClass": ["box-2", "mobile"]
     }
   },
 
