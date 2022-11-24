@@ -1,0 +1,41 @@
+{
+  "flex-layout.col#col-four-mobile": {
+    "children": [
+      "slider-layout#group-images-mobile"
+    ],
+    "props": {
+      "blockClass": "col__four-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "width": "100%"
+    }
+  },
+  "slider-layout#group-images-mobile": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "navigationStep": 1,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "blockClass": "carousel-mobile",
+      "autoplay": {
+        "timeout": 6000,
+        "stopOnHover": false
+      }/* ,
+      "slideTransition": {
+        "speed": 100,
+        "delay": 5,
+        "timing": "100"
+      } */
+    },
+    "children": [
+      "flex-layout.row#block-three-1",
+      "flex-layout.row#block-three-2",
+      "flex-layout.row#block-three-3"
+    ]
+  }
+}

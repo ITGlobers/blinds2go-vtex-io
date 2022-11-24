@@ -116,3 +116,126 @@
 .flexRowContent--block-two-02 .stretchChildrenWidth:last-child {
   width: 85% !important;
 }
+
+.flexRow--block-one-2 {
+  margin-bottom: 10px;
+}
+
+.flexRow--header-menu-content {
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .flexRowContent--col-one-block-two-header {
+    display: flex;
+    align-items: center;
+  }
+  .flexCol--col__one-mobile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #f7f6f7;
+    justify-content: space-between;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+  }
+
+  .flexCol--col__two-mobile {
+    padding: 0 0.7rem 0.3rem 0.7rem;
+    background-color: #3B214F;
+  }
+
+  .flexColChild--col__two-mobile :global(.vtex-store-components-3-x-searchBarContainer)  {
+    display: flex;
+    justify-content: center;
+    max-width: 100% !important;
+  }
+
+  .flexRowContent--main__header-mobile {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flexRowContent--main__header-mobile .stretchChildrenWidth {
+    width: 100% !important;
+  }
+
+  .flexCol--col__three-mobile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #3B214F;
+  }
+
+  .flexCol--col__four-mobile {
+    background-color: #F7F6F7;
+  }
+
+  .flexRow--block-three-1 {
+    width: 230px;
+    padding: 5px 0;
+  }
+
+  .flexRowContent--mobile .stretchChildrenWidth:first-child {
+    width: 30% !important;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .flexRow--block-three-1 {
+    width: 225px;
+  }
+}
+
+
+@media screen and (min-width: 376px) and (max-width: 425px) {
+  .flexRow--mobile {
+    width: 220px !important;
+  }
+  .flexRow--block-three-1 {
+    width: 230px;
+  }
+}
+
+
+@media screen and (min-width: 321px) and (max-width: 375px) {
+  .flexRow--block-three-1 {
+    width: 225px;
+  }
+
+  .flexRow--mobile {
+    width: 230px !important;
+  }
+}
+
+@media (max-width: 320px) {
+  .flexRow--block-three-1 {
+    width: 225px;
+  }
+}
+
+@media (min-width: 1400px) {
+.flexRow--container-header :global(.vtex-store-components-3-x-container) {
+max-width: 100%;
+background-color: #F7F6F7;
+}
+
+.flexRow--violet :global(.vtex-store-components-3-x-container) {
+  background-color: #3B214F !important;
+}
+
+.flexCol--block-three-desktop {
+  padding-left: 80px !important;
+}
+
+.flexCol--block-one-desktop,
+.flexCol--block-two-desktop,
+.flexCol--block-three-desktop {
+  width: 1280px !important;
+  margin: 0 auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+}
