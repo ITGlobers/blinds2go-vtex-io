@@ -15,6 +15,12 @@
   min-width: 3rem;
 }
 
+.minicartContainer :global(.vtex-button):hover{
+  min-height: 3rem;
+  min-width: 3rem;
+  background: transparent !important;
+}
+
 .minicartQuantityBadge {
   top: -2.5rem;
   right: -0.7rem;
