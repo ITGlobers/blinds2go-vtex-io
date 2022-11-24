@@ -1,0 +1,49 @@
+.productName,
+.productBrandName{
+    font-family: 'Nunito Sans';
+}
+
+.unitPriceContainer,
+.price{
+    font-family: 'Nunito Sans';
+}
+
+.inputContainer{
+    width: 3rem;
+    border: none;
+}
+
+.quantitySelectorButton{
+    border: none;
+    background: #fff;
+}
+
+.quantitySelectorButton:hover{
+    background: #fff;
+}
+
+.quantitySelectorDecrease{
+    content: url('/arquivos/minus-icon.svg');
+    width: 24px;
+    padding: 0;
+}
+
+.quantitySelectorIncrease {
+    content: url('/arquivos/plus-icon.svg');
+    width: 24px;
+    padding: 0;
+}
+
+.removeButton .deleteIcon{
+    visibility: hidden;
+}
+
+.removeButton::before{
+    content: url('/arquivos/cross-icon.svg');
+    width: 25px;
+    padding: 0;
+}
+
+.inputContainer{
+    font-family: 'Nunito Sans';
+}
