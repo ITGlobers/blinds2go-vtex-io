@@ -19,6 +19,8 @@
       "href": "/",
       "url": "/arquivos/logoblinds.svg",
       "width": 400,
+      "mobileWidth": 200,
+      "mobileHeight": 35,
       "blockClass": "logo"
     }
   },

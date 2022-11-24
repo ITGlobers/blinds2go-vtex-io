@@ -11,6 +11,10 @@
         "tablet": 3,
         "phone": 1
       },
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": false
+      },
       "infinite": true,
       "navigationStep": 1,
       "showNavigationArrows": "never",
