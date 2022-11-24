@@ -32,6 +32,10 @@
   position: relative;
 }
 
+.drawer {
+  z-index: 1001;
+}
+
 @media (max-width: 1024px) {
   .openIconContainer--drawer-mobile-one {
     padding-left: 0;
@@ -43,4 +47,11 @@
   .drawerContent--drawer-mobile-one {
     position: relative;
   }
+}
+
+@media screen and (min-width: 426px) and (max-width: 1024px) {
+.opened--drawer-mobile-one,
+.opened--drawer-mobile  {
+  max-width: 580px !important;
+}
 }

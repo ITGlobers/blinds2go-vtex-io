@@ -117,6 +117,14 @@
   width: 85% !important;
 }
 
+.flexRow--block-one-2 {
+  margin-bottom: 10px;
+}
+
+.flexRow--header-menu-content {
+  width: 100%;
+}
+
 @media (max-width: 1024px) {
   .flexRowContent--col-one-block-two-header {
     display: flex;
@@ -206,4 +214,28 @@
   .flexRow--block-three-1 {
     width: 225px;
   }
+}
+
+@media (min-width: 1400px) {
+.flexRow--container-header :global(.vtex-store-components-3-x-container) {
+max-width: 100%;
+background-color: #F7F6F7;
+}
+
+.flexRow--violet :global(.vtex-store-components-3-x-container) {
+  background-color: #3B214F !important;
+}
+
+.flexCol--block-three-desktop {
+  padding-left: 80px !important;
+}
+
+.flexCol--block-one-desktop,
+.flexCol--block-two-desktop,
+.flexCol--block-three-desktop {
+  width: 1280px !important;
+  margin: 0 auto;
+  padding-left: 0;
+  padding-right: 0;
+}
 }
