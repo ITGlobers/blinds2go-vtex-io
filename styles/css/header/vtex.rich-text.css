@@ -4,9 +4,8 @@
   font-weight: 400;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: "Nunito Sans",sans-serif;
+  font-family: "Nunito Sans", sans-serif;
 }
-
 
 .container--heaader-number,
 .container--heaader-week {
@@ -19,7 +18,7 @@
   font-size: 12px;
   margin-top: 0;
   margin-bottom: 0s;
-  font-family: "Nunito Sans",sans-serif;
+  font-family: "Nunito Sans", sans-serif;
 }
 
 .paragraph--box-1 {
@@ -37,11 +36,28 @@
   margin-bottom: 0;
 }
 
-.paragraph--menu-curtains{
+.paragraph--menu-curtains {
   margin-top: 0;
   margin-bottom: 0;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
-    color: #000;
-    padding-left: 0.7rem;
+  color: #000;
+  padding-left: 0.7rem;
+}
+
+.paragraph--menu-blinds {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  color: #000;
+  padding-left: 0.7rem;
+}
+
+.paragraph--menu-blinds-1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  color: #000;
 }

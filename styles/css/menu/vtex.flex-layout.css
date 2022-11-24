@@ -70,6 +70,14 @@
 
 }
 
+@media screen and (min-width: 426px) and (max-width: 1024px) {
+  .flexCol--col-menu-one-mobile-2 .flexColChild--col-menu-one-mobile-2:first-child,
+  .flexCol--col-menu-two-mobile-2 .flexColChild--col-menu-two-mobile-2:first-child {
+    position: absolute;
+    top: 5px;
+  }
+}
+
 @media (max-width: 1024px) {
   .flexCol--col-menu-one-mobile .flexColChild--col-menu-one-mobile:first-child {
     position: absolute;

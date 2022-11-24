@@ -29,7 +29,7 @@
     "title": "title",
     "props": {
       "text": "Collections",
-      "blockClass": "help-message"
+      "blockClass": "menu-blinds"
     }
   },
   "menu#menu-mobile-col-one": {
@@ -384,7 +384,7 @@
     "title": "title",
     "props": {
       "text": "Colours",
-      "blockClass": "help-message"
+      "blockClass": "menu-blinds-1"
     }
   },
   "menu#menu-mobile-col-two": {
