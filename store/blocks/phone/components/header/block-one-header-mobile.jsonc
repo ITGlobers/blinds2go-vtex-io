@@ -1,0 +1,49 @@
+{
+  "flex-layout.col#col-one-mobile": {
+    "children": [
+      "logo#blinds",
+      "flex-layout.row#col-one-block-two-header"
+    ],
+    "props": {
+      "blockClass": "col__one-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "width": "100%"
+    }
+  },
+
+  "flex-layout.row#col-one-block-two-header": {
+    "children": [
+      "menu-item#Help-mobile",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "col-one-block-two-header",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+
+  "menu-item#Help-mobile": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "select-help",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "",
+        "text": ""
+      },
+      "iconPosition": "left",
+      "iconProps": {
+        "id": "inf-help--outline",
+        "size": 42,
+        "viewBox": "0 0 16 16"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#help"]
+  }
+}
