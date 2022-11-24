@@ -1,0 +1,57 @@
+.openIconContainer--drawer-mobile,
+.openIconContainer--drawer-mobile-one {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.closeIconButton--drawer-mobile::before,
+.closeIconButton--drawer-mobile-one::before {
+  content: "CLOSE X";
+  border: 1px solid black;
+  border-radius: 14px;
+  font-size: 12px;
+  padding: 4px 10px 4px 10px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+}
+
+.closeIcon--drawer-mobile,
+.closeIcon--drawer-mobile-one {
+  display: none;
+}
+
+.closeIconContainer--drawer-mobile,
+.closeIconContainer--drawer-mobile-one {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.drawerContent--drawer-mobile {
+  position: relative;
+}
+
+.drawer {
+  z-index: 1001;
+}
+
+@media (max-width: 1024px) {
+  .openIconContainer--drawer-mobile-one {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 1024px) {
+  .drawerContent--drawer-mobile-one {
+    position: relative;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 1024px) {
+.opened--drawer-mobile-one,
+.opened--drawer-mobile  {
+  max-width: 580px !important;
+}
+}
