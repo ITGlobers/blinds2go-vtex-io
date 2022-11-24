@@ -1,6 +1,8 @@
 {
   "flex-layout.col#col-four-mobile": {
-    "children": ["slider-layout#group-images-mobile"],
+    "children": [
+      "slider-layout#group-images-mobile"
+    ],
     "props": {
       "blockClass": "col__four-mobile",
       "preventHorizontalStretch": true,
@@ -16,13 +18,19 @@
         "phone": 1
       },
       "infinite": true,
+      "navigationStep": 1,
       "showNavigationArrows": "never",
       "showPaginationDots": "never",
       "blockClass": "carousel-mobile",
       "autoplay": {
-        "timeout": 5000,
+        "timeout": 6000,
         "stopOnHover": false
-      }
+      }/* ,
+      "slideTransition": {
+        "speed": 100,
+        "delay": 5,
+        "timing": "100"
+      } */
     },
     "children": [
       "flex-layout.row#block-three-1",

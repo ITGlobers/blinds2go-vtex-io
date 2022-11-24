@@ -16,6 +16,11 @@
     width: 12px !important;
   }
 }
+@media screen and (min-width: 426px) and (max-width: 1024px) {
+.imageElement--mobile {
+
+}
+}
 
 @media screen and (min-width: 426px) and (max-width: 1024px) {
   .logoImage--logo {
