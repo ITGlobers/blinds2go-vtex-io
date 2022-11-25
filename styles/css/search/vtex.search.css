@@ -1,0 +1,6 @@
+/* Desktop */
+@media (min-width: 64rem) {
+    .searchBanner--banner {
+        margin-top: 20px;
+    }
+}
