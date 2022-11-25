@@ -13,13 +13,13 @@
   padding: 10px;
   flex-wrap: wrap;
   position: relative;
-    display: block;
-    font-size: 0;
-    margin: 0 auto;
-    height: 0;
-    padding-bottom: 100%;
-    overflow: hidden;
-    width: 100%;
+  display: block;
+  font-size: 0;
+  margin: 0 auto;
+  height: 0;
+  padding-bottom: 100%;
+  overflow: hidden;
+  width: 100%;
 }
 
 .flexRow--home__desktop {
@@ -77,11 +77,11 @@
   margin-bottom: 40px;
 }
 
-.flexCol--home-four-1-desktop  {
+.flexCol--home-four-1-desktop {
   margin-right: 20px;
 }
 
-.flexCol--home-four-2-desktop  {
+.flexCol--home-four-2-desktop {
   margin-left: 30px;
 }
 
@@ -90,4 +90,17 @@
   width: 25%;
   padding: 0 15px;
   text-align: center;
+}
+
+
+@media (min-width: 1400px) {
+  .flexRow--home__desktop,
+  .flexRow--home__one-desktop,
+  .flexRow--home__three-desktop,
+  .flexRow--home__four-desktop {
+    width: 1280px;
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
