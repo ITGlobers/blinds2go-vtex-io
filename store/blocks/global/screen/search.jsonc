@@ -14,7 +14,7 @@
   "search-not-found-layout": {
     "title": "Product not found",
     "children": [
-      "flex-layout.row#global__no-result--image"
+      "flex-layout.row#global__no-result--text"
     ]
   },
   "store.search#department": {
@@ -65,61 +65,21 @@
       }
     }
   },
-  "flex-layout.row#global__no-result--image": {
+  "flex-layout.row#global__no-result--text": {
     "children": [
-      "flex-layout.col#global__no-result--image"
+      "rich-text#global__no-results"
     ],
     "props": {
       "fullWidth": true,
-      "blockClass": "global__no-result--image"
+      "blockClass": "global__no-result--text"
     }
   },
-  "flex-layout.col#global__no-result--image": {
-    "children": [
-      "responsive-layout.desktop#desktop__no-result--image",
-      "responsive-layout.tablet#tablet__no-result--image",
-      "responsive-layout.phone#mobile__no-result--image"
-    ],
+  "rich-text#global__no-results":{
     "props": {
-      "fullWidth": true,
-      "blockClass": "global__no-result--image"
+      "blockClass": "global__no-results",
+      "text": "No items matched your search request. Try widening your search for more results.",
+      "textAlignment": "LEFT",
+      "textPosition": "CENTER"
     }
-  },
-  "responsive-layout.desktop#desktop__no-result--image": {
-    "children": [
-      "image#desktop__no-result--image"
-    ]
-  },
-  "image#desktop__no-result--image": {
-    "title": "image desktop",
-    "props": {
-      "src": "arquivos/desktop__empty__search__es.png",
-      "maxHeight": "843px",
-      "maxWidth": "1400px",
-      "link": {
-        "url": "/"
-      }
-    }
-  },
-  "responsive-layout.phone#mobile__no-result--image": {
-    "children": [
-      "image#mobile__no-result--image"
-    ]
-  },
-  "image#mobile__no-result--image": {
-    "title": "image mobile",
-    "props": {
-      "src": "arquivos/mobile__empty__search__es.png",
-      "maxHeight": "438px",
-      "maxWidth": "375px",
-      "link": {
-        "url": "/"
-      }
-    }
-  },
-  "responsive-layout.tablet#tablet__no-result--image": {
-    "children": [
-      "image#mobile__no-result--image"
-    ]
   }
 }
