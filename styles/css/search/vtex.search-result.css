@@ -168,6 +168,20 @@
     border-color: #dee0e4;
 }
 
+.totalProductsMessage {
+    font-size: 0px;
+}
+
+.totalProductsMessage::before {
+    content       : 'items';
+    font-family   : "Nunito Sans", sans-serif;
+    font-size     : 16px;
+    font-weight   : 200;
+    line-height   : 18px;
+    color         : #000000;
+    text-transform: lowercase;
+}
+
 /* Desktop */
 @media (min-width: 64rem) {
     .container--layout {
@@ -193,6 +207,7 @@
         font-weight   : 700;
         color         : #000000;
         text-transform: capitalize;
+        margin        : 15px 0;
     }
 
     .filter__container--filters__filter-navigator {
@@ -262,7 +277,17 @@
     .galleryTitle--layout {
         font-size: 30px;
     }
-    .orderByDropdown--total-orderby{
+
+    .orderByDropdown--total-orderby {
         max-width: 250px;
+    }
+
+    .filter__container--selectedFilters {
+        display: none;
+    }
+
+    .totalProducts--layout {
+        position: relative;
+        bottom  : -18px;
     }
 }

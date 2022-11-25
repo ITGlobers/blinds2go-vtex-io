@@ -19,6 +19,11 @@
     font-size     : 30px;
 }
 
+.flexRow--general__results--mobile :global(.vtex-store-components-3-x-container) {
+    padding-left : 0;
+    padding-right: 0;
+}
+
 /* Desktop */
 @media (min-width: 64rem) {
     .flexCol--general__results--filters {
@@ -31,7 +36,7 @@
     }
 
     .flexCol--general__results--content {
-        margin-left: 2rem;
+        margin-left: 1.5rem;
     }
 
     .flexRowContent--general__results--bottom-description {
@@ -41,5 +46,13 @@
 
     .flexRowContent--general__results--bottom-description :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
         width: 48% !important;
+    }
+
+    .flexRowContent--general__results--title {
+        margin-top: 0px;
+    }
+
+    .flexColChild--general__results--filters:first-child {
+        height: 0px !important;
     }
 }

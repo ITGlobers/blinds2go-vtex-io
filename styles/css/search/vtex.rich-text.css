@@ -47,4 +47,12 @@
         line-height: 21px;
         text-align : justify;
     }
+
+    .paragraph--description-category {
+        margin: 0;
+    }
+
+    .container--from-price-static__text {
+        padding: 9px 12px 4px 10px;
+    }
 }
