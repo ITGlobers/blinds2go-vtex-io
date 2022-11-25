@@ -54,7 +54,9 @@
     "vtex.overlay-layout": "0.x",
     "vtex.checkout-summary": "0.x",
     "vtex.disclosure-layout": "1.x",
-    "vtex.threekit-app": "0.x"
+    "vtex.threekit-app": "0.x",
+    "vtex.store-image": "0.x",
+    "vtex.product-highlights": "2.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

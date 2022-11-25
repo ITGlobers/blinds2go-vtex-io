@@ -45,11 +45,5 @@
     "props":{
       "blockClass":"container__desktop--accordion"
     }
-  },
-
-    "breadcrumb": {
-      "props": {
-        "showOnMobile": true
-      }
-    }
+  }
 }

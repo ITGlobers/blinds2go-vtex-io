@@ -1,15 +1,5 @@
-.homeLink{
-  font-size: 0;
-}
 
-.homeLink::after{
-  content: "Home";
-  font-size: 14px;
-}
 
-.homeLink:hover ::after{
-  color:1px solid gray;
-}
 
 .homeIcon{
   display: none;
