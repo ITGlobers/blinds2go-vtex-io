@@ -13,7 +13,10 @@
     ]
   },
   "sticky-layout#header-1-mobile": {
-    "children": ["flex-layout.row#mobile-1"]
+    "children": ["flex-layout.row#mobile-1"],
+    "props":{
+      "blockClass": "stick-1"
+    }
   },
   "sticky-layout#header-2-mobile": {
     "children": ["flex-layout.row#mobile-2"]
