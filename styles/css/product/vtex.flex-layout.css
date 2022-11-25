@@ -11,3 +11,27 @@
   align-items: center;
   flex-direction: column;
 }
+
+
+.flexColChild--global__container--sections{
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.flexCol--container__desktop--accordion{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexColChild--container__desktop--accordion{
+  background: transparent;
+  border: 2px solid transparent;
+}
+
+.flexColChild--characteristic{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}

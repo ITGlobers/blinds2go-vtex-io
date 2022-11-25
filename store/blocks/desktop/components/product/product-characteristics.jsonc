@@ -1,0 +1,70 @@
+{
+  "flex-layout.row#desktop__characteristics": {
+    "title": "Characteristics",
+    "children": [
+      "flex-layout.col#Characteristics__items1",
+      "flex-layout.col#Characteristics__items2",
+      "flex-layout.col#Characteristics__items3"
+    ],
+    "props":{
+      "blockClass":"container__characteristics"
+    }
+  },
+  "flex-layout.col#Characteristics__items1": {
+    "title": "Items",
+    "children": ["image#first__item", "rich-text#title__Char1"],
+    "props":{
+      "blockClass":"characteristic"
+    }
+  },
+  "image#first__item": {
+    "props": {
+      "src": "https://blindstogouk.vtexassets.com/arquivos/Classic%20Style.jpg",
+      "blockClass":"image__characteristic"
+    }
+  },
+  "rich-text#title__Char1": {
+    "props": {
+      "text": "Classic Style",
+      "blockClass":"text__characteristic"
+    }
+  },
+  "flex-layout.col#Characteristics__items2": {
+    "title": "Items",
+    "children": ["image#second__item", "rich-text#title__Char2"],
+    "props":{
+      "blockClass":"characteristic"
+    }
+  },
+  "image#second__item": {
+    "props": {
+      "src": "https://blindstogouk.vtexassets.com/arquivos/Completely%20Waterproof.jpg",
+      "blockClass":"image__characteristic"
+    }
+  },
+  "rich-text#title__Char2": {
+    "props": {
+      "text": "Completely Waterproof",
+      "blockClass":"text__characteristic"
+    }
+  },
+  "flex-layout.col#Characteristics__items3": {
+    "title": "Items",
+    "children": ["image#third__item", "rich-text#title__Char3"],
+    "props":{
+      "blockClass":"characteristic"
+    }
+  },
+  "image#third__item": {
+    "props": {
+      "src": "https://blindstogouk.vtexassets.com/arquivos/Virtually%20Indestructible.jpg",
+      "blockClass":"image__characteristic"
+    }
+  },
+  "rich-text#title__Char3": {
+    "props": {
+      "text": "Virtually Indestructible",
+      "blockClass":"text__characteristic"
+    }
+  }
+}

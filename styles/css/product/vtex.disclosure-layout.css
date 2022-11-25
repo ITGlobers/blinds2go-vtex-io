@@ -1,0 +1,10 @@
+.trigger--container__trigger--title--hidden,.trigger--container__trigger--title--visible{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.trigger--container__trigger--title--visible{
+
+}
