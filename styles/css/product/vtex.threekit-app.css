@@ -1,3 +1,11 @@
+.controls__wrapper{
+  border: 1px solid #dee0e4;
+  background: #f7f6f7;
+  border-radius: 4px;
+  padding: 30px 20px;
+}
+
+
 .topbarSection{
   display: none;
 }

@@ -19,7 +19,7 @@
     "breadcrumb",
     "Threekit",
     "image#black--friday",
-    "flex-layout.col#desktop__accordion--container",
+    // "flex-layout.col#desktop__accordion--container",
     "flex-layout.row#desktop__characteristics"],
     "props":{
       "blockClass":"global__container--sections"
@@ -37,10 +37,10 @@
     "title":"Container accordion",
     "children":[
       "disclosure-layout#accordion1",
-      "disclosure-layout#accordion2",
-      "disclosure-layout#accordion3",
-      "disclosure-layout#accordion4",
-      "disclosure-layout#accordion5"
+      "disclosure-layout#accordion2"
+      // "disclosure-layout#accordion3",
+      // "disclosure-layout#accordion4",
+      // "disclosure-layout#accordion5"
     ],
     "props":{
       "blockClass":"container__desktop--accordion"

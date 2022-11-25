@@ -5,6 +5,7 @@
     margin: auto;
 }
 
-.trigger--container__trigger--title--visible{
-
+.trigger--container__trigger--title--hidden,.trigger--container__trigger--title--visible{
+  background: transparent;
+  border:2px solid transparent;
 }
