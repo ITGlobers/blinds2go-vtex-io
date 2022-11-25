@@ -181,7 +181,13 @@
     color         : #000000;
     text-transform: lowercase;
 }
-
+.filterPopupTitle {
+    font-family   : "Nunito Sans", sans-serif;
+    font-size     : 14px;
+    font-weight   : 400;
+    text-transform: capitalize;
+    color         : #000000;
+}
 /* Desktop */
 @media (min-width: 64rem) {
     .container--layout {
