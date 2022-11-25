@@ -1,0 +1,54 @@
+.flexColChild--showcase__prices::before {
+    display     : inline-block;
+    content     : '';
+    background  : url("data:image/svg+xml,%3Csvg enable-background='new 0 0 23 23' viewBox='0 0 23 23' xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3Etag icon%3C/title%3E%3Cpath d='m20.7.6-8.9 1.6-9.7 12.4c-.3.4-.2 1 .1 1.4l7.9 6.2c.4.3 1 .2 1.4-.1l9.7-12.3s-.5-9.2-.5-9.2zm-3.4 8.4c-1.4.6-2.9 0-3.6-1.4-.6-1.4 0-2.9 1.4-3.6s2.9 0 3.6 1.4c.4 1.4-.1 3-1.4 3.6z' fill='none' stroke='%233f1552' stroke-miterlimit='10'/%3E%3C/svg%3E") no-repeat;
+    width       : 21px;
+    height      : 21px;
+    margin-right: 5px;
+}
+
+.flexColChild--showcase__prices {
+    display    : flex;
+    align-items: flex-end;
+}
+
+.flexColChild--showcase__savings {
+    position: absolute;
+}
+
+.flexColChild--showcase__container--slats {
+    display        : flex;
+    align-items    : flex-end;
+    justify-content: center;
+    padding-left   : 15px;
+}
+
+.flexCol--showcase__container--swatch {
+    position: absolute;
+    height  : auto;
+    width   : auto;
+}
+
+.flexColChild--showcase__container--swatch {
+    position: relative;
+    z-index : 100;
+    width   : 100%;
+    bottom  : -157px;
+    right   : -87px;
+}
+
+/* Tablet */
+@media (min-width: 40rem) {
+    .flexColChild--showcase__container--swatch {
+        bottom: -215px;
+        right : -150px;
+    }
+}
+
+/* Desktop */
+@media (min-width: 64rem) {
+    .flexColChild--showcase__container--swatch {
+        bottom: -210px;
+        right : -123px;
+    }
+}

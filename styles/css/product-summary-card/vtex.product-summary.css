@@ -1,0 +1,32 @@
+.brandName--global__showcase--name {
+    min-height    : 32px;
+    font-size     : 15px;
+    font-family   : "Nunito Sans", sans-serif;
+    font-weight   : 400;
+    color         : #000;
+    text-transform: capitalize;
+}
+
+.nameContainer {
+    padding-bottom: 0;
+}
+
+.element {
+    max-width: 213px;
+    margin   : 0 auto;
+}
+
+.nameWrapper--global__showcase--name {
+    min-height: 54px;
+}
+
+.nameContainer {
+    padding-top: 0;
+}
+
+/* Desktop */
+@media (min-width: 64rem) {
+    .nameWrapper--global__showcase--name {
+        min-height: 38px;
+    }
+}

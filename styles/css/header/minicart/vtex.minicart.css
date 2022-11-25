@@ -19,6 +19,12 @@
   min-width: 3rem;
 }
 
+.minicartContainer :global(.vtex-button):hover{
+  min-height: 3rem;
+  min-width: 3rem;
+  background: transparent !important;
+}
+
 .minicartQuantityBadge {
   top: -2.5rem;
   right: -0.7rem;
@@ -51,6 +57,12 @@
 
 .minicartIconContainer :global(.vtex-store-icons-0-x-cartIcon){
   display: none;
+}
+
+.minicartCheckoutButton :global(.vtex-button){
+  background: #e5800c;
+  border: none;
+  font-weight: 600;
 }
 
 @media screen  and (min-width: 1024px){

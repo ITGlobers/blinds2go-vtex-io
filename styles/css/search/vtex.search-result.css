@@ -1,0 +1,299 @@
+.searchResultContainer {
+    padding  : 0 15px;
+    max-width: 1440px;
+}
+
+.filtersWrapperMobile--filters__filter-navigator {
+    justify-content: flex-start;
+}
+
+.filterPopupButton {
+    padding: 0;
+}
+
+.filterPopupButton {
+    flex-direction: row-reverse;
+}
+
+.filterPopupArrowIcon {
+    margin-left : 0;
+    margin-right: 5px;
+    padding     : 0;
+    align-items : center;
+    display     : flex;
+}
+
+.filterPopupTitle--filters__filter-navigator::before {
+    content     : "Show";
+    margin-right: 3px;
+}
+
+.filterPopupTitle--filters__filter-navigator {
+    font-family   : "Nunito Sans", sans-serif;
+    font-size     : 20px;
+    font-weight   : 700;
+    color         : #000000;
+    text-transform: capitalize;
+}
+
+.filterIcon--filters__filter-navigator {
+    height: 22px;
+    width : 30px;
+}
+
+.totalProducts--layout {
+    font-family    : "Nunito Sans", sans-serif;
+    padding        : 0;
+    display        : flex;
+    align-items    : center;
+    justify-content: flex-end;
+    font-size      : 16px;
+    color          : #000000;
+}
+
+.galleryTitle--layout {
+    font-family: "Raleway", sans-serif;
+    line-height: 1.1;
+    color      : #3b214f;
+    font-size  : 24px;
+    display    : flex;
+    align-items: center;
+}
+
+.orderByText--total-orderby {
+    font-family: "Raleway", sans-serif;
+    margin     : 0 5px;
+}
+
+.filterPopupArrowIcon--total-orderby {
+    margin: 0 4px;
+}
+
+/* Filter Sidebar phone */
+.sidebar {
+    padding: 20px
+}
+
+.filterAccordionBreadcrumbs,
+.filterBreadcrumbsContent--filters__filter-navigator {
+    padding: 0;
+    height : auto;
+}
+
+.filterBreadcrumbsText--filters__filter-navigator {
+    font-family   : "Nunito Sans", sans-serif;
+    font-size     : 20px;
+    font-weight   : 700;
+    color         : #000000;
+    text-transform: capitalize;
+}
+
+.filterAccordionBreadcrumbs {
+    padding-bottom: 10px;
+    border        : none;
+}
+
+.filterBreadcrumbsText--filters__filter-navigator::before {
+    content     : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 21.5'%3E%3Cpath d='M0 10.4h30v1.5H0ZM0 3.36h30v1.5H0Z' style='fill:%233b214f' transform='translate(0 -.31)'/%3E%3Ccircle cx='21.35' cy='3.76' r='3.11' style='fill:%23fff;stroke:%23b80375;stroke-miterlimit:10;stroke-width:1.3px'/%3E%3Cpath d='M0 17.3h30v1.5H0Z' style='fill:%233b214f' transform='translate(0 -.31)'/%3E%3Ccircle cx='8.09' cy='17.73' r='3.11' style='fill:%23fff;stroke:%23b80375;stroke-miterlimit:10;stroke-width:1.3px'/%3E%3C/svg%3E");
+    display     : inline-grid;
+    width       : 22px;
+    height      : 10px;
+    margin-right: 5px;
+}
+
+.closeIconButton {
+    padding      : 3px 3px 3px 8px;
+    display      : flex;
+    align-items  : center;
+    border       : 1px solid #000000;
+    border-radius: 14px;
+    top          : 9px;
+    right        : 12px;
+}
+
+.closeIconButton::before {
+    content     : "CLOSE";
+    font-family : "Nunito Sans", sans-serif;
+    font-size   : 12px;
+    margin-top  : 2px;
+    margin-right: 5px;
+}
+
+.closeIcon {
+    width      : 18px;
+    height     : 18px;
+    line-height: 0;
+}
+
+.accordionFilterContainer--filters__filter-navigator {
+    padding-left: 0;
+}
+
+.accordionFilterItem--filters__filter-navigator {
+    border-bottom: none;
+    padding      : 0;
+    min-height   : 45px;
+    border-top   : 1px solid #dee0e4;
+}
+
+.accordionFilterContent--filters__filter-navigator {
+    flex-direction : row-reverse;
+    display        : flex;
+    justify-content: flex-end;
+    align-items    : self-end;
+}
+
+.caretIcon--filters__filter-navigator {
+    display: none;
+}
+
+.accordionFilterItemIcon--filters__filter-navigator::before {
+    display     : inline-block;
+    content     : '';
+    background  : url("data:image/svg+xml,%3Csvg enable-background='new 0 0 100 100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3Earrow right icon%3C/title%3E%3Cpath d='m24 5 45.4 45.5-44 44' fill='none' stroke='%23391d52' stroke-miterlimit='10' stroke-width='13'/%3E%3C/svg%3E") no-repeat;
+    width       : 16px;
+    height      : 16px;
+    transform   : rotate(0.0turn);
+    margin-right: 6px;
+}
+
+.accordionFilterItemTitle--filters__filter-navigator {
+    font-family: "Nunito Sans", sans-serif;
+    font-size  : 18px;
+    font-weight: 200;
+}
+
+.filterButtonsBox {
+    left        : 0;
+    border-color: #dee0e4;
+}
+
+.totalProductsMessage {
+    font-size: 0px;
+}
+
+.totalProductsMessage::before {
+    content       : 'items';
+    font-family   : "Nunito Sans", sans-serif;
+    font-size     : 16px;
+    font-weight   : 200;
+    line-height   : 18px;
+    color         : #000000;
+    text-transform: lowercase;
+}
+.filterPopupTitle {
+    font-family   : "Nunito Sans", sans-serif;
+    font-size     : 14px;
+    font-weight   : 400;
+    text-transform: capitalize;
+    color         : #000000;
+}
+/* Desktop */
+@media (min-width: 64rem) {
+    .container--layout {
+        max-width: 1280px;
+        width    : 100%;
+    }
+
+    .filterMessage--filters__filter-navigator::before {
+        content         : '';
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 21.5'%3E%3Cpath d='M0 10.4h30v1.5H0ZM0 3.36h30v1.5H0Z' style='fill:%233b214f' transform='translate(0 -.31)'/%3E%3Ccircle cx='21.35' cy='3.76' r='3.11' style='fill:%23fff;stroke:%23b80375;stroke-miterlimit:10;stroke-width:1.3px'/%3E%3Cpath d='M0 17.3h30v1.5H0Z' style='fill:%233b214f' transform='translate(0 -.31)'/%3E%3Ccircle cx='8.09' cy='17.73' r='3.11' style='fill:%23fff;stroke:%23b80375;stroke-miterlimit:10;stroke-width:1.3px'/%3E%3C/svg%3E");
+        background-size : 25px 17px;
+        display         : block;
+        width           : 25px;
+        height          : 17px;
+        margin-right    : 5px;
+    }
+
+    .filterMessage--filters__filter-navigator {
+        display       : flex;
+        align-items   : center;
+        font-family   : "Nunito Sans", sans-serif;
+        font-size     : 20px;
+        font-weight   : 700;
+        color         : #000000;
+        text-transform: capitalize;
+        margin        : 15px 0;
+    }
+
+    .filter__container--filters__filter-navigator {
+        border-color: #dee0e4;
+    }
+
+    .filterAvailable--filters__filter-navigator {
+        display    : flex;
+        padding    : 5px 0;
+        align-items: center;
+        padding    : 12px 0;
+    }
+
+    .filterAvailable--filters__filter-navigator .filterTitleSpan--filters__filter-navigator::before {
+        display     : inline-block;
+        content     : '';
+        background  : url("data:image/svg+xml,%3Csvg enable-background='new 0 0 100 100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3Earrow right icon%3C/title%3E%3Cpath d='m24 5 45.4 45.5-44 44' fill='none' stroke='%23391d52' stroke-miterlimit='10' stroke-width='13'/%3E%3C/svg%3E") no-repeat;
+        width       : 16px;
+        height      : 16px;
+        transform   : rotate(0.0turn);
+        margin-right: 6px;
+    }
+
+    .filterIsOpen--filters__filter-navigator .filterTitleSpan--filters__filter-navigator::before {
+        transform: rotate(0.25turn);
+    }
+
+    .filter__container--priceRange .filterTitleSpan--filters__filter-navigator::before {
+        display: none;
+    }
+
+    .filterTitleSpan--filters__filter-navigator {
+        display       : flex;
+        align-items   : center;
+        font-family   : "Nunito Sans", sans-serif;
+        font-size     : 18px;
+        font-weight   : 200;
+        line-height   : 22px;
+        color         : #000000;
+        text-transform: capitalize;
+    }
+
+    .filterItem--filters__filter-navigator ::global(.vtex-checkbox__label) {
+        display       : flex;
+        align-items   : center;
+        font-family   : "Nunito Sans", sans-serif;
+        font-size     : 16px;
+        font-weight   : 400;
+        line-height   : 16px;
+        color         : #000000;
+        text-transform: capitalize;
+    }
+
+    .gallery--grid {
+        padding: 0;
+    }
+
+    .filterItem--filters__filter-navigator :global(.vtex-checkbox__line-container) {
+        align-items: center;
+    }
+
+    .orderByButton--total-orderby {
+        padding-left : 0;
+        padding-right: 0;
+    }
+
+    .galleryTitle--layout {
+        font-size: 30px;
+    }
+
+    .orderByDropdown--total-orderby {
+        max-width: 250px;
+    }
+
+    .filter__container--selectedFilters {
+        display: none;
+    }
+
+    .totalProducts--layout {
+        position: relative;
+        bottom  : -18px;
+    }
+}

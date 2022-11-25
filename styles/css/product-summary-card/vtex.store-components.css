@@ -1,0 +1,10 @@
+.imageElement--swatch--static {
+    max-width: 80px;
+}
+
+/* Desktop */
+@media (min-width: 64rem) {
+    .imageElement--swatch--static {
+        max-width: 107px;
+    }
+}

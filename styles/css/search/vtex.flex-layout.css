@@ -1,0 +1,58 @@
+.flexRow--general__results--filters {
+    padding      : 0;
+    border-bottom: 1px solid #dee0e4;
+}
+
+.flexRowContent--general__results--title {
+    align-items: center;
+    margin-top : 15px;
+}
+
+.flexRow--general__description--category :global(.vtex-store-components-3-x-container) {
+    padding: 0;
+}
+
+.flexRowContent--general__results--bottom :global(.vtex-search-result-3-x-galleryTitle--layout) {
+    margin-bottom : 15px;
+    letter-spacing: -1px;
+    font-weight   : 600;
+    font-size     : 30px;
+}
+
+.flexRow--general__results--mobile :global(.vtex-store-components-3-x-container) {
+    padding-left : 0;
+    padding-right: 0;
+}
+
+/* Desktop */
+@media (min-width: 64rem) {
+    .flexCol--general__results--filters {
+        min-width: 205px;
+        width    : 100%;
+    }
+
+    .flexRowContent--general__results--bottom {
+        flex-direction: column;
+    }
+
+    .flexCol--general__results--content {
+        margin-left: 1.5rem;
+    }
+
+    .flexRowContent--general__results--bottom-description {
+        align-items    : flex-start;
+        justify-content: space-between;
+    }
+
+    .flexRowContent--general__results--bottom-description :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+        width: 48% !important;
+    }
+
+    .flexRowContent--general__results--title {
+        margin-top: 0px;
+    }
+
+    .flexColChild--general__results--filters:first-child {
+        height: 0px !important;
+    }
+}
