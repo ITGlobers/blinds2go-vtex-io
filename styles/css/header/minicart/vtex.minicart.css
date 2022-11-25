@@ -60,13 +60,11 @@
 }
 
 .minicartCheckoutButton :global(.vtex-button){
-  background: #e5800c;
+  background: #f38d18;
   border: none;
   font-weight: 600;
 }
 
-@media screen  and (min-width: 1024px){
-  .drawer {
-    max-width: 500px !important;
-  }
+.minicartCheckoutButton :global(.vtex-button):hover{
+  background: #e5800c;
 }
