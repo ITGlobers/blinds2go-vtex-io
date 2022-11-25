@@ -1,15 +1,8 @@
 {
   "store.home": {
     "blocks": [
-      "rich-text"
+      "responsive-layout.desktop#home",
+      "responsive-layout.mobile#home"
     ]
-  },
-  "rich-text": {
-    "props": {
-      "text": "IT Globers Store Theme",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heading-2"
-    }
   }
 }

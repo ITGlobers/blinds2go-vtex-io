@@ -1,0 +1,150 @@
+{
+  "flex-layout.row#home-three-desktop": {
+    "title": "block 3",
+    "children": [
+      "flex-layout.col#home-three-1-desktop",
+      "link#marcas"
+    ],
+    "props": {
+      "blockClass": "home__three-desktop",
+      "preventHorizontalStretch": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#home-three-1-desktop": {
+    "title": "block 3",
+    "children": [
+      "image#banner-three-1",
+      "image#banner-three-2",
+      "image#banner-three-3",
+      "image#banner-three-4",
+      "image#banner-three-5",
+      "image#banner-three-6",
+      "image#banner-three-7",
+      "image#banner-three-8",
+      "image#banner-three-9",
+      "image#banner-three-10",
+      "image#banner-three-11",
+      "image#banner-three-12"
+    ],
+    "props": {
+      "blockClass": "home__three-desktop",
+      "preventHorizontalStretch": true,
+      "fullWidth": true
+    }
+  },
+  "image#banner-three-1": {
+    "title": "image",
+    "props": {
+      "src": "arquivos/vAndA.svg",
+      "maxHeight": 425,
+      "maxWidth": 575,
+      "blockClass": "banner__one-desktop"
+    }
+  },
+  "image#banner-three-2": {
+    "title": "image",
+    "props": {
+      "src": "arquivos/vAndA.svg",
+      "maxHeight": 425,
+      "maxWidth": 575,
+      "blockClass": "banner__one-desktop"
+    }
+  },
+  "image#banner-three-3": {
+    "title": "image",
+    "props": {
+      "src": "arquivos/vAndA.svg",
+      "maxHeight": 425,
+      "maxWidth": 575,
+      "blockClass": "banner__one-desktop"
+    }
+  },
+  "image#banner-three-4": {
+    "title": "image",
+    "props": {
+      "src": "arquivos/vAndA.svg",
+      "maxHeight": 425,
+      "maxWidth": 575,
+      "blockClass": "banner__one-desktop"
+    }
+  },
+  "image#banner-three-5": {
+    "title": "image",
+    "props": {
+      "src": "arquivos/vAndA.svg",
+      "maxHeight": 425,
+      "maxWidth": 575,
+      "blockClass": "banner__one-desktop"
+    }
+  },
+  "image#banner-three-6": {
+    "title": "image",
+    "props": {
+      "src": "arquivos/vAndA.svg",
+      "maxHeight": 425,
+      "maxWidth": 575,
+      "blockClass": "banner__one-desktop"
+    }
+  },
+  "image#banner-three-7": {
+    "title": "image",
+    "props": {
+      "src": "arquivos/vAndA.svg",
+      "maxHeight": 425,
+      "maxWidth": 575,
+      "blockClass": "banner__one-desktop"
+    }
+  },
+  "image#banner-three-8": {
+    "title": "image",
+    "props": {
+      "src": "arquivos/vAndA.svg",
+      "maxHeight": 425,
+      "maxWidth": 575,
+      "blockClass": "banner__one-desktop"
+    }
+  },
+  "image#banner-three-9": {
+    "title": "image",
+    "props": {
+      "src": "arquivos/vAndA.svg",
+      "maxHeight": 425,
+      "maxWidth": 575,
+      "blockClass": "banner__one-desktop"
+    }
+  },
+  "image#banner-three-10": {
+    "title": "image",
+    "props": {
+      "src": "arquivos/vAndA.svg",
+      "maxHeight": 425,
+      "maxWidth": 575,
+      "blockClass": "banner__one-desktop"
+    }
+  },
+  "image#banner-three-11": {
+    "title": "image",
+    "props": {
+      "src": "arquivos/vAndA.svg",
+      "maxHeight": 425,
+      "maxWidth": 575,
+      "blockClass": "banner__one-desktop"
+    }
+  },
+  "image#banner-three-12": {
+    "title": "image",
+    "props": {
+      "src": "arquivos/vAndA.svg",
+      "maxHeight": 425,
+      "maxWidth": 575,
+      "blockClass": "banner__one-desktop"
+    }
+  },
+  "link#marcas": {
+    "props": {
+      "href": "/",
+      "label": "SHOP BRANDS"
+    }
+  }
+}

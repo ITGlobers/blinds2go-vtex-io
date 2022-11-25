@@ -1,0 +1,591 @@
+{
+  "flex-layout.row#home-two-desktop": {
+    "title": "block 2",
+    "children": [
+      "flex-layout.col#grid-one-1-home-desktop",
+      "flex-layout.col#grid-two-1-home-desktop",
+      "flex-layout.col#grid-three-1-home-desktop",
+      "flex-layout.col#grid-one-2-home-desktop",
+      "flex-layout.col#grid-two-2-home-desktop",
+      "flex-layout.col#grid-three-2-home-desktop",
+      "flex-layout.col#grid-one-3-home-desktop",
+      "flex-layout.col#grid-two-3-home-desktop",
+      "flex-layout.col#grid-three-3-home-desktop",
+      "flex-layout.col#grid-one-4-home-desktop",
+      "flex-layout.col#grid-two-4-home-desktop",
+      "flex-layout.col#grid-three-4-home-desktop",
+      "flex-layout.col#grid-one-5-home-desktop",
+      "flex-layout.col#grid-two-5-home-desktop",
+      "flex-layout.col#grid-three-5-home-desktop",
+      "flex-layout.col#grid-one-6-home-desktop",
+      "flex-layout.col#grid-two-6-home-desktop",
+      "flex-layout.col#grid-three-6-home-desktop",
+      "flex-layout.col#grid-one-7-home-desktop",
+      "flex-layout.col#grid-two-7-home-desktop",
+      "flex-layout.col#grid-three-7-home-desktop"
+    ],
+    "props": {
+      "blockClass": "home__one-desktop"
+    }
+  },
+  /* --1--- */
+  "flex-layout.col#grid-one-1-home-desktop": {
+    "title": "grid 1",
+    "children": [
+      "image#grid-one",
+      "rich-text#grid-one"
+    ],
+    "props": {
+      "blockClass": "grid-one-home-desktop"/* ,
+      "preventHorizontalStretch": true */
+    }
+  },
+  "image#grid-one": {
+    "title": "image",
+    "props": {
+      "src": "assets/home/woods.jpg",
+      "maxHeight": 407,
+      "maxWidth": 407,
+      "blockClass": "grid__one-desktop"
+    }
+  },
+  "rich-text#grid-one": {
+    "props": {
+      "text": "WOODEN",
+      "blockClass": "text__grid"
+    }
+  },
+  /* --2--- */
+  "flex-layout.col#grid-two-1-home-desktop": {
+    "title": "grid 2",
+    "children": [
+      "image#grid-two",
+      "rich-text#grid-two"
+    ],
+    "props": {
+      "blockClass": "grid-one-home-desktop"/* ,
+      "preventHorizontalStretch": true */
+    }
+  },
+  "image#grid-two": {
+    "title": "image",
+    "props": {
+      "src": "arquivos/roller.jpg",
+      "maxHeight": 407,
+      "maxWidth": 407,
+      "blockClass": "grid__one-desktop"
+    }
+  },
+  "rich-text#grid-two": {
+    "props": {
+      "text": "ROLLER",
+      "blockClass": "text__grid"
+    }
+  },
+  /* --3--- */
+  "flex-layout.col#grid-three-1-home-desktop": {
+    "title": "grid 3",
+    "children": [
+      "image#grid-three",
+      "rich-text#grid-three"
+    ],
+    "props": {
+      "blockClass": "grid-one-home-desktop"/* ,
+      "preventHorizontalStretch": true */
+    }
+  },
+  "image#grid-three": {
+    "title": "image",
+    "props": {
+      "src": "arquivos/roman.jpg",
+      "maxHeight": 407,
+      "maxWidth": 407,
+      "blockClass": "grid__one-desktop"
+    }
+  },
+  "rich-text#grid-three": {
+    "props": {
+      "text": "ROMAN",
+      "blockClass": "text__grid"
+    }
+  },
+   /* --1--- */
+   "flex-layout.col#grid-one-2-home-desktop": {
+    "title": "grid 4",
+    "children": [
+      "image#grid-one-2",
+      "rich-text#grid-one-2"
+    ],
+    "props": {
+      "blockClass": "grid-one-home-desktop"/* ,
+      "preventHorizontalStretch": true */
+    }
+  },
+  "image#grid-one-2": {
+    "title": "image",
+    "props": {
+      "src": "arquivos/verts.jpg",
+      "maxHeight": 407,
+      "maxWidth": 407,
+      "blockClass": "grid__one-desktop"
+    }
+  },
+  "rich-text#grid-one-2": {
+    "props": {
+      "text": "VERTICAL",
+      "blockClass": "text__grid"
+    }
+  },
+  /* --2--- */
+  "flex-layout.col#grid-two-2-home-desktop": {
+    "title": "grid 5",
+    "children": [
+      "image#grid-two-2",
+      "rich-text#grid-two-2"
+    ],
+    "props": {
+      "blockClass": "grid-one-home-desktop"/* ,
+      "preventHorizontalStretch": true */
+    }
+  },
+  "image#grid-two-2": {
+    "title": "image",
+    "props": {
+      "src": "arquivos/venetians.jpg",
+      "maxHeight": 407,
+      "maxWidth": 407,
+      "blockClass": "grid__one-desktop"
+    }
+  },
+  "rich-text#grid-two-2": {
+    "props": {
+      "text": "VENETIAN",
+      "blockClass": "text__grid"
+    }
+  },
+  /* --3--- */
+  "flex-layout.col#grid-three-2-home-desktop": {
+    "title": "grid 6",
+    "children": [
+      "image#grid-three-2",
+      "rich-text#grid-three-2"
+    ],
+    "props": {
+      "blockClass": "grid-one-home-desktop"/* ,
+      "preventHorizontalStretch": true */
+    }
+  },
+  "image#grid-three-2": {
+    "title": "image",
+    "props": {
+      "src": "arquivos/perfect-fit.jpg",
+      "maxHeight": 407,
+      "maxWidth": 407,
+      "blockClass": "grid__one-desktop"
+    }
+  },
+  "rich-text#grid-three-2": {
+    "props": {
+      "text": "PERFECTFIT",
+      "blockClass": "text__grid"
+    }
+  },
+  /* --1--- */
+  "flex-layout.col#grid-one-3-home-desktop": {
+    "title": "grid 7",
+    "children": [
+      "image#grid-one-3",
+      "rich-text#grid-one-3"
+    ],
+    "props": {
+      "blockClass": "grid-one-home-desktop"/* ,
+      "preventHorizontalStretch": true */
+    }
+  },
+  "image#grid-one-3": {
+    "title": "image",
+    "props": {
+      "src": "arquivos/shutter.jpg",
+      "maxHeight": 407,
+      "maxWidth": 407,
+      "blockClass": "grid__one-desktop"
+    }
+  },
+  "rich-text#grid-one-3": {
+    "props": {
+      "text": "SHUTTERS",
+      "blockClass": "text__grid"
+    }
+  },
+  /* --2--- */
+  "flex-layout.col#grid-two-3-home-desktop": {
+    "title": "grid 8",
+    "children": [
+      "image#grid-two-3",
+      "rich-text#grid-two-3"
+    ],
+    "props": {
+      "blockClass": "grid-one-home-desktop"/* ,
+      "preventHorizontalStretch": true */
+    }
+  },
+  "image#grid-two-3": {
+    "title": "image",
+    "props": {
+      "src": "arquivos/day-and-night.jpg",
+      "maxHeight": 407,
+      "maxWidth": 407,
+      "blockClass": "grid__one-desktop"
+    }
+  },
+  "rich-text#grid-two-3": {
+    "props": {
+      "text": "DAY & NIGHT",
+      "blockClass": "text__grid"
+    }
+  },
+  /* --3--- */
+  "flex-layout.col#grid-three-3-home-desktop": {
+    "title": "grid 9",
+    "children": [
+      "image#grid-three-3",
+      "rich-text#grid-three-3"
+    ],
+    "props": {
+      "blockClass": "grid-one-home-desktop"/* ,
+      "preventHorizontalStretch": true */
+    }
+  },
+  "image#grid-three-3": {
+    "title": "image",
+    "props": {
+      "src": "arquivos/conservatory.jpg",
+      "maxHeight": 407,
+      "maxWidth": 407,
+      "blockClass": "grid__one-desktop"
+    }
+  },
+  "rich-text#grid-three-3": {
+    "props": {
+      "text": "CONSERVATORY",
+      "blockClass": "text__grid"
+    }
+  },
+  /* --1--- */
+  "flex-layout.col#grid-one-4-home-desktop": {
+    "title": "grid 10",
+    "children": [
+      "image#grid-one-4",
+      "rich-text#grid-one-4"
+    ],
+    "props": {
+      "blockClass": "grid-one-home-desktop"/* ,
+      "preventHorizontalStretch": true */
+    }
+  },
+  "image#grid-one-4": {
+    "title": "image",
+    "props": {
+      "src": "arquivos/blackout.jpg",
+      "maxHeight": 407,
+      "maxWidth": 407,
+      "blockClass": "grid__one-desktop"
+    }
+  },
+  "rich-text#grid-one-4": {
+    "props": {
+      "text": "BLACKOUT",
+      "blockClass": "text__grid"
+    }
+  },
+  /* --2--- */
+  "flex-layout.col#grid-two-4-home-desktop": {
+    "title": "grid 11",
+    "children": [
+      "image#grid-two-4",
+      "rich-text#grid-two-4"
+    ],
+    "props": {
+      "blockClass": "grid-one-home-desktop"/* ,
+      "preventHorizontalStretch": true */
+    }
+  },
+  "image#grid-two-4": {
+    "title": "image",
+    "props": {
+      "src": "arquivos/bifolds.jpg",
+      "maxHeight": 407,
+      "maxWidth": 407,
+      "blockClass": "grid__one-desktop"
+    }
+  },
+  "rich-text#grid-two-4": {
+    "props": {
+      "text": "BIFOLD",
+      "blockClass": "text__grid"
+    }
+  },
+  /* --3--- */
+  "flex-layout.col#grid-three-4-home-desktop": {
+    "title": "grid 12",
+    "children": [
+      "image#grid-three-4",
+      "rich-text#grid-three-4"
+    ],
+    "props": {
+      "blockClass": "grid-one-home-desktop"/* ,
+      "preventHorizontalStretch": true */
+    }
+  },
+  "image#grid-three-4": {
+    "title": "image",
+    "props": {
+      "src": "arquivos/pleated.jpg",
+      "maxHeight": 407,
+      "maxWidth": 407,
+      "blockClass": "grid__one-desktop"
+    }
+  },
+  "rich-text#grid-three-4": {
+    "props": {
+      "text": "PLEATED",
+      "blockClass": "text__grid"
+    }
+  },
+  /* --1--- */
+  "flex-layout.col#grid-one-5-home-desktop": {
+    "title": "grid 13",
+    "children": [
+      "image#grid-one-5",
+      "rich-text#grid-one-5"
+    ],
+    "props": {
+      "blockClass": "grid-one-home-desktop"/* ,
+      "preventHorizontalStretch": true */
+    }
+  },
+  "image#grid-one-5": {
+    "title": "image",
+    "props": {
+      "src": "arquivos/roof.jpg",
+      "maxHeight": 407,
+      "maxWidth": 407,
+      "blockClass": "grid__one-desktop"
+    }
+  },
+  "rich-text#grid-one-5": {
+    "props": {
+      "text": "B2G FOR VELUX",
+      "blockClass": "text__grid"
+    }
+  },
+  /* --2--- */
+  "flex-layout.col#grid-two-5-home-desktop": {
+    "title": "grid 14",
+    "children": [
+      "image#grid-two-5",
+      "rich-text#grid-two-5"
+    ],
+    "props": {
+      "blockClass": "grid-one-home-desktop"/* ,
+      "preventHorizontalStretch": true */
+    }
+  },
+  "image#grid-two-5": {
+    "title": "image",
+    "props": {
+      "src": "arquivos/electric.jpg",
+      "maxHeight": 407,
+      "maxWidth": 407,
+      "blockClass": "grid__one-desktop"
+    }
+  },
+  "rich-text#grid-two-5": {
+    "props": {
+      "text": "ELECTRIC",
+      "blockClass": "text__grid"
+    }
+  },
+  /* --3--- */
+  "flex-layout.col#grid-three-5-home-desktop": {
+    "title": "grid 15",
+    "children": [
+      "image#grid-three-5",
+      "rich-text#grid-three-5"
+    ],
+    "props": {
+      "blockClass": "grid-one-home-desktop"/* ,
+      "preventHorizontalStretch": true */
+    }
+  },
+  "image#grid-three-5": {
+    "title": "image",
+    "props": {
+      "src": "arquivos/thermal.jpg",
+      "maxHeight": 407,
+      "maxWidth": 407,
+      "blockClass": "grid__one-desktop"
+    }
+  },
+  "rich-text#grid-three-5": {
+    "props": {
+      "text": "ENERGY SAVING",
+      "blockClass": "text__grid"
+    }
+  },
+  /* --1--- */
+  "flex-layout.col#grid-one-6-home-desktop": {
+    "title": "grid 16",
+    "children": [
+      "image#grid-one-6",
+      "rich-text#grid-one-6"
+    ],
+    "props": {
+      "blockClass": "grid-one-home-desktop"/* ,
+      "preventHorizontalStretch": true */
+    }
+  },
+  "image#grid-one-6": {
+    "title": "image",
+    "props": {
+      "src": "arquivos/childrens.jpg",
+      "maxHeight": 407,
+      "maxWidth": 407,
+      "blockClass": "grid__one-desktop"
+    }
+  },
+  "rich-text#grid-one-6": {
+    "props": {
+      "text": "CHILDRENS",
+      "blockClass": "text__grid"
+    }
+  },
+  /* --2--- */
+  "flex-layout.col#grid-two-6-home-desktop": {
+    "title": "grid 17",
+    "children": [
+      "image#grid-two-6",
+      "rich-text#grid-two-6"
+    ],
+    "props": {
+      "blockClass": "grid-one-home-desktop"/* ,
+      "preventHorizontalStretch": true */
+    }
+  },
+  "image#grid-two-6": {
+    "title": "image",
+    "props": {
+      "src": "arquivos/privacySheers.jpg",
+      "maxHeight": 407,
+      "maxWidth": 407,
+      "blockClass": "grid__one-desktop"
+    }
+  },
+  "rich-text#grid-two-6": {
+    "props": {
+      "text": "PRIVACY SHEERS",
+      "blockClass": "text__grid"
+    }
+  },
+  /* --3--- */
+  "flex-layout.col#grid-three-6-home-desktop": {
+    "title": "grid 18",
+    "children": [
+      "image#grid-three-6",
+      "rich-text#grid-three-6"
+    ],
+    "props": {
+      "blockClass": "grid-one-home-desktop"/* ,
+      "preventHorizontalStretch": true */
+    }
+  },
+  "image#grid-three-6": {
+    "title": "image",
+    "props": {
+      "src": "arquivos/commercial.jpg",
+      "maxHeight": 407,
+      "maxWidth": 407,
+      "blockClass": "grid__one-desktop"
+    }
+  },
+  "rich-text#grid-three-6": {
+    "props": {
+      "text": "COMMERCIAL",
+      "blockClass": "text__grid"
+    }
+  },
+  /* --1--- */
+  "flex-layout.col#grid-one-7-home-desktop": {
+    "title": "grid 19",
+    "children": [
+      "image#grid-one-7",
+      "rich-text#grid-one-7"
+    ],
+    "props": {
+      "blockClass": "grid-one-home-desktop"/* ,
+      "preventHorizontalStretch": true */
+    }
+  },
+  "image#grid-one-7": {
+    "title": "image",
+    "props": {
+      "src": "arquivos/curtains.jpg",
+      "maxHeight": 407,
+      "maxWidth": 407,
+      "blockClass": "grid__one-desktop"
+    }
+  },
+  "rich-text#grid-one-7": {
+    "props": {
+      "text": "CURTAINS",
+      "blockClass": "text__grid"
+    }
+  },
+  /* --2--- */
+  "flex-layout.col#grid-two-7-home-desktop": {
+    "title": "grid 20",
+    "children": [
+      "image#grid-two-7",
+      "rich-text#grid-two-7"
+    ],
+    "props": {
+      "blockClass": "grid-one-home-desktop"/* ,
+      "preventHorizontalStretch": true */
+    }
+  },
+  "image#grid-two-7": {
+    "title": "image",
+    "props": {
+      "src": "arquivos/cushions.jpg",
+      "maxHeight": 407,
+      "maxWidth": 407,
+      "blockClass": "grid__one-desktop"
+    }
+  },
+  "rich-text#grid-two-7": {
+    "props": {
+      "text": "CUSHIONS",
+      "blockClass": "text__grid"
+    }
+  },
+  /* --3--- */
+  "flex-layout.col#grid-three-7-home-desktop": {
+    "title": "grid 21",
+    "children": [
+      "image#grid-three-7"
+    ],
+    "props": {
+      "blockClass": "grid-one-home-desktop"/* ,
+      "preventHorizontalStretch": true */
+    }
+  },
+  "image#grid-three-7": {
+    "title": "image",
+    "props": {
+      "src": "arquivos/text.jpg",
+      "maxHeight": 407,
+      "maxWidth": 407,
+      "blockClass": "grid__one-desktop"
+    }
+  }
+}
