@@ -25,6 +25,7 @@
   line-height: 1.4;
   font-family: "Nunito Sans", sans-serif;
   font-weight: 400;
+  color: #000000;
 }
 
 .paragraph--text-home2 {
@@ -33,4 +34,29 @@
   font-family: "Nunito Sans", sans-serif;
   font-weight: 400;
   margin-top: 0;
+  color: #000000;
 }
+
+.paragraph--text-home1 {
+  text-align: justify;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px)  {
+  .container--text__grid {
+     bottom: -15px;
+   }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px)  {
+  .paragraph--text__grid {
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 425px)  {
+  .paragraph--text__grid {
+    font-size: 24px;
+  }
+}
+
+

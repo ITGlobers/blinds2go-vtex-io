@@ -1,3 +1,25 @@
+.backToTopButtonContainer :global(.vtex-button) {
+  background: #3b214f;
+  border: #3b214f;
+}
+
+.backToTopButtonContainer :global(.vtex-button__label) {
+  font-size: 12px;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.backToTopButtonContainer {
+  left: 1rem;
+  bottom: 1.5rem;
+  opacity: 0.8;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px)  {
+  .imageElement--home__slider-one-desktop {
+    width: 1024px !important;
+  }
+}
+
 .imageElement--banner__one-desktop {
   width: auto;
   height: 75px;
@@ -5,18 +27,15 @@
   max-width: 100%;
 }
 
-/* .imageElement--space {
-  margin-left: -50px !important;
+@media screen and (min-width: 300px) and (max-width: 1024px) {
+  .imageElement--grid__one-desktop {
+    width: 100% !important;
+  }
+
 }
 
-.imageElement--space1 {
-  margin-left: -180px !important;
+@media screen and (min-width: 321px) and (max-width: 425px) {
+.imageElement--grid-mobile {
+  height: 50vw;
 }
-
-.imageElement--space2 {
-  margin-left: -310px !important;
 }
-
-.imageElement--space3 {
-  margin-left: -430px !important;
-} */

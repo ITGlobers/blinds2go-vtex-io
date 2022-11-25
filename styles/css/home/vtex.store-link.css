@@ -11,3 +11,27 @@
   margin: 10px auto;
   text-decoration: none;
 }
+
+@media screen and (min-width: 376px) and (max-width: 425px)  {
+.link--link-shop {
+position: absolute;
+right: 50px;
+bottom: 20px;
+}
+}
+
+@media screen and (min-width: 321px) and (max-width: 375px)  {
+  .link--link-shop {
+  position: absolute;
+  right: 30px;
+  bottom: 18px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 320px)  {
+  .link--link-shop {
+  position: absolute;
+  right: 20px;
+  bottom: 15px;
+  }
+}

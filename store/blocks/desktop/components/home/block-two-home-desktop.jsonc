@@ -565,7 +565,7 @@
       "image#grid-three-7"
     ],
     "props": {
-      "blockClass": "grid-one-home-desktop"
+      "blockClass": ["grid-one-home-desktop", "grid-mobile"]
     }
   },
   "image#grid-three-7": {
@@ -574,7 +574,7 @@
       "src": "arquivos/text.PNG",
       "maxHeight": 407,
       "maxWidth": 407,
-      "blockClass": "grid__one-desktop"
+      "blockClass": ["grid__one-desktop", "grid-mobile"]
     }
   }
 }
