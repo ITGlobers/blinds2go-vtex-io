@@ -1,0 +1,13 @@
+.label--link-shop {
+  color: #61615f;
+  font-family: "Bebas", sans-serif;
+  font-size: 18px;
+}
+
+.link--link-shop {
+  border: 1px solid #61615f;
+  padding: 5px 20px;
+  display: inline-block;
+  margin: 10px auto;
+  text-decoration: none;
+}

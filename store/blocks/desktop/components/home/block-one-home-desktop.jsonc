@@ -2,16 +2,16 @@
   "flex-layout.row#home-one-desktop": {
     "title": "block 1",
     "children": [
-      "image#banner-one",
+     /*  "image#banner-one", */
       "list-context.image-list#banner-home"
     ],
     "props": {
-      "blockClass": "home__one-desktop",
-      "preventHorizontalStretch": true,
-      "fullWidth": true
+      "blockClass": "home__desktop",
+      "fullWidth": true,
+      "preventHorizontalStretch": true
     }
   },
-  "image#banner-one": {
+ /*  "image#banner-one": {
     "title": "image",
     "props": {
       "src": "arquivos/home1.png",
@@ -19,16 +19,16 @@
       "maxWidth": 575,
       "blockClass": "banner__one-desktop"
     }
-  },
+  }, */
   "list-context.image-list#banner-home": {
     "title": "container images",
     "children": ["slider-layout#demo-images"],
     "props": {
       "height": 425,
-      "width": 704,
+      "width": 1280,
       "images": [
         {
-          "image": "arquivos/home2.jpg",
+          "image": "arquivos/black.png",
           "description": "banner"
         }
       ]

@@ -1,0 +1,36 @@
+.paragraph--text__grid {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Bebas", sans-serif;
+  font-display: block;
+  letter-spacing: 3px;
+  font-size: 48px;
+  line-height: 0.9;
+}
+
+.container--text__grid {
+ position: absolute;
+  z-index: 1;
+  display: block;
+  bottom: 0;
+  width: 90%;
+  margin: 15px auto 5px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.paragraph--text-home1 {
+  font-size: 15px;
+  line-height: 1.4;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+}
+
+.paragraph--text-home2 {
+  font-size: 15px;
+  line-height: 1.4;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  margin-top: 0;
+}
