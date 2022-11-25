@@ -31,10 +31,14 @@
 
 .flexColChild--showcase__container--swatch {
     position: relative;
-    z-index : 100;
+    z-index : 1;
     width   : 100%;
-    bottom  : -157px;
+    bottom  : -127px;
     right   : -87px;
+}
+
+.flexCol--showcase__savings {
+    height: auto;
 }
 
 /* Tablet */
@@ -48,7 +52,7 @@
 /* Desktop */
 @media (min-width: 64rem) {
     .flexColChild--showcase__container--swatch {
-        bottom: -210px;
+        bottom: -165px;
         right : -123px;
     }
 }
