@@ -1,3 +1,55 @@
+.controls__wrapper{
+  border: 1px solid #dee0e4;
+  background: #f7f6f7;
+  border-radius: 4px;
+  padding: 30px 20px;
+}
+
+
+.topbarSection{
+  display: none;
+}
+
+
 .titleWrapper{
   background-color: #3B214F;
+}
+
+.price{
+  text-transform: lowercase;
+    font-size: 24px;
+    margin-left: auto;
+    color: #909da3;
+    text-align: left;
+    font-family: raleway, sans-serif;
+    font-weight: 500;
+    display: block;
+}
+
+.priceCTA{
+  font-size: 0px;
+}
+
+.priceCTA::after{
+  content: "From";
+  text-transform: lowercase;
+    font-size: 24px;
+    margin-left: auto;
+    color: #909da3;
+    text-align: left;
+    font-family: raleway, sans-serif;
+    font-weight: 500;
+    display: block;
+
+}
+
+.selected{
+  border: 2px solid #3B214F;
+}
+
+.buttonWrapper:hover{
+  border: 2px solid #3B214F;
+}
+.titleIcon{
+  background:#ED982F;
 }

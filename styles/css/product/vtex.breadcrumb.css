@@ -1,0 +1,32 @@
+.homeLink{
+  font-size: 0;
+}
+
+.homeLink::after{
+  content: "Home";
+  font-size: 14px;
+}
+
+.homeLink:hover ::after{
+  color:1px solid gray;
+}
+
+.homeIcon{
+  display: none;
+}
+
+
+.breadcrumb__separator{
+  font-size: 0;
+}
+
+.hover-c-link:hover{
+  font-size: 24;
+  color: black
+}
+
+
+.container{
+  margin-top: 20px;
+  margin-left: 60px;
+}

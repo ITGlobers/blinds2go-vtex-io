@@ -10,4 +10,27 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 40px;
+
+}
+
+
+
+
+.flexCol--container__desktop--accordion{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.flexColChild--container__desktop--accordion{
+  background: transparent;
+  border: 2px solid transparent;
+}
+
+.flexColChild--characteristic{
+  height: 100%;
+  display: flex;
+  justify-content: center;
 }
