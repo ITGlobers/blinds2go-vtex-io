@@ -67,7 +67,13 @@
 .styledLinkContainer--root {
   padding-top: 0;
   padding-bottom: 0;
+  margin-right: 0 !important;
 }
+
+/* .styledLinkContent--root:hover {
+  background-color: #fff;
+  color: #3B214F !important;
+} */
 
 .styledLinkContent--menu-footer:hover {
   text-decoration: underline;
