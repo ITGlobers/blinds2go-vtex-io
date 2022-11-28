@@ -1,0 +1,37 @@
+.label--link-shop {
+  color: #61615f;
+  font-family: "Bebas", sans-serif;
+  font-size: 18px;
+}
+
+.link--link-shop {
+  border: 1px solid #61615f;
+  padding: 5px 20px;
+  display: inline-block;
+  margin: 10px auto;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 376px) and (max-width: 425px)  {
+.link--link-shop {
+position: absolute;
+right: 50px;
+bottom: 20px;
+}
+}
+
+@media screen and (min-width: 321px) and (max-width: 375px)  {
+  .link--link-shop {
+  position: absolute;
+  right: 30px;
+  bottom: 18px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 320px)  {
+  .link--link-shop {
+  position: absolute;
+  right: 20px;
+  bottom: 15px;
+  }
+}

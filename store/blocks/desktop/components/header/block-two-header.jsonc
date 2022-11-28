@@ -24,6 +24,15 @@
       "search-bar"
     ]
   },
+  "autocomplete-result-list.v2": {
+    "blocks": ["product-summary"]
+  },
+  "search-bar": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true
+    }
+  },
 
   /* menu order */
   "menu-item#order": {

@@ -9,12 +9,19 @@
       "flex-layout.col#footer-desktop-one",
       "flex-layout.col#footer-mobile-two",
       "flex-layout.col#footer-desktop-three",
-      "flex-layout.col#footer-desktop-four"
+      "flex-layout.col#footer-desktop-four",
+      "back-to-top-button#mobile"
     ],
     "props": {
       "blockClass": "global__footer-desktop",
       "fullWidth": true,
       "preventHorizontalStretch": true
+    }
+  },
+  "back-to-top-button#mobile":{
+    "props":{
+      "displayThreshold": 400,
+      "blockClass": "mobile"
     }
   }
 }
