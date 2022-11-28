@@ -44,7 +44,7 @@
 /* Tablet */
 @media (min-width: 40rem) {
     .flexColChild--showcase__container--swatch {
-        bottom: -215px;
+        bottom: -125px;
         right : -150px;
     }
 }
