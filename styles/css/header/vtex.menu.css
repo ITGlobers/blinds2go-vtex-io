@@ -70,11 +70,6 @@
   margin-right: 0 !important;
 }
 
-/* .styledLinkContent--root:hover {
-  background-color: #fff;
-  color: #3B214F !important;
-} */
-
 .styledLinkContent--menu-footer:hover {
   text-decoration: underline;
 }
@@ -235,6 +230,6 @@
 @media (max-width: 425px) {
   .styledLinkIcon--select-help {
     width: 43px;
-    height: 43px;
+    height: 50px;
   }
 }

@@ -1,6 +1,6 @@
 {
   "flex-layout.col#col-two-mobile": {
-    "children": ["search-bar"],
+    "children": ["search-bar", "login"],
     "props": {
       "blockClass": "col__two-mobile",
       "preventHorizontalStretch": true,
