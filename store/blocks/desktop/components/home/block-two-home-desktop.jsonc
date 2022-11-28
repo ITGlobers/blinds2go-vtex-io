@@ -36,8 +36,7 @@
       "rich-text#grid-one"
     ],
     "props": {
-      "blockClass": "grid-one-home-desktop"/* ,
-      "preventHorizontalStretch": true */
+      "blockClass": "grid-one-home-desktop"
     }
   },
   "image#grid-one": {
@@ -63,8 +62,7 @@
       "rich-text#grid-two"
     ],
     "props": {
-      "blockClass": "grid-one-home-desktop"/* ,
-      "preventHorizontalStretch": true */
+      "blockClass": "grid-one-home-desktop"
     }
   },
   "image#grid-two": {
@@ -360,14 +358,13 @@
       "rich-text#grid-one-5"
     ],
     "props": {
-      "blockClass": "grid-one-home-desktop"/* ,
-      "preventHorizontalStretch": true */
+      "blockClass": "grid-one-home-desktop"
     }
   },
   "image#grid-one-5": {
     "title": "image",
     "props": {
-      "src": "arquivos/roof.jpg",
+      "src": "assets/home/roof.jpg",
       "maxHeight": 407,
       "maxWidth": 407,
       "blockClass": "grid__one-desktop"
@@ -387,14 +384,13 @@
       "rich-text#grid-two-5"
     ],
     "props": {
-      "blockClass": "grid-one-home-desktop"/* ,
-      "preventHorizontalStretch": true */
+      "blockClass": "grid-one-home-desktop"
     }
   },
   "image#grid-two-5": {
     "title": "image",
     "props": {
-      "src": "arquivos/electric.jpg",
+      "src": "assets/home/electric.jpg",
       "maxHeight": 407,
       "maxWidth": 407,
       "blockClass": "grid__one-desktop"
@@ -414,14 +410,13 @@
       "rich-text#grid-three-5"
     ],
     "props": {
-      "blockClass": "grid-one-home-desktop"/* ,
-      "preventHorizontalStretch": true */
+      "blockClass": "grid-one-home-desktop"
     }
   },
   "image#grid-three-5": {
     "title": "image",
     "props": {
-      "src": "arquivos/thermal.jpg",
+      "src": "assets/home/thermal.jpg",
       "maxHeight": 407,
       "maxWidth": 407,
       "blockClass": "grid__one-desktop"
@@ -441,8 +436,7 @@
       "rich-text#grid-one-6"
     ],
     "props": {
-      "blockClass": "grid-one-home-desktop"/* ,
-      "preventHorizontalStretch": true */
+      "blockClass": "grid-one-home-desktop"
     }
   },
   "image#grid-one-6": {
@@ -468,8 +462,7 @@
       "rich-text#grid-two-6"
     ],
     "props": {
-      "blockClass": "grid-one-home-desktop"/* ,
-      "preventHorizontalStretch": true */
+      "blockClass": "grid-one-home-desktop"
     }
   },
   "image#grid-two-6": {
@@ -495,8 +488,7 @@
       "rich-text#grid-three-6"
     ],
     "props": {
-      "blockClass": "grid-one-home-desktop"/* ,
-      "preventHorizontalStretch": true */
+      "blockClass": "grid-one-home-desktop"
     }
   },
   "image#grid-three-6": {
@@ -522,8 +514,7 @@
       "rich-text#grid-one-7"
     ],
     "props": {
-      "blockClass": "grid-one-home-desktop"/* ,
-      "preventHorizontalStretch": true */
+      "blockClass": "grid-one-home-desktop"
     }
   },
   "image#grid-one-7": {
@@ -549,8 +540,7 @@
       "rich-text#grid-two-7"
     ],
     "props": {
-      "blockClass": "grid-one-home-desktop"/* ,
-      "preventHorizontalStretch": true */
+      "blockClass": "grid-one-home-desktop"
     }
   },
   "image#grid-two-7": {
@@ -575,17 +565,16 @@
       "image#grid-three-7"
     ],
     "props": {
-      "blockClass": "grid-one-home-desktop"/* ,
-      "preventHorizontalStretch": true */
+      "blockClass": ["grid-one-home-desktop", "grid-mobile"]
     }
   },
   "image#grid-three-7": {
     "title": "image",
     "props": {
-      "src": "arquivos/text.jpg",
+      "src": "arquivos/text.PNG",
       "maxHeight": 407,
       "maxWidth": 407,
-      "blockClass": "grid__one-desktop"
+      "blockClass": ["grid__one-desktop", "grid-mobile"]
     }
   }
 }
