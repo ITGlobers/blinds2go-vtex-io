@@ -14,13 +14,18 @@
 .profileIcon {
   color: #FFFFFF;
   padding: 5px;
- }
+}
 
-.formFooter :global(.vtex-button__label) {
+.forgotPasswordLink:hover,
+.dontHaveAccount:hover {
+opacity: 1;
+}
+
+.formFooter :global(.vtex-button__label) span {
   color: white;
   font-size: 15px;
   font-weight: 600;
-  font-family: "Raleway",sans-serif;
+  font-family: "Nunito Sans", sans-serif;
 }
 
 .formFooter :global(.vtex-button),
@@ -52,9 +57,9 @@
 }
 
 .formTitle {
-  font-family: "Nunito Sans",sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   font-size: 18px;
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .contentAlwaysWithOptions {
@@ -65,8 +70,9 @@
   padding-bottom: 60px;
 }
 
-.forgotPasswordLink, .dontHaveAccount {
-  font-family: "Nunito Sans",sans-serif;
+.forgotPasswordLink,
+.dontHaveAccount {
+  font-family: "Nunito Sans", sans-serif;
   color: #3b214f;
 }
 
@@ -76,21 +82,39 @@
 }
 
 .accessCodeOptionBtn :global(.vtex-button__label),
-.emailPasswordOptionBtn :global(.vtex-button__label)  {
+.emailPasswordOptionBtn :global(.vtex-button__label) {
   color: #FFFFFF;
   font-size: 15px;
   font-weight: 600;
-  font-family: "Raleway",sans-serif;
+  font-family: "Raleway", sans-serif;
   text-transform: capitalize;
 }
 
 .backButton :global(.vtex-button__label) {
   font-weight: 600;
-  font-family: "Raleway",sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .formError {
   background-color: #FFFFFF;
+}
+
+.contentFormVisible .accountOptions .button span {
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+
+.contentFormVisible .accountOptions .button {
+  background-color: #ED982F;
+}
+
+.contentFormVisible .accountOptions :global(.vtex-button) :global(.vtex-button__label) span {
+  color: #3b214f;
+  text-transform: capitalize;
+}
+
+.contentFormVisible .accountOptions :global(.vtex-button):hover {
+  background-color: transparent;
 }
 
 @media (max-width: 1024px) {
@@ -104,4 +128,3 @@
     max-width: 15rem;
   }
 }
-

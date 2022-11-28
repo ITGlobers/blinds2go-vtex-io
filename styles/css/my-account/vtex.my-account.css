@@ -111,3 +111,38 @@ form :global(.vtex-button__label),
 :global(.vtex-profile-form-3-x-businessFields) :global(.vtex-input__label) {
   font-family: "Nunito Sans",sans-serif;
 }
+
+.menuLinks :global(.c-on-base) {
+  border-color: #ED982F;
+}
+
+:global(.vtex-modal__confirmation) :global(.vtex-button) {
+ background-color: #ED982F;
+ border-color: #ED982F;
+}
+
+:global(.vtex-modal__confirmation) :global(.mr4) :global(.vtex-button) {
+  background-color: #ffffff;
+  border-color: #ED982F;
+ }
+
+ :global(.vtex-modal__confirmation) :global(.mr4) :global(.vtex-button__label){
+  color: #ED982F;
+ }
+
+:global(.vtex-modal__confirmation) :global(.vtex-button__label) {
+  text-transform: capitalize;
+  font-weight: 600;
+  color: #ffffff;
+ }
+
+ :global(.vtex-profile-form-3-x-toggleBusinessButtonWrapper) :global(.vtex-button) {
+  background-color: #ED982F;
+  border-color: #ED982F;
+ }
+
+ :global(.vtex-profile-form-3-x-toggleBusinessButtonWrapper) :global(.vtex-button):hover {
+  background-color: #ffffff;
+  border-color: #ED982F;
+  color: #ED982F;
+ }
