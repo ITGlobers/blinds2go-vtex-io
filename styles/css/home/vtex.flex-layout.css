@@ -92,6 +92,11 @@
   text-align: center;
 }
 
+.flexColChild--grid-one-home-desktop:hover {
+  -webkit-filter: brightness(97%);
+  filter: brightness(97%);
+}
+
 
 @media (min-width: 1400px) {
   .flexRow--home__desktop,
