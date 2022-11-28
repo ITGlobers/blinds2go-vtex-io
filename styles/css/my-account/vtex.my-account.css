@@ -1,0 +1,113 @@
+:global(.vtex-account__page) :global(.vtex-pageHeader__title) {
+  color: #3B214F;
+}
+
+.boxContainer,
+:global(.vtex-my-authentication-1-x-box_container) {
+  border-radius: 20px;
+}
+
+form :global(.vtex-input-prefix__group) {
+  border-radius: 5px;
+}
+
+.boxContainerFooter :global(.vtex-button),
+:global(.vtex-pageHeader__children) :global(.vtex-button),
+:global(.vtex-my-authentication-1-x-box_footer) :global(.vtex-button),
+form :global(.vtex-button),
+.boxContainerBody :global(.vtex-button) {
+  background-color: #3B214F;
+  color: #ffffff;
+  border-color: #3B214F;
+  border-radius: 5px;
+}
+
+.boxContainerFooter :global(.vtex-button):hover,
+:global(.vtex-pageHeader__children) :global(.vtex-button):hover,
+:global(.vtex-my-authentication-1-x-box_footer) :global(.vtex-button):hover,
+form :global(.vtex-button):hover,
+.boxContainerBody :global(.vtex-button):hover {
+  background-color: #ffffff;
+  border-color: #3B214F;
+  color: #3B214F;
+}
+
+.boxContainerFooter :global(.vtex-button__label),
+:global(.vtex-pageHeader__children) :global(.vtex-button__label),
+:global(.vtex-my-authentication-1-x-box_footer) :global(.vtex-button__label),
+form :global(.vtex-button__label),
+.boxContainerBody :global(.vtex-button__label),
+:global(.vtex-profile-form-3-x-toggleBusinessButtonWrapper) :global(.vtex-button) {
+  text-transform: capitalize;
+}
+
+:global(.vtex-account_menu-link),
+:global(.vtex-address-form__postalCode-forgottenURL) a {
+  color: #3B214F;
+}
+
+:global(.vtex-address-form__postalCode-forgottenURL) a:hover {
+  color: #3B214F;
+}
+
+.dataEntryLabel,
+.newsletterContainerTitle,
+:global(.vtex-my-authentication-1-x-box_content) :global(.vtex-my-authentication-1-x-maskedPassword_title),
+:global(.vtex-my-authentication-1-x-loginSessionsBox_title),
+:global(.vtex-address-form__street) :global(.vtex-input__label),
+:global(.vtex-profile-form-3-x-businessFields) :global(.vtex-input__label) {
+  font-weight: 600;
+}
+
+:global(.vtex-pageHeader-link__container) :global(.vtex-button) {
+  color: #3B214F;
+}
+
+.boxContainerBody :global(.address-summary) :global(.c-link) {
+  color: #3B214F;
+  font-weight: 600;
+}
+
+:global(.vtex-pageHeader-link__container) :global(.vtex-button):hover {
+  background-color: transparent;
+}
+
+:global(.vtex-pageHeader-link__container) :global(.vtex-button)  :global(.t-action--small) {
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+:global(.vtex-address-form__country) :global(.vtex-address-form-4-x-dropdown) :global(.vtex-dropdown__label),
+:global(.vtex-address-form__postalCode) :global(.vtex-input__label),
+:global(.vtex-address-form__complement) :global(.vtex-input__label),
+:global(.vtex-address-form__receiverName) :global(.vtex-input__label),
+:global(.vtex_my-authentication_loginSession_device),
+:global(.vtex-profile-form-3-x-personalFields) :global(.vtex-input__label),
+:global(.vtex-profile-form-3-x-genderInput) :global(.vtex-dropdown__label) {
+  font-weight: 600;
+}
+
+:global(.vtex_my-authentication_resendCodeButton_container) :global(.vtex-button) {
+  border-color: #3B214F;
+  background-color: #ffffff;
+  color: #3B214F;
+}
+
+:global(.vtex_my-authentication_resendCodeButton_container) :global(.vtex-button__label) {
+  text-transform: capitalize;
+}
+
+:global(.vtex_my-authentication_loginSession_currSessionText) {
+  color: #3B214F;
+  font-weight: 600;
+}
+
+:global(.vtex_my-authentication_loginSession_currSessionIcon) svg g {
+  fill: #3B214F !important;
+}
+
+:global(.vtex-profile-form-3-x-personalFields) :global(.vtex-input__label),
+:global(.vtex-profile-form-3-x-genderInput) :global(.vtex-dropdown__label),
+:global(.vtex-profile-form-3-x-businessFields) :global(.vtex-input__label) {
+  font-family: "Nunito Sans",sans-serif;
+}
