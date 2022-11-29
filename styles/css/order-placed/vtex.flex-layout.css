@@ -1,0 +1,18 @@
+.flexRowContent--confirmation__buttons :global(.vtex-button) {
+    background-color: #ffffff;
+    border-color    : #ffffff;
+    color           : #0275d8;
+    font-family     : "Nunito Sans", sans-serif;
+    font-size       : 20px;
+    font-weight     : 400;
+    text-transform  : capitalize;
+}
+
+.flexRowContent--confirmation__buttons :global(.vtex-button):hover {
+    text-decoration: underline;
+}
+
+.flexRowContent--confirmation__buttons .flexColChild {
+    display        : flex;
+    justify-content: center;
+}
