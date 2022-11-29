@@ -1,0 +1,56 @@
+.label--link__download--guide{
+
+  background-color: #8fcec8;
+  color: white !important;
+  max-width: 500px;
+  border-radius: 4px;
+  border: none;
+  padding: 15px 0;
+  display: block;
+  text-align: center;
+  width: 100%;
+  margin: 15px auto;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  max-height: 57px;
+  -ms-flex-item-align: center;
+  align-self: center;
+  position: relative;
+  font-family: inherit;
+  text-decoration: none;
+}
+
+.link--link__download--guide{
+  text-decoration: none;
+}
+
+
+.label--link__download--guide1{
+  background-color: #3b214f;
+  color: white !important;
+  max-width: 500px;
+  border-radius: 4px;
+  border: none;
+  padding: 15px 0;
+  display: block;
+  text-align: center;
+  width: 100%;
+  margin: 15px auto;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  max-height: 57px;
+  -ms-flex-item-align: center;
+  align-self: center;
+  position: relative;
+  font-family: inherit;
+  text-decoration: none;
+}
+
+.link--link__download--guide1{
+  text-decoration: none;
+}
+

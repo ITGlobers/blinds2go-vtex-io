@@ -16,34 +16,82 @@
   "flex-layout.col#global__product--container": {
     "title": "Sections Products",
     "children": [
-    "breadcrumb",
-    "Threekit",
-    "image#black--friday",
-    // "flex-layout.col#desktop__accordion--container",
-    "flex-layout.row#desktop__characteristics"],
-    "props":{
-      "blockClass":"global__container--sections"
+      "breadcrumb",
+      "Threekit",
+      "flex-layout.col#sku__container",
+      "flex-layout.row#subscriptionsblinds",
+      // "flex-layout.row#addtoCart__container",
+      "image#black--friday",
+      "flex-layout.col#desktop__accordion--container",
+      "rich-text#you__may--also",
+      "flex-layout.row#product__sections--similar",
+      "flex-layout.row#desktop__characteristics"
+    ],
+    "props": {
+      "blockClass": "global__container--sections"
     }
   },
 
-  "image#black--friday":{
-    "props":{
-      "src":"https://blindstogouk.vtexassets.com/arquivos/1920_Black-Friday-2022-Snip-lg.png",
-      "blockClass":"banner__black--friday"
+  "flex-layout.col#sku__container": {
+    "title": "Free Samples",
+    "children": ["rich-text#description-offer__sku-list--title", "sku-list"],
+    "props": {
+      "blockClass": "container__skuList"
     }
   },
 
-  "flex-layout.col#desktop__accordion--container":{
-    "title":"Container accordion",
-    "children":[
+  "rich-text#description-offer__sku-list--title":{
+    "props": {
+      "text": "Choose your free sample",
+      "blockClass":"sku-list__title"
+    }
+  },
+
+  "rich-text#you__may--also":{
+    "props":{
+      "text":"You may also like",
+      "blockClass":"title__you--may"
+    }
+  },
+
+  "flex-layout.row#addtoCart__container": {
+    "title": "container Button",
+    "children": ["add-to-cart-button"],
+    "props": {
+      "blockClass": "container__addtocart--pdp"
+    }
+  },
+
+  "image#black--friday": {
+    "props": {
+      "src": "https://blindstogouk.vtexassets.com/arquivos/1920_Black-Friday-2022-Snip-lg.png",
+      "blockClass": "banner__black--friday"
+    }
+  },
+
+  "flex-layout.col#desktop__accordion--container": {
+    "title": "Container accordion",
+    "children": [
       "disclosure-layout#accordion1",
-      "disclosure-layout#accordion2"
-      // "disclosure-layout#accordion3",
-      // "disclosure-layout#accordion4",
+      "disclosure-layout#accordion2",
+      "disclosure-layout#accordion3",
+      "disclosure-layout#accordion4"
       // "disclosure-layout#accordion5"
     ],
-    "props":{
-      "blockClass":"container__desktop--accordion"
+    "props": {
+      "blockClass": "container__desktop--accordion"
+    }
+  },
+
+  "breadcrumb": {
+    "props": {
+      "showOnMobile": true
+    }
+  },
+  "sku-selector": {
+    "props": {
+      "hideImpossibleCombinations": false,
+      "visibility": "always"
     }
   }
 }

@@ -1,3 +1,7 @@
 .flexCol--product-quantity {
     padding: 1rem 0;
 }
+
+.flexRowContent--product-description{
+    display: flex !important;
+}

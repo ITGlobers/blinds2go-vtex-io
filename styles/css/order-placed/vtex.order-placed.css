@@ -1,0 +1,95 @@
+.orderPlacedMainWrapper,
+.section--confirmation {
+    margin: 1rem 20px;
+}
+
+.orderPlacedWrapper {
+    max-width: 1280px;
+    margin   : 0 auto;
+}
+
+.confirmationMessage {
+    color: #000000;
+}
+
+.orderDatetime,
+.orderSoldBy {
+    color: #000000;
+}
+
+.customerInfoListEmail,
+.customerInfoListDocument,
+.customerInfoListPhone {
+    color: #000000;
+}
+
+.orderNumber {
+    font-size: 24px;
+}
+
+.updateOrderButton :global(.vtex-button),
+.myOrdersButton :global(.vtex-button) {
+    background-color: #ffffff;
+    border-color    : #ffffff;
+    color           : #0275d8;
+    font-family     : "Nunito Sans", sans-serif;
+    font-size       : 20px;
+    font-weight     : 200;
+    text-transform  : capitalize;
+}
+
+.cancelOrderButton :global(.vtex-button) {
+    background-color: #ffffff;
+    border-color    : #ffffff;
+    font-family     : "Nunito Sans", sans-serif;
+    font-size       : 20px;
+    font-weight     : 200;
+    text-transform  : capitalize;
+}
+
+.updateOrderButton :global(.vtex-button):hover,
+.myOrdersButton :global(.vtex-button):hover,
+.cancelOrderButton :global(.vtex-button):hover {
+    text-decoration: underline;
+}
+
+.deliveryPackages,
+.section--pickupPackages {
+    border-color       : #dee0e4;
+    border-width       : 1px;
+    border-bottom-width: 0px;
+}
+
+.packageShippingEstimate,
+.packageSLA {
+    color: #000000;
+}
+
+.addressContainer :local(span) {
+    font-family: "Nunito Sans", sans-serif;
+    color      : #000000;
+}
+
+.productInfoColumn {
+    justify-content: flex-start;
+}
+
+.productQuantity {
+    font-family: "Nunito Sans", sans-serif;
+    color      : #000000;
+}
+
+.totalListItem--Shipping :local(span) {
+    font-family: "Nunito Sans", sans-serif;
+    color      : #000000;
+}
+
+.totalList :local(strong) {
+    font-size: 24px;
+}
+
+.totalListWrapper {
+    border-bottom : 1px solid #dee0e4;
+    margin-bottom : 3rem;
+    padding-bottom: 3rem;
+}

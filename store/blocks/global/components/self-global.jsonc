@@ -36,19 +36,7 @@
   "product-summary-image#global__showcase--image": {
     "props": {
       "blockClass": "global__showcase--image",
-      "showBadge": false,
-      "hoverImage": {},
-      "width": {
-        "desktop": "213px",
-        "tablet": "213px",
-        "mobile": "160px"
-      },
-      "height": {
-        "desktop": "284px",
-        "tablet": "284px",
-        "mobile": "213px"
-      },
-      "aspectRatio": "6:13"
+      "showBadge": false
     }
   },
   "flex-layout.col#showcase__container--swatch": {

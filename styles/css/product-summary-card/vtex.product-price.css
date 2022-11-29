@@ -6,6 +6,10 @@
     color      : #000000;
 }
 
+.sellingPrice--showcase__selling--price {
+    text-align: left;
+}
+
 .currencyCode--showcase__selling--price {
     font-size: 0;
     display  : flex;
@@ -40,17 +44,16 @@
     text-align    : center;
     color         : #ffffff;
     font-weight   : 600;
-    top           : 24px;
+    top           : -5px;
     left          : -7px;
     font-family   : "Raleway", sans-serif;
     display       : flex;
     flex-direction: column;
     align-content : center;
     padding-top   : 3px;
-
-    line-height  : 20px;
-    font-size    : 20px;
-    margin-bottom: 2px;
+    line-height   : 20px;
+    font-size     : 20px;
+    margin-bottom : 2px;
 }
 
 .savingsPercentage--showcase__savings::before {
@@ -68,7 +71,7 @@
     .savings--showcase__savings {
         width      : 71px;
         height     : 68px;
-        top        : 31px;
+        top        : -6px;
         left       : -6px;
         font-size  : 26px;
         line-height: 28px;

@@ -1,0 +1,49 @@
+.selectedSkuContentWrapper:first-child{
+  display: none;
+}
+.selectedSkuContentWrapper{
+  float: left;
+  margin-bottom: 30px;
+  border: none;
+  align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.skuName,
+.sellerName,
+.sellerInventoryWrapper ,
+.sellerPriceContainer,
+.quantitySelectorStepper,
+.inventoryContainer  {
+  display: none;
+}
+.skuImage{
+  width: 100px;
+  height: 100px;
+}
+.selectedSkuContentWrapper :global(.vtex-button){
+  background-color: transparent;
+  text-align: left;
+  border-radius: 30px;
+  min-height: 0;
+  border: 1px solid #9cbd2e;
+  background-color: #9cbd2e;
+}
+.selectedSkuContentWrapper :global(.vtex-button)::before{
+  content: "Free sample";
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 3px 5px;
+}
+.selectedSkuContentWrapper :global(.vtex-button__label){
+  display: none;
+}
+
+.specificationsTableContainer{
+  display: none;
+}
+
+.highlightValue{
+  display: none;
+}

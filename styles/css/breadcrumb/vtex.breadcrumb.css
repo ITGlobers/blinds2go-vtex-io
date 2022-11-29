@@ -29,3 +29,11 @@
     color       : #000000;
     margin-right: 3px;
 }
+
+:global(.vtex-flex-layout-0-x-flexRowContent--general__results--breadcrumb) .container {
+    margin: 10px 0px;
+}
+
+.homeLink::after{
+  display: none;
+}
