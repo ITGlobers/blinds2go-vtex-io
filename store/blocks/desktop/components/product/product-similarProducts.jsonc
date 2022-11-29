@@ -2,6 +2,7 @@
   "flex-layout.row#product__sections--similar": {
     "title": "Principal Similar Variants",
     "children": [
+
       "flex-layout.col#product__sections--similar"
     ],
     "props": {
@@ -12,17 +13,25 @@
     }
   },
 
+
+
   "flex-layout.col#product__sections--similar": {
     "children": [
       "responsive-layout.desktop#sections__similar--related",
       "responsive-layout.mobile#sections__similar--related"
-    ]
+    ],
+    "props":{
+      "blockClass":"continer__responsives--similar products"
+    }
   },
 
   "responsive-layout.desktop#sections__similar--related": {
     "children": [
       "shelf.relatedProducts#sections__similar--related-desktop"
-    ]
+    ],
+    "props":{
+        "blockClass":"shelf__similar--products"
+    }
   },
 
   "responsive-layout.mobile#sections__similar--related": {
@@ -73,12 +82,18 @@
 
   "product-summary.shelf#similar__related--product": {
     "children": [
-      "product-summary-image",
+      "product-summary-image#pdp",
       "product-summary-name",
       "product-summary-brand"
     ],
     "props": {
       "blockClass": "related__product"
+    }
+  },
+  "product-summary-image#pdp":{
+    "props":{
+
+      "blockClass":"image__you--may"
     }
   }
 }

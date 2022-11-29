@@ -23,6 +23,7 @@
       "flex-layout.row#addtoCart__container",
       "image#black--friday",
       "flex-layout.col#desktop__accordion--container",
+      "rich-text#you__may--also",
       "flex-layout.row#product__sections--similar",
       "flex-layout.row#desktop__characteristics"
     ],
@@ -41,19 +42,17 @@
 
   "rich-text#description-offer__sku-list--title":{
     "props": {
-      "text": "Choose your free samples",
+      "text": "Choose your free sample",
       "blockClass":"sku-list__title"
     }
   },
 
-  "rich-text#description-offer__sku-list--title1":{
-    "props": {
-      "text": "Choose your free samples",
-      "blockClass":"sku-list__title"
+  "rich-text#you__may--also":{
+    "props":{
+      "text":"You may also like",
+      "blockClass":"title__you--may"
     }
   },
-
-
 
   "flex-layout.row#addtoCart__container": {
     "title": "container Button",
@@ -74,9 +73,9 @@
     "title": "Container accordion",
     "children": [
       "disclosure-layout#accordion1",
-      "disclosure-layout#accordion2"
-      // "disclosure-layout#accordion3",
-      // "disclosure-layout#accordion4",
+      "disclosure-layout#accordion2",
+      "disclosure-layout#accordion3",
+      "disclosure-layout#accordion4"
       // "disclosure-layout#accordion5"
     ],
     "props": {

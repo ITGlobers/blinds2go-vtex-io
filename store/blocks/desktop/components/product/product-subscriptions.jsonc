@@ -2,11 +2,18 @@
   "flex-layout.row#subscriptionsblinds" : {
     "title" : "product Subscription container",
     "children":[
-      "rich-text#description-offer__sku-list--title",
+      "rich-text#description-offer__sku-list--title1",
       "product-assembly-options#product__subscriptions"
     ],
     "props" : {
       "blockClass" : "product__subscriptions"
+    }
+  },
+
+  "rich-text#description-offer__sku-list--title1":{
+    "props": {
+      "text": "Choose your maintenance frequency",
+      "blockClass":"sku-list__title"
     }
   },
   "product-assembly-options#product__subscriptions": {

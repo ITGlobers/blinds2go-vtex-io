@@ -12,6 +12,7 @@
   flex-direction: column;
   margin-bottom: 40px;
 
+
 }
 
 
@@ -21,18 +22,42 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: auto;
+  max-width: 900px;
+
+
 
 }
 
 .flexColChild--container__desktop--accordion{
   background: transparent;
   border: 2px solid transparent;
+  width: inherit;
+
 }
 
 .flexColChild--characteristic{
   height: 100%;
   display: flex;
   justify-content: center;
+}
+
+.flexColChild--container__desktop--accordion {
+  width: inherit;
+}
+
+.flexRowContent--container__items{
+  position: relative;
+}
+
+
+
+.flexRowContent--container__items :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child{
+  width: 100% !important;
+}
+
+.flexRowContent--container__items :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child{
+  width: auto !important;
 }
 
 
@@ -50,6 +75,8 @@
 .flexRowContent--container__addtocart--pdp :global(.vtex-flex-layout-0-x-stretchChildrenWidth) :global(.vtex-button){
   background-color: rgb(237,152,47);
   border: inherit;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 /* Free Samples*/
@@ -89,7 +116,15 @@
   height     : 36px;
   display    : flex;
   align-items: center;
-  background-color: #3B214F;
+  background: #ED982F;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--sku-list__title) {
+  width      : 100%;
+  height     : 36px;
+  display    : flex;
+  align-items: center;
+  background: #3B214F;
 }
 
 .flexCol--sku-list :global(.vtex-rich-text-0-x-paragraph--sku-list__title) {
@@ -120,4 +155,67 @@
 
 .flexRowContent--product__subscriptions :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
   width: 100% !important;
+  padding: 0px 20px;
+  margin-bottom: 20px;
+}
+
+.flexRowContent--product__subscriptions :global(.vtex-flex-layout-0-x-stretchChildrenWidth) :last-child :global(.vtex-button){
+  border: 1px solid rgb(88,237,155);
+  background-color: rgb(88,237,155);
+  color: #fff;
+  border-radius: 4px;
+}
+
+.flexRowContent--product__subscriptions :global(.vtex-flex-layout-0-x-stretchChildrenWidth) :last-child :global(.vtex-button) :global(.vtex-button-label){
+  font-size: 0;
+}
+
+.flexRowContent--product__subscriptions :global(.vtex-flex-layout-0-x-stretchChildrenWidth) :last-child :global(.vtex-button) :global(.vtex-button-label) ::after{
+  content: "choose your subscription";
+  font-size:14px;
+}
+
+
+.flexRowContent--product__subscriptions :global(.vtex-flex-layout-0-x-stretchChildrenWidth) :global(.vtex-button){
+  border: 1px solid rgb(88,237,155);
+  background-color: rgb(88,237,155);
+  color: #fff;
+  border-radius: 4px;
+}
+
+
+/* accordion*/
+
+.flexRowContent--container__pdf--information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+
+
+.flexRowContent--container__characteristics{
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .flexColChild--container__skuList,.flexRowContent--product__subscriptions{
+    width: 100% !important;
+  }
+
+  .flexRowContent--container__characteristics{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .flexRow--container__addtocart--pdp{
+    display: flex;
+    justify-content: start !important;
+  }
 }

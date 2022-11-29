@@ -57,3 +57,58 @@
 .titleIcon{
   background:#ED982F;
 }
+
+.threekit__wrapper {
+  width        : 100%;
+  padding      : 0;
+  flex-wrap    : wrap;
+  display      : flex;
+  margin       : 0;
+  margin-bottom: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .player__wrapper,
+  .controls__wrapper {
+    width: 100%;
+  }
+
+  .player__wrapper {
+    pointer-events: none;
+    position      : relative;
+    padding       : 0;
+  }
+
+  .controls__wrapper {
+    margin-top   : 20px;
+    margin-bottom: 20px;
+  }
+
+  .headerSection {
+    flex-direction: column;
+  }
+
+  .priceSection {
+    border : none;
+    padding: 0;
+    width  : 100%;
+  }
+
+  .headerSection {
+    margin-bottom: 0;
+  }
+
+  .measurementsWrapper {
+    flex-wrap: wrap;
+  }
+
+  .threekit__wrapper {
+    margin-bottom: 0;
+  }
+
+  .controls__wrapper {
+    padding: 20px;
+  }
+}
