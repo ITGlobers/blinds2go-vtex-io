@@ -50,23 +50,6 @@
       "horizontalAlignment": "center"
     }
   },
-  "condition-layout.category#general__results": {
-    "props": {
-      "conditions": [
-        {
-          "subject": "department",
-          "arguments": {
-            "ids": [
-              "2"
-            ]
-          }
-        }
-      ],
-      "matchType": "any",
-      "Then": "flex-layout.row#general__results-no-filters",
-      "Else": "flex-layout.row#general__results"
-    }
-  },
   "flex-layout.row#general__results-no-filters": {
     "props": {
       "blockClass": "general__results",
