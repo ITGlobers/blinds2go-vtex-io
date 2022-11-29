@@ -28,7 +28,7 @@
     margin-right: 3px;
 }
 
-.filterPopupTitle--filters__filter-navigator {
+.filterPopupTitle {
     font-family   : "Nunito Sans", sans-serif;
     font-size     : 20px;
     font-weight   : 700;
@@ -181,12 +181,16 @@
     color         : #000000;
     text-transform: lowercase;
 }
-.filterPopupTitle {
+.filterPopupTitle--total-orderby {
     font-family   : "Nunito Sans", sans-serif;
     font-size     : 14px;
     font-weight   : 400;
     text-transform: capitalize;
     color         : #000000;
+}
+.filterTemplateOverflow--filters__filter-navigator :global(.vtex-slider__selector), 
+.filterTemplateOverflow--filters__filter-navigator :global(.vtex-slider__base-internal){
+    background-color: #3b214f;
 }
 /* Desktop */
 @media (min-width: 64rem) {
