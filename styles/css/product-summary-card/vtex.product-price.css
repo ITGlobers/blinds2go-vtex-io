@@ -6,6 +6,10 @@
     color      : #000000;
 }
 
+.sellingPrice--showcase__selling--price {
+    text-align: left;
+}
+
 .currencyCode--showcase__selling--price {
     font-size: 0;
     display  : flex;

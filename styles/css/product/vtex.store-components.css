@@ -11,3 +11,8 @@
 .imageElement--image__waterproof{
   max-width: 175px;
 }
+
+.imageElement--imagen__pdf__logo{
+  width: 28px;
+  height: 28px;
+}

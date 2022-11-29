@@ -31,5 +31,9 @@
 }
 
 :global(.vtex-flex-layout-0-x-flexRowContent--general__results--breadcrumb) .container {
-    margin-left: 0px;
+    margin: 10px 0px;
+}
+
+.homeLink::after{
+  display: none;
 }
