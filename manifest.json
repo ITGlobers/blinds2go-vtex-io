@@ -60,7 +60,9 @@
   },
   "peerDependencies": {
     "vtexventures.livestreaming-free": "0.x",
-    "vtexventures.personal-shopper-free": "0.x"
+    "vtexventures.personal-shopper-free": "0.x",
+    "vtex.orderquote": "1.x",
+    "vtex.quickorder": "3.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
