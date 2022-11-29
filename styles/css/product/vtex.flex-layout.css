@@ -208,6 +208,15 @@
   align-items: center;
 }
 
+.flexRowContent--container__guarantee :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child{
+  width: auto !important;
+}
+
+.flexRowContent--container__guarantee :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child{
+  width: 100% !important;
+}
+
+
 
 
 @media screen and (max-width: 768px) {

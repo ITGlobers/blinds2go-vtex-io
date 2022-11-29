@@ -1,19 +1,45 @@
 .homeLink::before,
-.link {
+.link
+{
     content        : 'home';
     font-family    : "Nunito Sans", sans-serif;
     font-size      : 14px;
     font-weight    : 400;
     color          : #000000;
     line-height    : 17px;
-    text-decoration: underline;
+
     text-transform : lowercase;
+    padding-bottom: 3px !important;
     padding        : 0;
+    text-decoration: none;
 }
 
-.link:last-child {
-    text-decoration: unset;
+.term{
+  font-family    : "Nunito Sans", sans-serif;
+    font-size      : 14px;
+    font-weight    : 400;
+    color          : #000000;
+    line-height    : 17px;
+
+    text-transform : lowercase;
+    padding-bottom: 3px !important;
+    padding        : 0;
+    text-decoration: none;
 }
+
+.homeLink:hover ::before{
+  text-decoration: underline;
+  color: #000000;
+}
+
+.link:hover{
+  text-decoration: underline;
+  color: #000000  !important;
+}
+
+/* .link:last-child {
+    text-decoration: unset;
+} */
 
 .homeIcon {
     display: none;

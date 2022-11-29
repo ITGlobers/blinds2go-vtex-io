@@ -18,6 +18,10 @@
   filter: brightness(0.9);
 }
 
+.vtex-store-components-3-x-imageElement--grid__one-desktop {
+  transition: all 0.3s ease-in;
+}
+
 @media screen and (min-width: 769px) and (max-width: 1024px)  {
   .imageElement--home__slider-one-desktop {
     width: 1024px !important;

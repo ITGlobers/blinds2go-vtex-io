@@ -13,3 +13,10 @@
   position: relative;
   width: inherit;
 }
+.trigger--container__trigger--title--hidden :global(.vtex-rich-text-0-x-paragraph--accordion--title)::after {
+  transform: rotate(0deg);
+}
+.trigger--container__trigger--title--visible :global(.vtex-rich-text-0-x-paragraph--accordion--title)::after {
+  transform: rotate(90deg);
+}
+
