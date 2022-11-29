@@ -39,8 +39,8 @@
       },
       "iconPosition": "left",
       "iconProps": {
-        "id": "inf-help--outline",
-        "size": 42,
+        "id": "helpNew",
+        "size": 35,
         "viewBox": "0 0 16 16"
       }
     },
