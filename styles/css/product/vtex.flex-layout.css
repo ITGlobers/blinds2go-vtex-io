@@ -159,12 +159,6 @@
   margin-bottom: 20px;
 }
 
-.flexRowContent--product__subscriptions :global(.vtex-flex-layout-0-x-stretchChildrenWidth) :last-child :global(.vtex-button){
-  border: 1px solid rgb(88,237,155);
-  background-color: rgb(88,237,155);
-  color: #fff;
-  border-radius: 4px;
-}
 
 .flexRowContent--product__subscriptions :global(.vtex-flex-layout-0-x-stretchChildrenWidth) :last-child :global(.vtex-button) :global(.vtex-button-label){
   font-size: 0;
@@ -177,12 +171,15 @@
 
 
 .flexRowContent--product__subscriptions :global(.vtex-flex-layout-0-x-stretchChildrenWidth) :global(.vtex-button){
-  border: 1px solid rgb(88,237,155);
-  background-color: rgb(88,237,155);
-  color: #fff;
-  border-radius: 4px;
+  color:  #6f9000;
+  background-color: #fff;
+  border: none;
 }
 
+.flexRowContent--product__subscriptions :global(.vtex-flex-layout-0-x-stretchChildrenWidth) :global(.vtex-button):hover{
+  color: #566a15;
+  text-decoration: underline;
+}
 
 /* accordion*/
 
@@ -200,6 +197,17 @@
   margin-top: 40px;
   margin-bottom: 60px;
 }
+
+
+
+.flexRowContent--container_title--logo :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child{
+  width: 100%;
+}
+
+.flexRowContent--container_title--logo{
+  align-items: center;
+}
+
 
 
 @media screen and (max-width: 768px) {

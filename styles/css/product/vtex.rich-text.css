@@ -34,6 +34,28 @@
 
 }
 
+.paragraph--sku-list__title::before {
+  content: "";
+  background-image: url(https://blindstogouk.vtexassets.com/_v/public/assets/v1/published/vtex.threekit-app@0.0.9/public/react/d395a7a….png);
+  width: 26px;
+  height: 26px;
+  background-size: contain;
+  background-position: center;
+  display: block;
+  margin-right: 15px;
+  z-index: 10;
+  transform: translateX(4px);
+}
+
+.paragraph:global(.vtex-rich-text-0-x-paragraph--sku-list__title)::after {
+  content: "";
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  background: #ED982F;
+  z-index: 1;
+}
+
 .paragraph--accordion--paragraph{
   color: #000000;
 }
@@ -122,4 +144,11 @@
   font-weight: bold;
   margin-bottom: 0;
   line-height: initial;
+}
+
+
+.wrapper--accordion--paragraph::before{
+  background-image:url(https://content.blinds-2go.co.uk/content/site-icons/pdf.svg);
+  width: 20px;
+  height: 20px;
 }

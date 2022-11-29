@@ -111,9 +111,29 @@
   },
 
   "flex-layout.row#container__accordion--Pharsal3": {
-    "children": ["rich-text#answer4", "link.product#download__guide1"],
+    "children": ["flex-layout.row#logo__answer", "link.product#download__guide1"],
     "props":{
       "blockClass":"container__pdf--information"
+    }
+  },
+
+  "flex-layout.row#logo__answer":{
+    "title":"container logo and title",
+    "children":[
+      "image#pdflogo","rich-text#answer4"
+    ],
+    "props":{
+      "blockClass":"container_title--logo",
+      "colSizing":"auto"
+    }
+  },
+
+
+
+  "image#pdflogo":{
+    "props":{
+      "src":"https://content.blinds-2go.co.uk/content/site-icons/pdf.svg",
+      "blockClass":"imagen__pdf__logo"
     }
   },
 

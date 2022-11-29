@@ -11,12 +11,6 @@
 }
 
 
-.productAssemblyGroupNameRow--product__subscriptions :last-child :global(.vtex-button){
-  border: 1px solid rgb(88,237,155);
-  background-color: rgb(88,237,155);
-  color: #fff;
-  border-radius: 4px;
-}
 
 .optionsInputValueDropdown :global(.vtex-styleguide-9-x-dropdown) :global(.vtex-dropdown__label){
     display: none;
@@ -26,3 +20,13 @@
   border: 2px solid #3B214F;
 }
 
+
+.productAssemblyGroupNameRow--product__subscriptions{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.optionsInputValueDropdown{
+  margin-bottom: 0;
+}

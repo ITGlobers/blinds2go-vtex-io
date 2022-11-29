@@ -67,6 +67,10 @@
   margin-bottom: 20px;
 }
 
+.flag__selected{
+  background-color: #9cbd2e;;
+}
+
 
 @media screen and (max-width: 768px) {
 

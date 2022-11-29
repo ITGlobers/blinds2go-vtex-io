@@ -20,7 +20,7 @@
       "Threekit",
       "flex-layout.col#sku__container",
       "flex-layout.row#subscriptionsblinds",
-      "flex-layout.row#addtoCart__container",
+      // "flex-layout.row#addtoCart__container",
       "image#black--friday",
       "flex-layout.col#desktop__accordion--container",
       "rich-text#you__may--also",
