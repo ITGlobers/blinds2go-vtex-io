@@ -1,7 +1,7 @@
 {
   "vendor": "blindstogouk",
   "name": "store-theme",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
@@ -55,6 +55,8 @@
     "vtex.checkout-summary": "0.x",
     "vtex.disclosure-layout": "1.x",
     "vtex.threekit-app": "0.x",
+    "vtex.product-customizer": "2.x",
+    "vtex.sku-list": "1.x",
     "vtex.store-image": "0.x",
     "vtex.product-highlights": "2.x"
   },

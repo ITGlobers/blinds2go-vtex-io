@@ -22,7 +22,7 @@
 }
 
 .paragraph--accordion--title::after{
-  content: url(https://www.blinds-2go.co.uk/content/site-icons/icon_arrowRight--purple.svg);
+  content: url(https://www.blinds-2go.co.uk/content/site-icons/icon_arrowRight--purple.svg?target=_blank);
     margin: auto;
     -webkit-transition: all 300ms;
     transition: all 300ms;
@@ -30,7 +30,30 @@
     height: 29px;
     position:absolute;
     transform: rotate(90deg);
+    right: 0;
 
+}
+
+.paragraph--sku-list__title::before {
+  content: "";
+  background-image: url(https://blindstogouk.vtexassets.com/_v/public/assets/v1/published/vtex.threekit-app@0.0.9/public/react/d395a7a….png);
+  width: 26px;
+  height: 26px;
+  background-size: contain;
+  background-position: center;
+  display: block;
+  margin-right: 15px;
+  z-index: 10;
+  transform: translateX(4px);
+}
+
+.paragraph:global(.vtex-rich-text-0-x-paragraph--sku-list__title)::after {
+  content: "";
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  background: #ED982F;
+  z-index: 1;
 }
 
 .paragraph--accordion--paragraph{
@@ -50,4 +73,82 @@
 
 .paragraph--text__characteristic{
   margin: 0;
+}
+
+
+/* sku title*/
+
+
+.wrapper--sku-list__title{
+  width: 100%;
+
+  color: #fff;
+}
+
+.paragraph--sku-list__title:first-child{
+  background-position: center !important;
+}
+
+.paragraph--sku-list__title::before {
+  content            : "";
+  background-image   : url(https://blindstogouk.vtexassets.com/_v/public/assets/v1/published/vtex.threekit-app@0.0.9/public/react/d395a7aac995576257a4cddf91e57eba.png);
+  width              : 26px;
+  height             : 26px;
+  background-size    : contain;
+  background-position: center;
+  display: block;
+  margin-right: 15px;
+}
+
+
+.wrapper--accordion--title{
+  width: inherit;
+  border-bottom: 2px solid #eee;
+  padding: 20px 0;
+}
+
+.container--accordion--title{
+  width: 100%;
+}
+
+.paragraph--accordion--title{
+  width: inherit;
+}
+
+
+.paragraph--accordion--paragraph{
+  margin:0;
+}
+
+.wrapper--accordion--paragraph ::before :first-child{
+  background-image: url(https://content.blinds-2go.co.uk/content/site-icons/pdf.svg);
+  height: 28px;
+  width: 28px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+/*you may also*/
+
+
+.container--title__you--may{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.paragraph--title__you--may{
+  font-size: 25px;
+  text-transform: capitalize;
+  border-bottom: none;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 0;
+  line-height: initial;
+}
+
+
+.wrapper--accordion--paragraph::before{
+  background-image:url(https://content.blinds-2go.co.uk/content/site-icons/pdf.svg);
+  width: 20px;
+  height: 20px;
 }

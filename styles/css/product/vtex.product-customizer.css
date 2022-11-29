@@ -1,0 +1,32 @@
+.productAssemblyGroupRequiredTag--product__subscriptions{
+  display: none;
+}
+
+.textInputValue{
+  display: none;
+}
+
+.productAssemblyGroupName--product__subscriptions{
+  display: none;
+}
+
+
+
+.optionsInputValueDropdown :global(.vtex-styleguide-9-x-dropdown) :global(.vtex-dropdown__label){
+    display: none;
+}
+
+.optionsInputValueDropdown :global(.vtex-styleguide-9-x-dropdown) :global(.vtex-dropdown__container):hover{
+  border: 2px solid #3B214F;
+}
+
+
+.productAssemblyGroupNameRow--product__subscriptions{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.optionsInputValueDropdown{
+  margin-bottom: 0;
+}
