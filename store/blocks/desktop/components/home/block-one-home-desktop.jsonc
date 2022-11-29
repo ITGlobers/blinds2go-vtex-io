@@ -1,0 +1,80 @@
+{
+  "flex-layout.row#home-one-desktop": {
+    "title": "block 1",
+    "children": [
+     "responsive-layout.desktop#slider-banner-home",
+     "responsive-layout.tablet#slider-banner-home",
+     "responsive-layout.phone#slider-banner-home"
+    ],
+    "props": {
+      "blockClass": "home__desktop",
+      "fullWidth": true,
+      "preventHorizontalStretch": true
+    }
+  },
+  "responsive-layout.desktop#slider-banner-home": {
+    "title": "banner desktop",
+    "children": ["list-context.image-list#banner-home-desktop"]
+  },
+  "responsive-layout.tablet#slider-banner-home": {
+    "title": "banner tablet",
+    "children": ["list-context.image-list#banner-home-tablet"]
+  },
+  "responsive-layout.phone#slider-banner-home": {
+    "children": ["list-context.image-list#banner-home-phone"]
+  },
+  "list-context.image-list#banner-home-desktop": {
+    "title": "banner mobile",
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "height": 425,
+      "width": 1280,
+      "images": [
+        {
+          "image": "https://www.blinds-2go.co.uk/content/offers/offer-sliders/1920_Black-Friday-2022-Desktop-Slider.png",
+          "description": "banner-desktop"
+        }
+      ]
+    }
+  },
+  "list-context.image-list#banner-home-tablet": {
+    "title": "container images",
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "height": 315,
+      "width": 824,
+      "images": [
+        {
+          "image": "https://www.blinds-2go.co.uk/content/offers/offer-sliders/1920_Black-Friday-2022-Tablet-Slider.png",
+          "description": "banner-tablet"
+        }
+      ]
+    }
+  },
+  "list-context.image-list#banner-home-phone": {
+    "title": "container images",
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "height": 425,
+      "width": 600,
+      "images": [
+        {
+          "image": "https://www.blinds-2go.co.uk/content/offers/offer-sliders/1920_Black-Friday-2022-Mobile.png",
+          "description": "banner-phone"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-images": {
+    "title": "slider",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "blockClass": "home__slider-one-desktop"
+    }
+  }
+}

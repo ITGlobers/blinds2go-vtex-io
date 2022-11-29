@@ -46,6 +46,13 @@
     }
   },
 
+  "rich-text#description-offer__sku-list--title1":{
+    "props": {
+      "text": "Choose your free samples",
+      "blockClass":"sku-list__title"
+    }
+  },
+
 
 
   "flex-layout.row#addtoCart__container": {

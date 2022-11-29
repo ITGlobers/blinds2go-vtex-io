@@ -21,8 +21,29 @@
       "menu-item#order",
       "menu-item#measuring",
       "menu-item#Help",
-      "search-bar"
+      "search-bar",
+      "login"
     ]
+  },
+  "login": {
+    "props": {
+      /* "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",*/
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": true,
+      "hideIconLabel": true
+    }
+  },
+  "autocomplete-result-list.v2": {
+    "blocks": ["product-summary"]
+  },
+  "search-bar": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true
+    }
   },
 
   /* menu order */

@@ -67,6 +67,7 @@
 .styledLinkContainer--root {
   padding-top: 0;
   padding-bottom: 0;
+  margin-right: 0 !important;
 }
 
 .styledLinkContent--menu-footer:hover {
@@ -229,6 +230,6 @@
 @media (max-width: 425px) {
   .styledLinkIcon--select-help {
     width: 43px;
-    height: 43px;
+    height: 50px;
   }
 }

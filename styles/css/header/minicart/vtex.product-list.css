@@ -1,0 +1,31 @@
+.inputContainer{
+    padding: 0 !important;
+    width:  2rem !important;
+}
+
+.inputContainer :local(input){
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.inputContainer:nth-child(even){
+    color: #000 !important;
+    font-family: 'Nunito Sans' !important;
+}
+
+.productName,
+.productBrandName {
+    color: #000;
+}
+
+.productName{
+    font-size: 14px;
+}
+
+.productBrandName{
+    font-size: 14px;
+    text-transform: none;
+}
+
+.productName{
+    font-weight: 700;
+}

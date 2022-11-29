@@ -176,7 +176,7 @@
     "children": ["remove-button"],
     "props": {
       "marginLeft": "6",
-      "verticalAlign": "middle",
+      "verticalAlign": "top",
       "blockClass": [
         "remove-product"
       ]
@@ -366,7 +366,10 @@
   "rich-text#minicart-default-empty-state": {
     "title": "Minicart empty text",
     "props": {
-      "text": "Your cart is empty."
+      "text": "Your cart is empty.",
+      "blockClass":[
+        "empty--cart"
+      ]
     }
   }
 }

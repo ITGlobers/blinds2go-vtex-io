@@ -1,16 +1,4 @@
-.homeLink{
-  font-size: 0;
-}
 
-.homeLink::after{
-  content: "Home";
-  font-size: 14px;
-  font-family: Nunito Sans,sans-serif;
-}
-
-.homeLink:hover{
-  color:1px solid gray;
-}
 
 .homeIcon{
   display: none;

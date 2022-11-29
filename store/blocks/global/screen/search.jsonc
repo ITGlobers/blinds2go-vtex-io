@@ -1,7 +1,85 @@
 {
   "store.search": {
     "blocks": [
-      
+      "search-result-layout#search__results"
+    ],
+    "props": {
+      "context": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "default",
+        "maxItemsPerPage": 12
+      }
+    }
+  },
+  "search-not-found-layout": {
+    "title": "Product not found",
+    "children": [
+      "flex-layout.row#global__no-result--text"
     ]
+  },
+  "store.search#department": {
+    "blocks": [
+      "search-result-layout"
+    ],
+    "props": {
+      "context": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "default",
+        "maxItemsPerPage": 12
+      }
+    }
+  },
+  "store.search#category": {
+    "blocks": [
+      "search-result-layout"
+    ],
+    "props": {
+      "context": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "default",
+        "maxItemsPerPage": 12
+      }
+    }
+  },
+  "store.search#subcategory": {
+    "blocks": [
+      "search-result-layout"
+    ],
+    "props": {
+      "context": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "default",
+        "maxItemsPerPage": 12
+      }
+    }
+  },
+  "store.search#brand": {
+    "blocks": [
+      "search-result-layout"
+    ],
+    "props": {
+      "context": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "default",
+        "maxItemsPerPage": 12
+      }
+    }
+  },
+  "flex-layout.row#global__no-result--text": {
+    "children": [
+      "rich-text#global__no-results"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "global__no-result--text"
+    }
+  },
+  "rich-text#global__no-results":{
+    "props": {
+      "blockClass": "global__no-results",
+      "text": "No items matched your search request. Try widening your search for more results.",
+      "textAlignment": "LEFT",
+      "textPosition": "CENTER"
+    }
   }
 }

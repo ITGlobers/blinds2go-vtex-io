@@ -11,7 +11,8 @@
       "flex-layout.col#footer-desktop-one",
       "flex-layout.col#footer-desktop-two",
       "flex-layout.col#footer-desktop-three",
-      "flex-layout.col#footer-desktop-four"
+      "flex-layout.col#footer-desktop-four",
+      "back-to-top-button#mobile"
     ],
     "props": {
       "blockClass": "global__footer-desktop",

@@ -1,0 +1,59 @@
+{
+  "flex-layout.row#home-four-desktop": {
+    "title": "block 4",
+    "children": [
+      "flex-layout.col#home-four-1-desktop",
+      "flex-layout.col#home-four-2-desktop"
+    ],
+    "props": {
+      "blockClass": "home__four-desktop",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#home-four-1-desktop": {
+    "title": "",
+    "children": [
+      "rich-text#texto1",
+      "rich-text#texto2"
+    ],
+    "props": {
+      "blockClass": "home-four-1-desktop",
+      "fullWidth": true
+    }
+  },
+  "rich-text#texto1": {
+    "props": {
+      "text": "At blinds 2go we offer the largest range of made to measure blinds and curtains in the UK, as well as a wide range of leading designer brands. With speedy delivery and a fast, free sample service, not forgetting incredible value for money, with blinds 2 go there's never been a better time to update your home.",
+      "blockClass": "text-home1"
+    }
+  },
+  "rich-text#texto2": {
+    "props": {
+      "text": "Whether you're looking for classic or contemporary, we have it all in a huge array of colours to suit every style.",
+      "blockClass": "text-home2"
+    }
+  },
+  "flex-layout.col#home-four-2-desktop": {
+    "title": "",
+    "children": [
+      "rich-text#texto01",
+      "rich-text#texto02"
+    ],
+    "props": {
+      "blockClass": "home-four-2-desktop",
+      "fullWidth": true
+    }
+  },
+  "rich-text#texto01": {
+    "props": {
+      "text": "From Wooden Blinds, Rollers, Romans, Verticals and Venetians, to Conservatory, Roof, Shutters and Children's Blinds, we really do have blinds to go in every room.",
+      "blockClass": "text-home1"
+    }
+  },
+  "rich-text#texto02": {
+    "props": {
+      "text": "With handy online measuring guides and a friendly customer service team to help with any enquiries, finding your perfect blinds or curtains couldn't be easier than with blinds2go.",
+      "blockClass": "text-home2"
+    }
+  }
+}
