@@ -218,50 +218,102 @@
       "text": "  All our products are designed to be quick and easy to fit as standard.",
       "blockClass":"accordion--paragraph"
     }
+  },
+
+  "disclosure-layout#accordion5": {
+    "title": "About Pristine",
+    "children": ["disclosure-trigger#simple4", "disclosure-content#simple4"],
+    "props": {
+      "blockClass": "container__accordion--main"
+    }
+  },
+  "disclosure-trigger#simple4": {
+    "children": ["rich-text#question4"],
+    "props":{
+      "blockClass": "container__trigger--title"
+    }
+  },
+  "disclosure-content#simple4": {
+    "children": ["flex-layout.row#container__accordion--Pharsal4"],
+    "props":{
+      "blockClass": "container__information--main"
+    }
+  },
+
+  "flex-layout.row#container__accordion--Pharsal4": {
+    "children": ["image#waterproof","rich-text#answer5"],
+    "props":{
+      "blockClass":"container__guarantee"
+    }
+  },
+
+  "rich-text#question4": {
+    "props": {
+      "text": "5 Year Guarantee",
+      "blockClass":"accordion--title"
+    }
+  },
+
+  "image#waterproof4": {
+    "props": {
+      "src": "https://blindstogouk.vtexassets.com/arquivos/5yrguarantee-icon.png",
+      "blockClass": "image__waterproof"
+    }
+  },
+  "rich-text#answer5": {
+    "props": {
+      "text": "We've got every confidence in the quality of our products and we want you to feel the same. That's why we offer an extended 5 year guarantee on all our products, completely free of charge. Peace of mind at no extra cost! Take a look at the sensible small print here.",
+      "blockClass":"accordion--paragraph"
+    }
+  },
+
+
+
+  "disclosure-layout#accordion6": {
+    "title": "About Pristine",
+    "children": ["disclosure-trigger#simple5", "disclosure-content#simple5"],
+    "props": {
+      "blockClass": "container__accordion--main"
+    }
+  },
+  "disclosure-trigger#simple5": {
+    "children": ["rich-text#question5"],
+    "props":{
+      "blockClass": "container__trigger--title"
+    }
+  },
+  "disclosure-content#simple5": {
+    "children": ["flex-layout.row#container__accordion--Pharsal5"],
+    "props":{
+      "blockClass": "container__information--main"
+    }
+  },
+
+  "flex-layout.row#container__accordion--Pharsal5": {
+    "children": ["image#waterproof5","rich-text#answer6"],
+    "props":{
+      "blockClass":"container__guarantee"
+    }
+  },
+
+  "rich-text#question5": {
+    "props": {
+      "text": "Child Safety",
+      "blockClass":"accordion--title"
+    }
+  },
+
+  "image#waterproof5": {
+    "props": {
+      "src": "https://blindstogouk.vtexassets.com/arquivos/child-safety-icon.png",
+      "blockClass": "image__waterproof"
+    }
+  },
+  "rich-text#answer6": {
+    "props": {
+      "text": "All of our blinds are designed with safety in mind. So, wherever there are hanging cords or loops we'll provide you with all the relevant safety devices and instructions on how to use them. Enjoy your blinds with peace of mind. Click here for more info.",
+      "blockClass":"accordion--paragraph"
+    }
   }
-
-  // "disclosure-layout#accordion5": {
-  //   "title": "About Pristine",
-  //   "children": ["disclosure-trigger#simple4", "disclosure-content#simple4"],
-  //   "props": {
-  //     "blockClass": "container__accordion--main"
-  //   }
-  // },
-  // "disclosure-trigger#simple4": {
-  //   "children": ["rich-text#question"],
-  //   "props":{
-  //     "blockClass": "container__trigger--title"
-  //   }
-  // },
-  // "disclosure-content#simple4": {
-  //   "children": ["flex-layout.row#container__accordion--Pharsal4"],
-  //   "props":{
-  //     "blockClass": "container__information--main"
-  //   }
-  // },
-
-  // "flex-layout.row#container__accordion--Pharsal4": {
-  //   "children": ["image#waterproof","rich-text#answer5"]
-  // },
-
-  // "rich-text#question4": {
-  //   "props": {
-  //     "text": "5 Year Guarantee",
-  //     "blockClass":"accordion--title"
-  //   }
-  // },
-
-  // "image#waterproof4": {
-  //   "props": {
-  //     "src": "https://blindstogouk.vtexassets.com/arquivos/100_waterproof.png",
-  //     "blockClass": "image__waterproof"
-  //   }
-  // },
-  // "rich-text#answer5": {
-  //   "props": {
-  //     "text": "Highly versatile the Pristine White Faux Wood Blind is the perfect choice for both modern and traditional homes.\n\n\n\n The crisp white colour of this faux wood blind gives you a blank canvas to express your design style in the rest of the room, not forgetting it’s really practical too! The strong faux wood slats can go in any room of the house, so they’re a great choice if you’re looking to update your kitchen or bathroom.",
-  //     "blockClass":"accordion--paragraph"
-  //   }
-  // }
 
 }

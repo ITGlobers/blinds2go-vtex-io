@@ -16,3 +16,14 @@
   width: 28px;
   height: 28px;
 }
+
+
+@media screen and (max-width:768px){
+
+  .imageElement--banner__black--friday{
+    margin-bottom: 60px;
+    margin-top: 40px;
+    padding: 0 !important;
+  }
+
+}
