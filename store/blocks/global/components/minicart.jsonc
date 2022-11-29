@@ -176,7 +176,7 @@
     "children": ["remove-button"],
     "props": {
       "marginLeft": "6",
-      "verticalAlign": "middle",
+      "verticalAlign": "top",
       "blockClass": [
         "remove-product"
       ]
