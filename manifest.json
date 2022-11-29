@@ -58,5 +58,9 @@
     "vtex.store-image": "0.x",
     "vtex.product-highlights": "2.x"
   },
+  "peerDependencies": {
+    "vtexventures.livestreaming-free": "0.x",
+    "vtexventures.personal-shopper-free": "0.x"
+  },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
