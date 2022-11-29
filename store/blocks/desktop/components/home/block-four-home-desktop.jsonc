@@ -6,8 +6,7 @@
       "flex-layout.col#home-four-2-desktop"
     ],
     "props": {
-      "blockClass": "home__three-desktop",
-      "preventHorizontalStretch": true,
+      "blockClass": "home__four-desktop",
       "fullWidth": true
     }
   },
@@ -19,7 +18,6 @@
     ],
     "props": {
       "blockClass": "home-four-1-desktop",
-      "preventHorizontalStretch": true,
       "fullWidth": true
     }
   },
@@ -42,8 +40,7 @@
       "rich-text#texto02"
     ],
     "props": {
-      "blockClass": "home-four-1-desktop",
-      "preventHorizontalStretch": true,
+      "blockClass": "home-four-2-desktop",
       "fullWidth": true
     }
   },

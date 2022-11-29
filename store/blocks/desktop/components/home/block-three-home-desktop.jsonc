@@ -25,7 +25,8 @@
       "image#banner-three-9",
       "image#banner-three-10",
       "image#banner-three-11",
-      "image#banner-three-12"
+      "image#banner-three-12",
+      "image#banner-three-13"
     ],
     "props": {
       "blockClass": "home__three-desktop",
@@ -36,115 +37,112 @@
   "image#banner-three-1": {
     "title": "image",
     "props": {
-      "src": "arquivos/vAndA.svg",
-      "maxHeight": 425,
-      "maxWidth": 575,
+      "src": "https://content.blinds-2go.co.uk/content/general-images/homegrid/brands/vAndA.svg",
+      "maxHeight": 75,
       "blockClass": "banner__one-desktop"
     }
   },
   "image#banner-three-2": {
     "title": "image",
     "props": {
-      "src": "arquivos/vAndA.svg",
-      "maxHeight": 425,
-      "maxWidth": 575,
+      "src": "https://content.blinds-2go.co.uk/content/general-images/homegrid/brands/EmmaBridgewater.svg",
+      "maxHeight": 75,
       "blockClass": "banner__one-desktop"
     }
   },
   "image#banner-three-3": {
     "title": "image",
     "props": {
-      "src": "arquivos/vAndA.svg",
-      "maxHeight": 425,
-      "maxWidth": 575,
+      "src": "https://content.blinds-2go.co.uk/content/general-images/homegrid/brands/Harlequin.svg",
+      "maxHeight": 75,
       "blockClass": "banner__one-desktop"
     }
   },
   "image#banner-three-4": {
     "title": "image",
     "props": {
-      "src": "arquivos/vAndA.svg",
-      "maxHeight": 425,
-      "maxWidth": 575,
+      "src": "https://content.blinds-2go.co.uk/content/general-images/homegrid/brands/ClarissaHulse.svg",
+      "maxHeight": 75,
       "blockClass": "banner__one-desktop"
     }
   },
   "image#banner-three-5": {
     "title": "image",
     "props": {
-      "src": "arquivos/vAndA.svg",
-      "maxHeight": 425,
-      "maxWidth": 575,
-      "blockClass": "banner__one-desktop"
+      "src": "https://content.blinds-2go.co.uk/content/general-images/homegrid/brands/Tuiss.svg",
+      "maxHeight": 75,
+      "blockClass": ["banner__one-desktop", "space"]
     }
   },
   "image#banner-three-6": {
     "title": "image",
     "props": {
-      "src": "arquivos/vAndA.svg",
-      "maxHeight": 425,
-      "maxWidth": 575,
-      "blockClass": "banner__one-desktop"
+      "src": "https://content.blinds-2go.co.uk/content/general-images/homegrid/brands/LauraAshley.svg",
+      "maxHeight": 75,
+      "blockClass": ["banner__one-desktop", "space1"]
     }
   },
   "image#banner-three-7": {
     "title": "image",
     "props": {
-      "src": "arquivos/vAndA.svg",
-      "maxHeight": 425,
-      "maxWidth": 575,
-      "blockClass": "banner__one-desktop"
+      "src": "https://content.blinds-2go.co.uk/content/general-images/homegrid/brands/sophie-allport.svg",
+      "maxHeight": 75,
+      "blockClass": ["banner__one-desktop", "space2"]
     }
   },
   "image#banner-three-8": {
     "title": "image",
     "props": {
-      "src": "arquivos/vAndA.svg",
-      "maxHeight": 425,
-      "maxWidth": 575,
-      "blockClass": "banner__one-desktop"
+      "src": "https://content.blinds-2go.co.uk/content/general-images/homegrid/brands/IdealHome.svg",
+      "maxHeight": 75,
+      "blockClass": ["banner__one-desktop", "space3"]
     }
   },
   "image#banner-three-9": {
     "title": "image",
     "props": {
-      "src": "arquivos/vAndA.svg",
-      "maxHeight": 425,
-      "maxWidth": 575,
-      "blockClass": "banner__one-desktop"
+      "src": "https://content.blinds-2go.co.uk/content/general-images/homegrid/brands/Scion.svg",
+      "maxHeight": 75,
+      "blockClass": ["banner__one-desktop"]
     }
   },
   "image#banner-three-10": {
     "title": "image",
     "props": {
-      "src": "arquivos/vAndA.svg",
-      "maxHeight": 425,
-      "maxWidth": 575,
+      "src": "https://content.blinds-2go.co.uk/content/general-images/homegrid/brands/Sanderson.svg",
+      "maxHeight": 75,
       "blockClass": "banner__one-desktop"
     }
   },
   "image#banner-three-11": {
     "title": "image",
     "props": {
-      "src": "arquivos/vAndA.svg",
-      "maxHeight": 425,
-      "maxWidth": 575,
+      "src": "https://content.blinds-2go.co.uk/content/general-images/homegrid/brands/CathKidston.svg",
+      "maxHeight": 75,
       "blockClass": "banner__one-desktop"
     }
   },
   "image#banner-three-12": {
     "title": "image",
     "props": {
-      "src": "arquivos/vAndA.svg",
-      "maxHeight": 425,
-      "maxWidth": 575,
+      "src": "https://content.blinds-2go.co.uk/content/general-images/homegrid/brands/VoyageMaison.svg",
+      "maxHeight": 75,
+      "blockClass": "banner__one-desktop"
+    }
+  },
+  "image#banner-three-13": {
+    "title": "image",
+    "props": {
+      "src": "https://content.blinds-2go.co.uk/content/general-images/homegrid/brands/OrlaKiely.svg",
+      "maxHeight": 75,
       "blockClass": "banner__one-desktop"
     }
   },
   "link#marcas": {
     "props": {
       "href": "/",
-      "label": "SHOP BRANDS"
+      "label": "SHOP BRANDS",
+      "blockClass": "link-shop"
     }
   }
 }

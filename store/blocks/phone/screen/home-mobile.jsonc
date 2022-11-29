@@ -1,6 +1,11 @@
 {
   "responsive-layout.mobile#home": {
     "title": "home mobile",
-    "children": []
+    "children": [
+      "flex-layout.row#home-one-desktop",
+      "flex-layout.row#home-two-desktop",
+      "flex-layout.row#home-three-desktop",
+      "flex-layout.row#home-four-desktop"
+    ]
   }
 }
