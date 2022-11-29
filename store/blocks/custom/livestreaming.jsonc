@@ -1,10 +1,10 @@
 {
-    "store.custom#livestreaming": {
-        "blocks": [
-            "livestreaming"
-        ],
-        "props": {
-            "blockClass": "livestreaming"
-        }
-    }
+  "store.custom#livestreaming": {
+      "blocks": [
+          "livestreaming"
+      ],
+      "props": {
+          "blockClass": "livestreaming"
+      }
+  }
 }
