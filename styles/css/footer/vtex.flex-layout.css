@@ -209,6 +209,12 @@
   }
 }
 
+@media screen and (min-width: 376px) and (max-width: 394px) {
+  .flexRow--col-1-menu-footer {
+    padding-right: 0px;
+  }
+}
+
 @media screen and (min-width: 376px) and (max-width: 425px) {
   .flexCol--box-4-1-two-footer .flexColChild--box-4-1-two-footer:first-child {
     margin-right: 43px;

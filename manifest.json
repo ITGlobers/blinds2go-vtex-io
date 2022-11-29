@@ -1,7 +1,7 @@
 {
   "vendor": "blindstogouk",
   "name": "store-theme",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
@@ -62,7 +62,9 @@
   },
   "peerDependencies": {
     "vtexventures.livestreaming-free": "0.x",
-    "vtexventures.personal-shopper-free": "0.x"
+    "vtexventures.personal-shopper-free": "0.x",
+    "vtex.orderquote": "1.x",
+    "vtex.quickorder": "3.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
