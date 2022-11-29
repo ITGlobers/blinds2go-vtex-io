@@ -181,7 +181,7 @@
     color         : #000000;
     text-transform: lowercase;
 }
-.orderByText--total-orderby {
+.filterPopupTitle--total-orderby {
     font-family   : "Nunito Sans", sans-serif;
     font-size     : 14px;
     font-weight   : 400;
