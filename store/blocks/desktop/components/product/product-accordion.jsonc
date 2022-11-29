@@ -147,7 +147,8 @@
   "link.product#download__guide1":{
     "props":{
       "label":"Download guide",
-      "href":"https://www.blinds-2go.co.uk/content/instructions/Measuring-for-Wood-and-Venetian-blinds.pdf/?target=_blank)",
+      "href":"https://www.blinds-2go.co.uk/content/instructions/Measuring-for-Wood-and-Venetian-blinds.pdf",
+      "target":"_blank",
       "blockClass":"link__download--guide"
     }
   },
@@ -179,23 +180,36 @@
   },
 
   "flex-layout.row#container__accordion--Pharsal2": {
-    "children": ["rich-text#answer3", "link.product#download__guide"],
+    "children": ["flex-layout.row#logo__answer1", "link.product#download__guide"],
     "props":{
       "blockClass":"container__pdf--information"
     }
   },
 
+  "flex-layout.row#logo__answer1":{
+    "title":"container logo and title",
+    "children":[
+      "image#pdflogo","rich-text#answer3"
+    ],
+    "props":{
+      "blockClass":"container_title--logo",
+      "colSizing":"auto"
+    }
+  },
+
+
   "rich-text#question2": {
     "props": {
-      "text": "Measuring Guideeeee",
+      "text": "Measuring Guide",
       "blockClass":"accordion--title"
     }
   },
 
   "link.product#download__guide":{
     "props":{
-      "label":"Download guide",
-      "href":"https://www.blinds-2go.co.uk/content/instructions/b2g-wood-tlc-general.pdf/?target=_blank",
+      "label":"Download Instructions",
+      "href":"https://www.blinds-2go.co.uk/content/instructions/b2g-wood-tlc-general.pdf",
+      "target":"_blank",
       "blockClass":"link__download--guide1"
     }
   },
@@ -204,50 +218,50 @@
       "text": "  All our products are designed to be quick and easy to fit as standard.",
       "blockClass":"accordion--paragraph"
     }
-  },
-
-  "disclosure-layout#accordion5": {
-    "title": "About Pristine",
-    "children": ["disclosure-trigger#simple4", "disclosure-content#simple4"],
-    "props": {
-      "blockClass": "container__accordion--main"
-    }
-  },
-  "disclosure-trigger#simple4": {
-    "children": ["rich-text#question"],
-    "props":{
-      "blockClass": "container__trigger--title"
-    }
-  },
-  "disclosure-content#simple4": {
-    "children": ["flex-layout.row#container__accordion--Pharsal4"],
-    "props":{
-      "blockClass": "container__information--main"
-    }
-  },
-
-  "flex-layout.row#container__accordion--Pharsal4": {
-    "children": ["image#waterproof","rich-text#answer5"]
-  },
-
-  "rich-text#question4": {
-    "props": {
-      "text": "5 Year Guarantee",
-      "blockClass":"accordion--title"
-    }
-  },
-
-  "image#waterproof4": {
-    "props": {
-      "src": "https://blindstogouk.vtexassets.com/arquivos/100_waterproof.png",
-      "blockClass": "image__waterproof"
-    }
-  },
-  "rich-text#answer5": {
-    "props": {
-      "text": "Highly versatile the Pristine White Faux Wood Blind is the perfect choice for both modern and traditional homes.\n\n\n\n The crisp white colour of this faux wood blind gives you a blank canvas to express your design style in the rest of the room, not forgetting it’s really practical too! The strong faux wood slats can go in any room of the house, so they’re a great choice if you’re looking to update your kitchen or bathroom.",
-      "blockClass":"accordion--paragraph"
-    }
   }
+
+  // "disclosure-layout#accordion5": {
+  //   "title": "About Pristine",
+  //   "children": ["disclosure-trigger#simple4", "disclosure-content#simple4"],
+  //   "props": {
+  //     "blockClass": "container__accordion--main"
+  //   }
+  // },
+  // "disclosure-trigger#simple4": {
+  //   "children": ["rich-text#question"],
+  //   "props":{
+  //     "blockClass": "container__trigger--title"
+  //   }
+  // },
+  // "disclosure-content#simple4": {
+  //   "children": ["flex-layout.row#container__accordion--Pharsal4"],
+  //   "props":{
+  //     "blockClass": "container__information--main"
+  //   }
+  // },
+
+  // "flex-layout.row#container__accordion--Pharsal4": {
+  //   "children": ["image#waterproof","rich-text#answer5"]
+  // },
+
+  // "rich-text#question4": {
+  //   "props": {
+  //     "text": "5 Year Guarantee",
+  //     "blockClass":"accordion--title"
+  //   }
+  // },
+
+  // "image#waterproof4": {
+  //   "props": {
+  //     "src": "https://blindstogouk.vtexassets.com/arquivos/100_waterproof.png",
+  //     "blockClass": "image__waterproof"
+  //   }
+  // },
+  // "rich-text#answer5": {
+  //   "props": {
+  //     "text": "Highly versatile the Pristine White Faux Wood Blind is the perfect choice for both modern and traditional homes.\n\n\n\n The crisp white colour of this faux wood blind gives you a blank canvas to express your design style in the rest of the room, not forgetting it’s really practical too! The strong faux wood slats can go in any room of the house, so they’re a great choice if you’re looking to update your kitchen or bathroom.",
+  //     "blockClass":"accordion--paragraph"
+  //   }
+  // }
 
 }
