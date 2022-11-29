@@ -1,0 +1,84 @@
+{
+  "flex-layout.row#product__sections--similar": {
+    "title": "Principal Similar Variants",
+    "children": [
+      "flex-layout.col#product__sections--similar"
+    ],
+    "props": {
+      "blockClass": [
+        "product__sections--similar"
+      ],
+      "fullWidth": true
+    }
+  },
+
+  "flex-layout.col#product__sections--similar": {
+    "children": [
+      "responsive-layout.desktop#sections__similar--related",
+      "responsive-layout.mobile#sections__similar--related"
+    ]
+  },
+
+  "responsive-layout.desktop#sections__similar--related": {
+    "children": [
+      "shelf.relatedProducts#sections__similar--related-desktop"
+    ]
+  },
+
+  "responsive-layout.mobile#sections__similar--related": {
+    "children": [
+      "shelf.relatedProducts#sections__similar--related-mobile"
+    ]
+  },
+
+  "shelf.relatedProducts#sections__similar--related-desktop": {
+    "blocks": [
+      "product-summary.shelf#similar__related--product"
+    ],
+    "props": {
+      "recommendation": "editor.relatedProducts.view",
+      "productList": {
+        "maxItems": 4,
+        "itemsPerPage": 4,
+        "arrows": true,
+        "isMobile": true,
+        "arrowSize": 15,
+        "showNavigationArrows": "never",
+        "minItemsPerPage": 1,
+        "showPaginationDots": "never",
+        "titleText": ""
+      }
+    }
+  },
+
+  "shelf.relatedProducts#sections__similar--related-mobile": {
+    "blocks": [
+      "product-summary.shelf#similar__related--product"
+    ],
+    "props": {
+      "recommendation": "editor.relatedProducts.view",
+      "productList": {
+        "maxItems": 4,
+        "itemsPerPage": 1,
+        "arrows": true,
+        "isMobile": true,
+        "arrowSize": 15,
+        "showNavigationArrows": "never",
+        "minItemsPerPage": 1,
+        "showPaginationDots": "always",
+        "titleText": ""
+      }
+    }
+  },
+
+  "product-summary.shelf#similar__related--product": {
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-summary-brand"
+    ],
+    "props": {
+      "blockClass": "related__product"
+    }
+  }
+}

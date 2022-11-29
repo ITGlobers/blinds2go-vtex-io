@@ -51,3 +51,28 @@
 .paragraph--text__characteristic{
   margin: 0;
 }
+
+
+/* sku title*/
+
+
+.wrapper--sku-list__title{
+  width: 100%;
+
+  color: #fff;
+}
+
+.paragraph--sku-list__title:first-child{
+  background-position: center !important;
+}
+
+.paragraph--sku-list__title::before {
+  content            : "";
+  background-image   : url(https://blindstogouk.vtexassets.com/_v/public/assets/v1/published/vtex.threekit-app@0.0.9/public/react/d395a7aac995576257a4cddf91e57eba.png);
+  width              : 26px;
+  height             : 26px;
+  background-size    : contain;
+  background-position: center;
+  display: block;
+  margin-right: 15px;
+}
