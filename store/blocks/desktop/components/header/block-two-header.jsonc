@@ -4,18 +4,17 @@
     "props": {"blockClass": "block-two-desktop"},
     "children": [
       "flex-layout.row#block-two-1",
+      "flex-layout.row#block-two-3",
       "flex-layout.row#block-two-2"
     ]
   },
-
   "flex-layout.row#block-two-1": {
-    "title": "container menu",
+    "title": "container 1",
     "props": {"blockClass": "block-two-1"},
     "children": ["menu#header-main-menu"]
   },
-
   "flex-layout.row#block-two-2": {
-    "title": "block 2",
+    "title": "container 2",
     "props": {"blockClass": "block-two-2"},
     "children": [
       "menu-item#order",
@@ -25,10 +24,38 @@
       "login"
     ]
   },
+  "flex-layout.row#block-two-3": {
+    "title": "container 3",
+    "props": {"blockClass": "block-two-3"},
+    "children": [
+      "link#q&a",
+      "link#quick-order",
+      "link#saved-cart"
+    ]
+  },
+  "link#q&a": {
+    "props": {
+      "href": "/q-and-a",
+      "label": "Q&A",
+      "blockClass": ["q-a"]
+    }
+  },
+  "link#quick-order": {
+    "props": {
+      "href": "/quickorder",
+      "label": "Quick Order",
+      "blockClass": "link-menu--header"
+    }
+  },
+  "link#saved-cart": {
+    "props": {
+      "href": "/orderquote",
+      "label": "Saved Cart",
+      "blockClass": "link-menu--header"
+    }
+  },
   "login": {
     "props": {
-      /* "emailAndPasswordTitle": "LOG-IN",
-      "accessCodeTitle": "Acess Code LOG-IN",*/
       "emailPlaceholder": "e-mail",
       "passwordPlaceholder": "password",
       "showPasswordVerificationIntoTooltip": true,
