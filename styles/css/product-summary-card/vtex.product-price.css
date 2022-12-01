@@ -11,18 +11,11 @@
 }
 
 .currencyCode--showcase__selling--price {
-    font-size: 0;
     display  : flex;
 }
 
 .currencyContainer--showcase__selling--price {
     display: flex;
-}
-
-.currencyContainer--showcase__selling--price::before {
-    display  : block;
-    content  : '£';
-    font-size: 14px;
 }
 
 .sellingPriceValue--showcase__selling--price::before {

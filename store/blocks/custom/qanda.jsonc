@@ -1,0 +1,7 @@
+{
+    "store.custom#qanda": {
+        "blocks": [
+          "questions-and-answers"
+      ]
+    }
+}
