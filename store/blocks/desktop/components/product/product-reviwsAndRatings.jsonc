@@ -1,0 +1,16 @@
+{
+  "flex-layout.row#global__pdp--product-reviews":{
+    "title":"",
+    "children":[
+      "flex-layout.col#global__pdp--product-reviews"
+    ],
+    "props":{
+      "marginBottom":7
+    }
+  },
+  "flex-layout.col#global__pdp--product-reviews":{
+    "children":[
+      "product-reviews"
+    ]
+  }
+}

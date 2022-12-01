@@ -307,6 +307,42 @@
       "text": "All of our blinds are designed with safety in mind. So, wherever there are hanging cords or loops we'll provide you with all the relevant safety devices and instructions on how to use them. Enjoy your blinds with peace of mind. Click here for more info.",
       "blockClass":"accordion--paragraph"
     }
+  },
+
+
+
+  "disclosure-layout#accordion7": {
+    "title": "About Pristine",
+    "children": ["disclosure-trigger#simple6", "disclosure-content#simple6"],
+    "props": {
+      "blockClass": "container__accordion--main"
+    }
+  },
+  "disclosure-trigger#simple6": {
+    "children": ["rich-text#question6"],
+    "props":{
+      "blockClass": "container__trigger--title"
+    }
+  },
+  "disclosure-content#simple6": {
+    "children": ["flex-layout.row#container__accordion--Pharsal6"],
+    "props":{
+      "blockClass": "container__information--main"
+    }
+  },
+
+  "flex-layout.row#container__accordion--Pharsal6": {
+    "children": ["flex-layout.row#global__pdp--product-reviews"],
+    "props":{
+      "blockClass":"container__guarantee"
+    }
+  },
+
+  "rich-text#question6": {
+    "props": {
+      "text": "Opinions",
+      "blockClass":"accordion--title"
+    }
   }
 
 }

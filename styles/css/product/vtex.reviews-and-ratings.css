@@ -1,0 +1,21 @@
+
+.reviewsHeading{
+  color: #3b214f;
+  font-size: 26px;
+  line-height: 28px;
+}
+
+.star{
+  color: #1E9F66;
+}
+
+.loginLink{
+  padding-left: 0;
+  cursor: pointer;
+  color: #06c;
+  text-decoration: none;
+}
+
+.loginLink:hover{
+  text-decoration: underline;
+}
