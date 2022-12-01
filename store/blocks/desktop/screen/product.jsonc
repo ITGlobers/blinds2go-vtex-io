@@ -19,11 +19,11 @@
       "breadcrumb",
       "Threekit",
       "flex-layout.col#sku__container",
-      "flex-layout.row#subscriptionsblinds",
+      // "flex-layout.row#subscriptionsblinds",
       // "flex-layout.row#addtoCart__container",
       "image#black--friday",
       "flex-layout.col#desktop__accordion--container",
-      "rich-text#you__may--also",
+       "rich-text#you__may--also",
       "flex-layout.row#product__sections--similar",
       "flex-layout.row#desktop__characteristics"
     ],
@@ -77,7 +77,8 @@
       "disclosure-layout#accordion3",
       "disclosure-layout#accordion4",
       "disclosure-layout#accordion5",
-      "disclosure-layout#accordion6"
+      "disclosure-layout#accordion6",
+      "disclosure-layout#accordion7"
     ],
     "props": {
       "blockClass": "container__desktop--accordion"
