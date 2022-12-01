@@ -24,6 +24,7 @@
       "image#black--friday",
       "flex-layout.col#desktop__accordion--container",
        "rich-text#you__may--also",
+       "questions-and-answers",
       "flex-layout.row#product__sections--similar",
       "flex-layout.row#desktop__characteristics"
     ],
