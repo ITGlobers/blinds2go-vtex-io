@@ -133,6 +133,15 @@
   justify-content: space-between;
 }
 
+.flexRowContent--block-two-3 .stretchChildrenWidt:last-child,
+.flexRowContent--block-two-3 .stretchChildrenWidth:first-child {
+  width: 33% !important;
+}
+
+.flexRowContent--block-two-3 :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+  width: 100% !important;
+}
+
 @media (max-width: 1024px) {
   .flexCol--col__two-mobile {
     display: flex;
