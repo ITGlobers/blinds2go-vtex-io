@@ -30,10 +30,14 @@
 }
 
 .link--q-a {
-  margin-left: 40px;
+  margin-left: 70px;
 }
 
 .label--q-a:hover,
 .label--link-menu--header:hover {
   text-decoration: underline;
+}
+
+.link--link-menu--header {
+  margin-right: -30px;
 }

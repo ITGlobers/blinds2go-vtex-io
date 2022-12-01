@@ -4,7 +4,6 @@
     "props": {"blockClass": "block-two-desktop"},
     "children": [
       "flex-layout.row#block-two-1",
-      "flex-layout.row#block-two-3",
       "flex-layout.row#block-two-2"
     ]
   },
@@ -17,6 +16,7 @@
     "title": "container 2",
     "props": {"blockClass": "block-two-2"},
     "children": [
+      "flex-layout.row#block-two-3",
       "menu-item#order",
       "menu-item#measuring",
       "menu-item#Help",
