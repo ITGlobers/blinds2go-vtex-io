@@ -19,7 +19,6 @@
   "product-assembly-options#product__subscriptions": {
     "title" : "Products Assembly - Subscriptions",
     "children": [
-      "flex-layout.row#product-assembly-options",
       "assembly-option-input-values"
     ],
     "props" : {

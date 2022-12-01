@@ -151,6 +151,7 @@
   margin-top: 20px;
   display: flex;
   flex-direction: column;
+  background: #f7f6f7;
 }
 
 .flexRowContent--product__subscriptions :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
@@ -193,6 +194,8 @@
 
 
 
+
+
 .flexRowContent--container__characteristics{
   margin-top: 40px;
   margin-bottom: 60px;
@@ -206,6 +209,7 @@
 
 .flexRowContent--container_title--logo{
   align-items: center;
+  position: relative;
 }
 
 .flexRowContent--container__guarantee :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child{

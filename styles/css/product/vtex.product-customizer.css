@@ -30,3 +30,8 @@
 .optionsInputValueDropdown{
   margin-bottom: 0;
 }
+
+.productAssemblyGroupNameRow--product__subscriptions{
+  justify-content: end;
+  margin-right:20px ;
+}

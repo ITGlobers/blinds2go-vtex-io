@@ -50,6 +50,10 @@
   text-decoration: none;
 }
 
+.label--link__download--guide1:hover,.label--link__download--guide:hover{
+  filter: brightness(90%);
+}
+
 .link--link__download--guide1{
   text-decoration: none;
 }

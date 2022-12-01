@@ -86,7 +86,7 @@
   },
   "rich-text#answer1": {
     "props": {
-      "text": "\n\n - Fully made to measure  \n - Advanced Polymer \n - Maximum width 240 cm, maximum drop 255 cm \n - Minimum width 40 cm, minimum drop 40 cm \n - Max sizes, 240 cm width has a max drop of 225 cm, max drop of 255 cm has a max width of 225 cm \n - High quality components for easy tilt and raise/lower \n Perfectly co-ordinated cords with matching valance, bottom rail and toggles \n - Beautiful and practical moisture resistant faux wood slats \n - Decorative tapes for a retro or traditional look, 38mm wide \n - Please note: At least 70mm is needed to fit 50mm slat wooden blinds in the recess",
+      "text": "\n\n -   Designer: tuiss \n - Fully made to measure  \n - 100% Basswood \n - Seasoned and kiln dried timber for maximum stability \n - Easy fit universal brackets suitable for top and face fitting \n Metal headrail with co-ordinated valance cover \n - Colour co-ordinated cords, finished with solid wood toggles \n - High quality components for easy tilt and raise/lower \n - Preconfigured with tilt control cords on the left and raise cords on the right \n - Please note: At least 70mm is needed to fit 50mm slat wooden blinds in the recess",
       "blockClass":"accordion--paragraph"
     }
   },
@@ -111,22 +111,13 @@
   },
 
   "flex-layout.row#container__accordion--Pharsal3": {
-    "children": ["flex-layout.row#logo__answer", "link.product#download__guide1"],
+    "children": ["rich-text#answer4","link.product#download__guide1"],
     "props":{
       "blockClass":"container__pdf--information"
     }
   },
 
-  "flex-layout.row#logo__answer":{
-    "title":"container logo and title",
-    "children":[
-      "image#pdflogo","rich-text#answer4"
-    ],
-    "props":{
-      "blockClass":"container_title--logo",
-      "colSizing":"auto"
-    }
-  },
+
 
 
 
@@ -136,6 +127,8 @@
       "blockClass":"imagen__pdf__logo"
     }
   },
+
+
 
   "rich-text#question3": {
     "props": {
@@ -154,8 +147,8 @@
   },
   "rich-text#answer4": {
     "props": {
-      "text": " Measuring for your new window coverings couldn't be simpler.\n\n\n\n All you have to do is follow our easy, step by step guides.",
-      "blockClass":"accordion--paragraph"
+      "text": " Measuring for your new window coverings couldn't be simpler.\n All you have to do is follow our easy, step by step guides.",
+      "blockClass":"accordion--paragraph1"
     }
   },
 
@@ -189,7 +182,7 @@
   "flex-layout.row#logo__answer1":{
     "title":"container logo and title",
     "children":[
-      "image#pdflogo","rich-text#answer3"
+      "rich-text#answer3"
     ],
     "props":{
       "blockClass":"container_title--logo",
@@ -216,7 +209,7 @@
   "rich-text#answer3": {
     "props": {
       "text": "  All our products are designed to be quick and easy to fit as standard.",
-      "blockClass":"accordion--paragraph"
+      "blockClass":"accordion--paragraph1"
     }
   },
 
@@ -241,7 +234,7 @@
   },
 
   "flex-layout.row#container__accordion--Pharsal4": {
-    "children": ["image#waterproof","rich-text#answer5"],
+    "children": ["image#waterproof4","rich-text#answer5"],
     "props":{
       "blockClass":"container__guarantee"
     }

@@ -67,6 +67,25 @@
 
 .paragraph--accordion--paragraph{
   color: #000000;
+  line-height: 18px;
+}
+
+.paragraph--accordion--paragraph1{
+  color: #000000;
+  line-height: 18px;
+  margin: 0;
+}
+
+
+
+.paragraph--accordion--paragraph1::before{
+  content:url(https://content.blinds-2go.co.uk/content/site-icons/pdf.svg);
+  margin-right: 5px;
+  width: 28px;
+  height: 28px;
+  position:absolute;
+  margin-left: -30px;
+
 }
 
 .container--text__characteristic{
@@ -160,4 +179,15 @@
   background-image:url(https://content.blinds-2go.co.uk/content/site-icons/pdf.svg);
   width: 20px;
   height: 20px;
+}
+
+
+@media screen and (max-width:768px){
+  .container--accordion--paragraph1{
+    display: flex;
+    justify-content: center;
+  }
+  .paragraph--accordion--paragraph1{
+    width:300px;
+  }
 }

@@ -47,8 +47,8 @@
     "props": {
       "recommendation": "editor.relatedProducts.view",
       "productList": {
-        "maxItems": 4,
-        "itemsPerPage": 4,
+        "maxItems": 5,
+        "itemsPerPage": 5,
         "arrows": true,
         "isMobile": true,
         "arrowSize": 15,
