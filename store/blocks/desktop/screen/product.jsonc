@@ -24,6 +24,7 @@
       "image#black--friday",
       "flex-layout.col#desktop__accordion--container",
        "rich-text#blank",
+       "ps-product",
        "questions-and-answers",
        "rich-text#you__may--also",
       "flex-layout.row#product__sections--similar",
