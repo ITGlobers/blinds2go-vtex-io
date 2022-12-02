@@ -54,7 +54,7 @@
     "vtex.overlay-layout": "0.x",
     "vtex.checkout-summary": "0.x",
     "vtex.disclosure-layout": "1.x",
-    "vtex.b2gouk-threekit-app": "0.x",
+    "vtex.b2gouk-threekit-app": "1.x",
     "vtex.product-customizer": "2.x",
     "vtex.sku-list": "1.x",
     "vtex.store-image": "0.x",
