@@ -6,10 +6,19 @@
   "sticky-layout.stack-container#header-desktop": {
     "props": {"position": "top"},
     "children": [
+      "flex-layout.row#telemarketing-row",
       "sticky-layout#header-1",
       "sticky-layout#header-2",
       "flex-layout.row#desktop3"
     ]
+  },
+
+  "flex-layout.row#telemarketing-row": {
+    "title": "Header Section Telemarketing App",
+    "children": ["telemarketing"],
+    "props": {
+      "fullWidth": true
+    }
   },
   "sticky-layout#header-1": {
     "children": ["flex-layout.row#desktop-1"],

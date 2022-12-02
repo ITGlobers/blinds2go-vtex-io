@@ -23,6 +23,8 @@
       // "flex-layout.row#addtoCart__container",
       "image#black--friday",
       "flex-layout.col#desktop__accordion--container",
+       "rich-text#blank",
+       "questions-and-answers",
        "rich-text#you__may--also",
       "flex-layout.row#product__sections--similar",
       "flex-layout.row#desktop__characteristics"
@@ -32,6 +34,12 @@
     }
   },
 
+
+  "rich-text#blank":{
+      "props":{
+        "text":""
+      }
+  },
   "flex-layout.col#sku__container": {
     "title": "Free Samples",
     "children": ["rich-text#description-offer__sku-list--title", "sku-list"],
